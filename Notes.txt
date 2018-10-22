@@ -1,0 +1,49 @@
+Layers of the Question Answering System
+---------------------------------------
+For Input Text:
+  - tokenize document into sentences, words
+  - tag words with parts of speech
+  - parse and generate constituency parse tree for each sentence using CKY or Earley (non-shallow parsing), or NP / VP / PP bracketing (shallow parsing)
+    * other option is to do a dependency parse instead
+  - apply Named Entity Recognition
+
+
+For Questions:
+  - find parts of speech of question
+  - search for parts of the question in the text
+  - save an answer for each question if one is found
+
+
+Machine Learning Aspects:
+-------------------------
+How much data to use for training sets before midpoint:
+How much data to use for training sets after midpoint:
+
+
+Eventual Features List
+------------------------------------
+Figure out how many words to return as an answer (may depend on 'head noun' or other factors)
+Determine possible answers based on type of question (who -> NP, etc.)
+Determine type of question (who, why, what, yes/no, how many, etc.)
+Stem words based on dictionary, mark different parts of speech of stemmed / morphed words
+Determine best answer based on word overlap, weight of NP vs VP for a why / who question, etc. 
+Make sure we aren't over-fitting our program for the data set
+
+
+Suggested NLP Libraries by Ellen
+----------------------------
+Stanford NLP group
+SyntaxNet
+OpenNLP
+LingPipe
+NLTK
+GATE
+
+
+Steps for Building the Program
+------------------------------
+Find Python code libraries for different pieces
+  Figure out how to link them together
+Decide how to store text, question, and answer data (which data structures to use)
+Build the tokenizer / implement one found in a code library
+Attach each of the code libraries (tagging, stemming?, parsing, named entity recognition)
