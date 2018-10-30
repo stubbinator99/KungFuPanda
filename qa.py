@@ -6,11 +6,10 @@ import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.tag import pos_tag
 from nltk import ShiftReduceParser
-#from nltk.chunk import ChunkParserI
+# from nltk.chunk import ChunkParserI
 import sys
 
-#input = sys.argv[1]
-input = "input.txt"
+input = sys.argv[1]
 filePath = ""
 storyIdList = []
 
@@ -18,7 +17,6 @@ with open(input, "r") as inputFile:
   filePath = inputFile.readline().strip()
   for line in inputFile:
     storyIdList.append(line.strip())
-
 
 for storyDir in storyIdList:
   storyText = ""
@@ -45,32 +43,40 @@ for storyDir in storyIdList:
       sensWords.append(word_tokenize(sen))
     for sen in sensWords:
       taggedSens.append(pos_tag(sen))
-    #find a grammar to include here, to use in the parser
-    #parser = ShiftReduceParser(grammar)
-    #for tree in parser.parse(taggedSens):
-      #print(tree)
+    # find a grammar to include here, to use in the parser
+    # parser = ShiftReduceParser(grammar)
+    # for tree in parser.parse(taggedSens):
+    # print(tree)
 
-    # Read in the question file
+  # Read in the question file
   with open(filePath + storyDir + ".questions") as questionFile:
     count = 0
     questionId = ""
     question = []
     difficulty = ""
     for line in questionFile:
-        line = line.split()
-        if count == 0:
-            questionId = line[1]
-            count = 1
-        elif count == 1:
-            question = line[1:]
-            count = 2
-        elif count == 2:
-            difficulty = line[1]
-            count = 3
-        elif count == 3:
-            # Question block complete. Answer the question and output it
+      line = line.split()
+      if count == 0:
+        questionId = line[1]
+        count = 1
+      elif count == 1:
+        question = line[1:]
+        count = 2
+      elif count == 2:
+        difficulty = line[1]
+        count = 3
+      elif count == 3:
+        # Question block complete. Answer the question and output it
 
-            # Set count, questionId, question, and difficulty to default values before processing the next set question
-            count = 0
+        # Run NER on the question
+        tagged = nltk.pos_tag(question)
+        named_ent = nltk.ne_chunk(tagged)
+        print(named_ent)
+        
+        # Set count, questionId, question, and difficulty to default values before processing the next set question
+        count = 0
+        questionId = ""
+        question = []
+        difficulty = ""
 
 print("Done!")
