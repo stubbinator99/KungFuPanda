@@ -4,6 +4,9 @@
 
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.tag import pos_tag
+from nltk import ShiftReduceParser
+#from nltk.chunk import ChunkParserI
 import sys
 
 #input = sys.argv[1]
@@ -16,9 +19,11 @@ with open(input, "r") as inputFile:
   for line in inputFile:
     storyIdList.append(line.strip())
 
-storyText = ""
-storySens = []
+
 for storyDir in storyIdList:
+  storyText = ""
+  storySens = []
+
   # Read in the story file
   storyFilePath = filePath + storyDir + ".story"
   print(storyFilePath)
@@ -34,6 +39,16 @@ for storyDir in storyIdList:
     for line in storyFile:
       storyText += line.strip() + " "
     storySens = sent_tokenize(storyText)
+    taggedSens = []
+    sensWords = []
+    for sen in storySens:
+      sensWords.append(word_tokenize(sen))
+    for sen in sensWords:
+      taggedSens.append(pos_tag(sen))
+    #find a grammar to include here, to use in the parser
+    #parser = ShiftReduceParser(grammar)
+    #for tree in parser.parse(taggedSens):
+      #print(tree)
 
     # Read in the question file
   with open(filePath + storyDir + ".questions") as questionFile:

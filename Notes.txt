@@ -28,6 +28,11 @@ Determine type of question (who, why, what, yes/no, how many, etc.)
 Stem words based on dictionary, mark different parts of speech of stemmed / morphed words
 Determine best answer based on word overlap, weight of NP vs VP for a why / who question, etc. 
 Make sure we aren't over-fitting our program for the data set
+Use bigrams / trigrams / relationships between words?
+Use wordnet.synsets / wordnet/senset(x).lemma_names() for finding synonyms?
+Add 1 smoothing
+Use chunking on the input text
+Try different parsers (shift-reduce, etc)
 
 
 Suggested NLP Libraries by Ellen
