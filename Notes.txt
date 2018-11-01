@@ -12,6 +12,7 @@ For Questions:
   - find parts of speech of question
   - search for parts of the question in the text
   - save an answer for each question if one is found
+  - detect different tenses (past, future, etc)
 
 
 Machine Learning Aspects:
