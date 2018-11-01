@@ -35,6 +35,7 @@ Use wordnet.synsets / wordnet/senset(x).lemma_names() for finding synonyms?
 Add 1 smoothing
 Use chunking on the input text
 Try different parsers (shift-reduce, etc)
+try SpaCy for NER
 
 
 Suggested NLP Libraries by Ellen

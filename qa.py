@@ -9,6 +9,7 @@ from nltk import ShiftReduceParser
 # from nltk.chunk import ChunkParserI
 #from nltk.corpus import treebank
 #from nltk.grammar import CFG, nonterminals
+from nltk import ne
 import sys
 
 input = sys.argv[1]
@@ -77,12 +78,15 @@ for storyDir in storyIdList:
         named_ent = nltk.ne_chunk(tagged)
         print(question)
         look_for_entity = []
+        # Entity tags (from ace): ['LOCATION', 'ORGANIZATION', 'PERSON', 'DURATION',
+        #             'DATE', 'CARDINAL', 'PERCENT', 'MONEY', 'MEASURE', 'FACILITY', 'GPE']
 
-        if "Who" in question or "who" in question:
+        if "Who" in question or "who" in question or "Whose" in question or "whose" in question:
           print("Who question, look for PERSON")
           look_for_entity.append("PERSON")
         elif "What" in question or "what" in question:
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
+
           print("what question")
           continue
         elif "When" in question or "when" in question:
@@ -101,8 +105,6 @@ for storyDir in storyIdList:
         elif "Why" in question or "why" in question:
           # Other notes: 'why will' (other tense)
           print("Why question")
-        elif "Whose" in question or "whose" in question:
-          print("Whose question")
         print()
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
