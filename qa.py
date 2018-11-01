@@ -75,18 +75,26 @@ for storyDir in storyIdList:
         # Run NER on the question
         tagged = nltk.pos_tag(question)
         named_ent = nltk.ne_chunk(tagged)
-        print(named_ent)
+        print(question)
+        look_for_entity = []
 
         if "Who" in question or "who" in question:
-          print("Who question")
+          print("Who question, look for PERSON")
+          look_for_entity.append("PERSON")
         elif "What" in question or "what" in question:
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
           print("what question")
+          continue
         elif "When" in question or "when" in question:
-          print("When question")
+          print("When question, look for DATE or TIME")
+          look_for_entity.append("DATE")
+          look_for_entity.append("TIME")
         elif "Where" in question or "where" in question:
           # Other notes: 'where in x' (where in Canada, etc)
-          print("Where question")
+          print("Where question, look for LOCATION, FACILITY, or GPE")
+          look_for_entity.append("LOCATION")
+          look_for_entity.append("FACILITY")
+          look_for_entity.append("GPE")
         elif "How" in question or "how" in question:
           # Other notes: 'how long', 'how many', 'how much', 'how often', 'how far', 'by how much'
           print("How question")
@@ -95,7 +103,8 @@ for storyDir in storyIdList:
           print("Why question")
         elif "Whose" in question or "whose" in question:
           print("Whose question")
-        
+        print()
+
         # Set count, questionId, question, and difficulty to default values before processing the next set question
         count = 0
         questionId = ""

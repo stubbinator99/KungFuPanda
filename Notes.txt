@@ -13,6 +13,7 @@ For Questions:
   - search for parts of the question in the text
   - save an answer for each question if one is found
   - detect different tenses (past, future, etc)
+  - detect negations (ex: who doesn't...?)
 
 
 Machine Learning Aspects:
