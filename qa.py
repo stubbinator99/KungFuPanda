@@ -76,7 +76,7 @@ for storyId in storyIdList:
         count = 3
       elif count == 3:
         # Question block complete. Answer the question and output it
-        num_questions_in_file = num_questions_in_file + 1
+        total_questions = total_questions + 1
 
         # Run NER on the question
         tagged = nltk.pos_tag(question_word_list)
@@ -88,29 +88,31 @@ for storyId in storyIdList:
             entity = str(element).split()[0][1:]
 
         #print(question)
-        look_for_entity = []
+        question_entity_types = []
         # Entity tags (from ace): ['LOCATION', 'ORGANIZATION', 'PERSON', 'DURATION',
         #             'DATE', 'CARDINAL', 'PERCENT', 'MONEY', 'MEASURE', 'FACILITY', 'GPE']
 
         if "Who" in question_word_list or "who" in question_word_list or "Whose" in question_word_list or "whose" in question_word_list:
-          look_for_entity.append("PERSON")
+          question_entity_types.append("PERSON")
+          question_entity_types.append("ORGANIZATION")
+          question_entity_types.append("GPE")
         elif "What" in question_word_list or "what" in question_word_list:
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
-          continue
+          question_entity_types = []
         elif "When" in question_word_list or "when" in question_word_list:
-          look_for_entity.append("DATE")
-          look_for_entity.append("TIME")
+          question_entity_types.append("DATE")
+          question_entity_types.append("TIME")
         elif "Where" in question_word_list or "where" in question_word_list:
           # Other notes: 'where in x' (where in Canada, etc)
-          look_for_entity.append("LOCATION")
-          look_for_entity.append("FACILITY")
-          look_for_entity.append("GPE")
+          question_entity_types.append("LOCATION")
+          question_entity_types.append("FACILITY")
+          question_entity_types.append("GPE")
         elif "How" in question_word_list or "how" in question_word_list:
           # Other notes: 'how long', 'how many', 'how much', 'how often', 'how far', 'by how much'
-          continue
+          question_entity_types = []
         elif "Why" in question_word_list or "why" in question_word_list:
           # Other notes: 'why will' (other tense)
-          continue
+          question_entity_types = []
 
         # Do NER for each sentence in the story
         question_answered = False
@@ -129,7 +131,7 @@ for storyId in storyIdList:
               entity = str(element).split()[0][1:]
               unique_sentence_entities.add(entity)
 
-          for entity in look_for_entity:
+          for entity in question_entity_types:
             if entity in unique_sentence_entities:
               # Success
               attempted_questions = attempted_questions + 1
@@ -160,7 +162,6 @@ for storyId in storyIdList:
         difficulty = ""
         question = ""
 
-    total_questions = total_questions + num_questions_in_file
 
 print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
 print("Done!")
