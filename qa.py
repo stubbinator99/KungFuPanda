@@ -3,9 +3,13 @@
 # Fall 2018
 
 import nltk
-from nltk.tokenize import word_tokenize, sent_tokenize
-from nltk.tag import pos_tag
+#from nltk.tokenize import word_tokenize, sent_tokenize
+#from nltk.tag import pos_tag
+import spacy
+from nltk.chunk import conlltags2tree
 import sys
+
+nlp = spacy.load('en_core_web_sm')
 
 input_file = sys.argv[1]    # Index file to read in
 data_directory_path = ""    # Path to the directory containing the data
@@ -48,7 +52,48 @@ for storyId in storyIdList:
       storyString += line.strip() + " "
 
     # Tokenize the story string into a list of sentences
-    storySents = sent_tokenize(storyString)
+    #storySents = sent_tokenize(storyString)
+
+  doc = nlp(storyString)
+  storySents = doc.sents
+  #tokenized_sen = []
+  tagged_sens = []
+  chunked_sens = []
+  ner_sens = []
+  nltk_format_ner_sens = []
+
+  for sen in storySents:
+    #tokenized_sen = word_tokenize(sen)
+    #tokenized_sen = []
+    # for token in sen:
+    #   print("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}".format(
+    #     token.text,
+    #     token.idx,
+    #     token.lemma_,
+    #     token.is_punct,
+    #     token.is_space,
+    #     token.shape_,
+    #     token.pos_,
+    #     token.tag_
+    #   ))
+    chunked_sens.append(sen.noun_chunks)
+
+    tagged_sens.append([])
+    #ner_sens.append([])
+    for token in sen:
+      tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_])
+
+
+      # Sentences in spacy ner format
+      ner_sens.append([#[len(ner_sens)-1].append([
+          token.text,
+          token.tag_,
+          "{0}-{1}".format(token.ent_iob_, token.ent_type_) if token.ent_iob_ != 'O' else token.ent_iob_
+      ])
+      # Sentence trees in nltk format
+      #nltk_format_ner_sens.append(conlltags2tree(ner_sens[len(nltk_format_ner_sens)]))
+
+    #tagged_sen = pos_tag(tokenized_sen)
 
   # Read in the question file to: ---------------------------------------------------------------------------
   #   1.
@@ -117,14 +162,15 @@ for storyId in storyIdList:
         # Do NER for each sentence in the story
         question_answered = False
         for sen in storySents:
-          tokenized_sen = word_tokenize(sen)
-          tagged_sen = pos_tag(tokenized_sen)
+          #tokenized_sen = word_tokenize(sen)
+          #tagged_sen = pos_tag(tokenized_sen)
 
           # Do NER for the sentence. Find any named entities in the sentence.
           # If the found NE matches the looked for NE, success
           # Print the question and the answer sentence.
           unique_sentence_entities = set()
-          named_ent_sentence = nltk.ne_chunk(tagged_sen)
+          #named_ent_sentence = nltk.ne_chunk(tagged_sen)
+          named_ent_sentence = []
           for element in named_ent_sentence:
             elementStr = str(element)
             if elementStr[1] != "'" and elementStr[1] != "\"":
