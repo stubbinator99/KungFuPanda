@@ -36,6 +36,7 @@ Add 1 smoothing
 Use chunking on the input text
 Try different parsers (shift-reduce, etc)
 try SpaCy for NER
+Find head noun of noun phrases and use it
 
 
 Suggested NLP Libraries by Ellen
