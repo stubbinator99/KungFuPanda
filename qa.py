@@ -94,6 +94,12 @@ for storyId in storyIdList:
       # Sentence trees in nltk format
       #nltk_format_ner_sens.append(conlltags2tree(ner_sens[len(nltk_format_ner_sens)]))
 
+    doc_ner = []
+    doc_ner.append([])
+    for entity in sen.ents:
+      doc_ner[len(doc_ner)+1].append([entity.text,  # ent.start_char, ent.end_char,
+                    entity.label_])
+
     #tagged_sen = pos_tag(tokenized_sen)
 
     sen_index += 1
@@ -139,14 +145,19 @@ for storyId in storyIdList:
           print(sen)
 
         tagged_q = []
-        ner_q = []
+        q_bio = [] #BIO tags for the question
+        q_ner = [] #NER tags for the question
         for token in spacy_q:
           tagged_q.append([token.text, token.tag])
-          ner_q.append([
+          q_bio.append([
             token.text,
             token.tag_,
             "{0}-{1}".format(token.ent_iob_, token.ent_type_) if token.ent_iob_ != 'O' else token.ent_iob_
           ])
+
+        for entity in doc.ents:
+          q_ner.append([entity.text, #ent.start_char, ent.end_char,
+                        entity.label_])
 
         # for element in named_ent:
         #   elementStr = str(element)
@@ -212,6 +223,7 @@ for storyId in storyIdList:
           #named_ent_sentence = nltk.ne_chunk(tagged_sen)
           named_ent_sentence = []
 
+
           #for element in named_ent_sentence:
           #  elementStr = str(element)
           #  if elementStr[1] != "'" and elementStr[1] != "\"":
@@ -221,6 +233,7 @@ for storyId in storyIdList:
           for i in range(len(ner_sens)):
             elementStr = str(ner_sens[i])
             #TODO: add code here to pull out entities, or change spacy ner tagging format
+
 
           for entity in question_entity_types:
             if entity in unique_sentence_entities:
