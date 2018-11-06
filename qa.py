@@ -232,7 +232,7 @@ for storyId in storyIdList:
         if len(sens_with_matching_ents) == 0:
           attempted_questions = attempted_questions + 1
           print("QuestionID: {}".format(questionId))
-          print("QUESTION:\t{}".format(question_text))
+          #print("QUESTION:\t{}".format(question_text))
           print("ANSWER:")
           print()
         else:
@@ -241,7 +241,7 @@ for storyId in storyIdList:
           attempted_questions = attempted_questions + 1
           answered_questions = answered_questions + 1
           print("QuestionID: {}".format(questionId))
-          print("QUESTION:\t{}".format(question_text))
+          #print("QUESTION:\t{}".format(question_text))
           print("ANSWER: ", end="")
           for thing in ner_sens[tied_sentence_indices[0]]:
             print(thing[0], end=" ")
@@ -258,5 +258,5 @@ for storyId in storyIdList:
         word_overlap = []
 
 
-print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
-print("Done!")
+#print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
+#print("Done!")
