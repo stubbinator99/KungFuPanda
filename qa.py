@@ -203,37 +203,55 @@ for storyId in storyIdList:
             for entity_pair in doc_ner[i]:    # For each entity pair in the current sentence. Ex: [Liverpool, GPE]
               if question_entity == entity_pair[1]:
                 sens_with_matching_ents.append(i) # Build a list of indices of sentences in doc_ner that have match
-                # Success, sentence matches
-                attempted_questions = attempted_questions + 1
-                answered_questions = answered_questions + 1
-                print("QuestionID:\t{}".format(questionId))
-                print("QUESTION:\t{}".format(question_text))
-                print("ANSWER:\t\t{}".format(sen)) # TODO: I don't think sen is quite right maybe??
-                print()
                 entity_found = True
                 break
 
-        if not entity_found:
-          # Failure
+
+        # Count word overlap between all matching sentences and the question
+        question_array = question_text.split()
+        word_overlap = []
+        for i in sens_with_matching_ents:   # For each matching sentence
+          word_overlap.append(0)
+          for thing in ner_sens[i]:         # For each word in the matching sentence
+            for q_word in question_array:   # For each word in the question
+              if q_word == thing[0]:        # If the words match, increment the word overlap
+                word_overlap[len(word_overlap)-1] += 1
+
+
+        # Word overlap array is done. Find the sentence with the most word overlap
+        tied_sentence_indices = []
+        max_overlap = -1
+        for i in range(len(word_overlap)):
+          if word_overlap[i] > max_overlap:
+            max_overlap = word_overlap[i]
+            tied_sentence_indices = []
+            tied_sentence_indices.append(i)
+          elif word_overlap[i] == max_overlap:
+            tied_sentence_indices.append(i)
+
+        # If no matching ents, return none
+        if len(sens_with_matching_ents) == 0:
           attempted_questions = attempted_questions + 1
           print("QuestionID:\t{}".format(questionId))
           print("QUESTION:\t{}".format(question_text))
           print("ANSWER:\t\tNone.")
           print()
+        else:
+          # Print the first sentence with the highest word overlap
+          # TODO: Add more features to get the correct sentence instead of just the first one
+          attempted_questions = attempted_questions + 1
+          answered_questions = answered_questions + 1
+          print("QuestionID:\t{}".format(questionId))
+          print("QUESTION:\t{}".format(question_text))
+          print("ANSWER:\t\t", end="")
+          for thing in ner_sens[tied_sentence_indices[0]]:
+            print(thing[0], end=" ")
+          print()
+          print()
 
-        # Count word overlap between all matching sentences and the question
-        # TODO: Figure out the final pieces of word overlap and select the best matching sentence.
-        question_array = question_text.split()
-        word_overlap = []
-        for sen in doc.sents:
-          word_overlap.append(0)
-          for q_word in question_array:
-            if q_word in sen.text:
-              word_overlap[len(word_overlap)-1] += 1
-            #print("")
-        #  if q_word in
 
-        print(word_overlap)
+
+
 
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
