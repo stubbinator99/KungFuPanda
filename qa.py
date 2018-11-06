@@ -2,10 +2,8 @@
 # CS 5340
 # Fall 2018
 
-import nltk
-#from nltk.tokenize import word_tokenize, sent_tokenize
-#from nltk.tag import pos_tag
-from nltk.chunk import conlltags2tree
+#import nltk
+#from nltk.chunk import conlltags2tree
 import spacy
 import sys
 
@@ -52,9 +50,6 @@ for storyId in storyIdList:
     for line in storyFile:
       storyString += line.strip() + " "
 
-    # Tokenize the story string into a list of sentences
-    #storySents = sent_tokenize(storyString)
-
   # Process the story with spacy
   doc = nlp(storyString)
 
@@ -71,20 +66,6 @@ for storyId in storyIdList:
   doc_ner = []
 
   for sen in storySents:
-    #tokenized_sen = word_tokenize(sen)
-    #tokenized_sen = []
-    # for token in sen:
-    #   print("{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}".format(
-    #     token.text,
-    #     token.idx,
-    #     token.lemma_,
-    #     token.is_punct,
-    #     token.is_space,
-    #     token.shape_,
-    #     token.pos_,
-    #     token.tag_
-    #   ))
-
     # Add noun chunks NOT sure what this is for...Don't think its used anywhere
     chunked_sens.append(sen.noun_chunks)
 
@@ -114,8 +95,6 @@ for storyId in storyIdList:
     for entity in sen.ents:
       doc_ner[len(doc_ner)-1].append([entity.text,  # ent.start_char, ent.end_char,
                     entity.label_])
-
-    #tagged_sen = pos_tag(tokenized_sen)
 
     sen_index += 1
 
@@ -147,17 +126,7 @@ for storyId in storyIdList:
         # Question block complete. Answer the question and output it
         total_questions = total_questions + 1
 
-        # Run NER on the question
-        #tagged = nltk.pos_tag(question_word_list)
-        #named_ent = nltk.ne_chunk(tagged)
-
-        for sen in doc.sents:
-          print(sen)
-
         spacy_q = nlp(question)
-
-        for sen in doc.sents:
-          print(sen)
 
         tagged_q = []
         q_bio = [] #BIO tags for the question
@@ -174,15 +143,7 @@ for storyId in storyIdList:
           q_ner.append([entity.text, #ent.start_char, ent.end_char,
                         entity.label_])
 
-        # for element in named_ent:
-        #   elementStr = str(element)
-        #   if elementStr[1] != "'" and elementStr[1] != "\"":
-        #     entity = str(element).split()[0][1:]
-
-        #print(question)
         question_entity_types = []
-        # NLTK Entity tags (from ace): ['LOCATION', 'ORGANIZATION', 'PERSON', 'DURATION',
-        #             'DATE', 'CARDINAL', 'PERCENT', 'MONEY', 'MEASURE', 'FACILITY', 'GPE']
 
         # Spacy Entity tags: ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART',
         #             'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']
@@ -225,34 +186,23 @@ for storyId in storyIdList:
           # Other notes: 'why will' (other tense)
           question_entity_types = []
 
+        sens_with_matching_ents = []
+
         # Do NER for each sentence in the story
-        question_answered = False
-        for sen in doc.sents:
-          #tokenized_sen = word_tokenize(sen)
-          #tagged_sen = pos_tag(tokenized_sen)
+        #entity_found = False
+        #for sen in doc.sents:
+        entity_found = False
+        unique_sentence_entities = set()
+        named_ent_sentence = []
 
-          # Do NER for the sentence. Find any named entities in the sentence.
-          # If the found NE matches the looked for NE, success
-          # Print the question and the answer sentence.
-          unique_sentence_entities = set()
-          #named_ent_sentence = nltk.ne_chunk(tagged_sen)
-          named_ent_sentence = []
-
-
-          #for element in named_ent_sentence:
-          #  elementStr = str(element)
-          #  if elementStr[1] != "'" and elementStr[1] != "\"":
-          #    entity = str(element).split()[0][1:]
-          #    unique_sentence_entities.add(entity)
-
-          for i in range(len(ner_sens)):
-            elementStr = str(ner_sens[i])
-            #TODO: add code here to pull out entities, or change spacy ner tagging format
-
-
+        for i in range(len(doc_ner)):  # for sent in doc_ner:
+          entity_found = False
           for entity in question_entity_types:
-            for ent in sen.ents:
-              if entity == ent.label:
+            if entity_found:
+              break
+            for ent in doc_ner[i]: #for ent in spacy_q.ents:
+              if entity == ent[1]:#ent.label:
+                sens_with_matching_ents.append(i)
                 #if entity in unique_sentence_entities:
                 # Success
                 attempted_questions = attempted_questions + 1
@@ -261,14 +211,15 @@ for storyId in storyIdList:
                 print("QUESTION:\t{}".format(question))
                 print("ANSWER:\t\t{}".format(sen))
                 print()
-                question_answered = True
+                entity_found = True
+                break
 
-          # IMPORTANT!!! This will only display the first possible answer to the question.
-          # If you want to see all possible answers, comment out the following if statement
-          if question_answered:
-            break
+        # IMPORTANT!!! This will only display the first possible answer to the question.
+        # If you want to see all possible answers, comment out the following if statement
+        # if entity_found:
+        #   break
 
-        if not question_answered:
+        if not entity_found:
           # Failure
           attempted_questions = attempted_questions + 1
           print("STORY:\t\t{}".format(storyFilePath))
@@ -276,12 +227,27 @@ for storyId in storyIdList:
           print("ANSWER:\t\tNone.")
           print()
 
+        # Count word overlap between sentences and the question
+        question_array = question.split()
+        word_overlap = []
+        for sen in doc.sents:
+          word_overlap.append(0)
+          for q_word in question_array:
+            if q_word in sen.text:
+              word_overlap[len(word_overlap)-1] += 1
+            #print("")
+        #  if q_word in
+
+        print(word_overlap)
+
+
         # Set count, questionId, question, and difficulty to default values before processing the next set question
         count = 0
         questionId = ""
         question_word_list = []
         difficulty = ""
         question = ""
+        word_overlap = []
 
 
 print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
