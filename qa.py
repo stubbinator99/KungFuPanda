@@ -5,11 +5,12 @@
 import nltk
 #from nltk.tokenize import word_tokenize, sent_tokenize
 #from nltk.tag import pos_tag
-import spacy
 from nltk.chunk import conlltags2tree
+import spacy
 import sys
 
-nlp = spacy.load('en_core_web_md')
+# Load spacy
+nlp = spacy.load('en_core_web_sm')
 
 input_file = sys.argv[1]    # Index file to read in
 data_directory_path = ""    # Path to the directory containing the data
@@ -54,14 +55,20 @@ for storyId in storyIdList:
     # Tokenize the story string into a list of sentences
     #storySents = sent_tokenize(storyString)
 
+  # Process the story with spacy
   doc = nlp(storyString)
+
+  # Get a list of sentences in the story
   storySents = doc.sents
+
   #tokenized_sen = []
+
   tagged_sens = []
   chunked_sens = []
   ner_sens = []
   nltk_format_ner_sens = []
   sen_index = 0
+  doc_ner = []
 
   for sen in storySents:
     #tokenized_sen = word_tokenize(sen)
@@ -77,15 +84,22 @@ for storyId in storyIdList:
     #     token.pos_,
     #     token.tag_
     #   ))
+
+    # Add noun chunks NOT sure what this is for...Don't think its used anywhere
     chunked_sens.append(sen.noun_chunks)
 
+    # Sentences with each word and its POS tag. Example: [Scotia, NNP]
     tagged_sens.append([])
+
+    # Sentences with each word, its POS tag, and BIO/Entity tag. Ex: [[Nova, NNP, B-GPE],[Scotia, NNP, I-GPE]]
     ner_sens.append([])
+
+
     for token in sen:
       tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_])
 
 
-      # Sentences in spacy ner format
+      # Sentences in spacy BIO tag format
       ner_sens[sen_index].append([#[len(ner_sens)-1].append([
           token.text,
           token.tag_,
@@ -94,10 +108,11 @@ for storyId in storyIdList:
       # Sentence trees in nltk format
       #nltk_format_ner_sens.append(conlltags2tree(ner_sens[len(nltk_format_ner_sens)]))
 
-    doc_ner = []
+    # List of entities with its type, for each sentence.
+    # Ex: (one sentence ahs two GPE entities): [[[Liverpool, GPE], [Nova Scotia, GPE]]]
     doc_ner.append([])
     for entity in sen.ents:
-      doc_ner[len(doc_ner)+1].append([entity.text,  # ent.start_char, ent.end_char,
+      doc_ner[len(doc_ner)-1].append([entity.text,  # ent.start_char, ent.end_char,
                     entity.label_])
 
     #tagged_sen = pos_tag(tokenized_sen)
@@ -236,15 +251,17 @@ for storyId in storyIdList:
 
 
           for entity in question_entity_types:
-            if entity in unique_sentence_entities:
-              # Success
-              attempted_questions = attempted_questions + 1
-              answered_questions = answered_questions + 1
-              print("STORY:\t\t{}".format(storyFilePath))
-              print("QUESTION:\t{}".format(question))
-              print("ANSWER:\t\t{}".format(sen))
-              print()
-              question_answered = True
+            for ent in sen.ents:
+              if entity == ent.label:
+                #if entity in unique_sentence_entities:
+                # Success
+                attempted_questions = attempted_questions + 1
+                answered_questions = answered_questions + 1
+                print("STORY:\t\t{}".format(storyFilePath))
+                print("QUESTION:\t{}".format(question))
+                print("ANSWER:\t\t{}".format(sen))
+                print()
+                question_answered = True
 
           # IMPORTANT!!! This will only display the first possible answer to the question.
           # If you want to see all possible answers, comment out the following if statement
