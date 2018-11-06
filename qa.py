@@ -24,7 +24,6 @@ answered_questions = 0    # Count of the number of questions that have an answer
 with open(input_file, "r") as inputFile:
   data_directory_path = inputFile.readline().strip()
   for line in inputFile:
-    print(line.strip())
     storyIdList.append(line.strip())
 
 
@@ -232,26 +231,22 @@ for storyId in storyIdList:
         # If no matching ents, return none
         if len(sens_with_matching_ents) == 0:
           attempted_questions = attempted_questions + 1
-          print("QuestionID:\t{}".format(questionId))
+          print("QuestionID: {}".format(questionId))
           print("QUESTION:\t{}".format(question_text))
-          print("ANSWER:\t\tNone.")
+          print("ANSWER:")
           print()
         else:
           # Print the first sentence with the highest word overlap
           # TODO: Add more features to get the correct sentence instead of just the first one
           attempted_questions = attempted_questions + 1
           answered_questions = answered_questions + 1
-          print("QuestionID:\t{}".format(questionId))
+          print("QuestionID: {}".format(questionId))
           print("QUESTION:\t{}".format(question_text))
-          print("ANSWER:\t\t", end="")
+          print("ANSWER: ", end="")
           for thing in ner_sens[tied_sentence_indices[0]]:
             print(thing[0], end=" ")
           print()
           print()
-
-
-
-
 
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
