@@ -128,14 +128,14 @@ for storyId in storyIdList:
         q_bio = [] #BIO tags for the question
         q_ner = [] #NER tags for the question
         for token in spacy_q:
-          tagged_q.append([token.text, token.tag])
+          tagged_q.append([token.text, token.tag_])
           q_bio.append([
             token.text,
             token.tag_,
             "{0}-{1}".format(token.ent_iob_, token.ent_type_) if token.ent_iob_ != 'O' else token.ent_iob_
           ])
 
-        for question_entity in doc.ents:
+        for question_entity in spacy_q.ents:
           q_ner.append([question_entity.text,  #ent.start_char, ent.end_char,
                         question_entity.label_])
 
@@ -155,8 +155,27 @@ for storyId in storyIdList:
         elif "What" in question_word_list or "what" in question_word_list:
           question_type = "what"
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
-          # TODO: Figure out what entities to put here
           question_entity_types = []
+          # Find the index of the word "what"
+          what_index = -1
+          for current_index in range(len(q_bio)):
+            if q_bio[current_index][0] == "What" or q_bio[current_index][0] == "what":
+              what_index = current_index;
+              break
+          # If the next word is a verb, look for sentences with the q_entity and a verb
+          if q_bio[what_index + 1][1] == "VBZ" or q_bio[what_index + 1][1] == "VBN":
+            # Answer must contain the same entity type as the question
+            for entity_tuple in q_ner:
+              question_entity_types.append(entity_tuple[1])
+          # If the next word is a noun, look for person, place, or thing entities
+          elif q_bio[what_index + 1][1] == "NN":
+            for entity_tuple in q_ner:
+              question_entity_types.append(entity_tuple[1])
+          else:
+            # TODO: Might be someting smarter we can do here
+            # The entity type in the question has to match the entity type in the answer
+            for entity_tuple in q_ner:
+              question_entity_types.append(entity_tuple[1])
         elif "When" in question_word_list or "when" in question_word_list:
           question_type = "when"
           question_entity_types.append("DATE")
@@ -172,6 +191,7 @@ for storyId in storyIdList:
         elif "How" in question_word_list or "how" in question_word_list:
           # Other notes: 'how long', 'how many', 'how much', 'how often', 'how far', 'by how much'
           # See if the how question is looking for a quantity
+          question_type = "how"
           # TODO: Add more quantity words
           quantity_words = ["big", "far", "long", "many", "much", "often", "old", "tall", "cost"]
           looking_for_quantity = False
@@ -186,14 +206,15 @@ for storyId in storyIdList:
             question_entity_types.append("ORDINAL")
             question_entity_types.append("CARDINAL")
           else:
-            question_type = "how"
-            #TODO: Figure out what entities to put here
-            question_entity_types = []
+            # The entity type in the question has to match the entity type in the answer
+            for entity_tuple in q_ner:
+              question_entity_types.append(entity_tuple[1])
         elif "Why" in question_word_list or "why" in question_word_list:
           question_type = "why"
           # Other notes: 'why will' (other tense)
-          # TODO: Figure out what entities to put here
-          question_entity_types = []
+          # The entity type in the question has to match the entity type in the answer
+          for entity_tuple in q_ner:
+            question_entity_types.append(entity_tuple[1])
 
         # Sentences that contain entities that the question is looking for
         sens_with_matching_ents = []
@@ -269,5 +290,5 @@ for storyId in storyIdList:
         word_overlap = []
 
 
-#print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
-#print("Done!")
+print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
+print("Done!")
