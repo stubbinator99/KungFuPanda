@@ -262,13 +262,42 @@ for storyId in storyIdList:
           elif word_overlap[i] == max_overlap:
             tied_sentence_indices.append(i)
 
-        # If no matching ents, return none
+        # If no matching ents, return the sentence with the highest word overlap
         if len(sens_with_matching_ents) == 0:
+
+          # Print the first sentence with the highest word overlap
+          # Count word overlap between all matching sentences and the question
+          question_array = question_text.split()
+          word_overlap = []
+          for i in range(len(storySents)):  # For each matching sentence
+            word_overlap.append(0)
+            for q_word in question_array:  # For each word in the question
+              for thing in storySents[i].split():  # For each word in the matching sentence
+                if q_word.lower() == thing.lower():  # If the words match, increment the word overlap
+                  word_overlap[len(word_overlap) - 1] += 1
+
+          # Word overlap array is done. Find the sentence with the most word overlap
+          tied_sentence_indices = []
+          max_overlap = -1
+          for i in range(len(word_overlap)):
+            if word_overlap[i] > max_overlap:
+              max_overlap = word_overlap[i]
+              tied_sentence_indices = []
+              tied_sentence_indices.append(i)
+            elif word_overlap[i] == max_overlap:
+              tied_sentence_indices.append(i)
+
           attempted_questions = attempted_questions + 1
           print("QuestionID: {}".format(questionId))
           #print("QUESTION:\t{}".format(question_text))
-          print("ANSWER:")
+          if len(tied_sentence_indices) > 0:
+            print("ANSWER: {}".format(storySents[tied_sentence_indices[0]]))
+            answered_questions = answered_questions + 1
+          else:
+            print("ANSWER:")
           print()
+
+
         else:
           # Print the first sentence with the highest word overlap
           # TODO: Add more features to get the correct sentence instead of just the first one
