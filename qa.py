@@ -285,8 +285,23 @@ for storyId in storyIdList:
           # for i in tied_sentence_indices:
           #   for thing in tagged_sens[i]:
 
+          index = sens_with_matching_ents[tied_sentence_indices[0]]
+          sentence =  storySents[index]
+          sentence_ents = doc_ner[index]#ner_sens[index]
+          answer_found = False
+          for ent in sentence_ents:
+            # if answer_found:
+            #   break
+            for q_ent in question_entity_types:
+              # if answer_found:
+              #   break
+              if ent[3] == q_ent:
+                print(ent[0], end=" ")
+                answer_found = True
 
-          print(storySents[sens_with_matching_ents[tied_sentence_indices[0]]])
+          if answer_found:
+            print()
+
           #for thing in ner_sens[tied_sentence_indices[0]]:
             #print(thing[0], end=" ")
           # print()
