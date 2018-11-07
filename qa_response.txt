@@ -1,3 +1,9 @@
+_frozen_importlib:219: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 24 from C header, got 32 from PyObject
+_frozen_importlib:219: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 12 from C header, got 20 from PyObject
+C:\Users\Eric\AppData\Local\Programs\Python\Python36-32\lib\importlib\_bootstrap.py:219: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 24 from C header, got 32 from PyObject
+  return f(*args, **kwds)
+C:\Users\Eric\AppData\Local\Programs\Python\Python36-32\lib\importlib\_bootstrap.py:219: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 12 from C header, got 20 from PyObject
+  return f(*args, **kwds)
 QuestionID: 1999-W02-5-1
 ANSWER: South Queens Junior High School is taking aim at the fitness market.  
 
@@ -5,7 +11,7 @@ QuestionID: 1999-W02-5-2
 ANSWER: The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator.  Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school.
 
 QuestionID: 1999-W02-5-3
-ANSWER:
+ANSWER: The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator.  Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school.
 
 QuestionID: 1999-W02-5-5
 ANSWER: The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator.  Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school.
@@ -17,10 +23,10 @@ QuestionID: 1999-W02-5-7
 ANSWER: The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator.  Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school.
 
 QuestionID: 1999-W03-5-2
-ANSWER:
+ANSWER: Babe Belanger played with the Grads from 1929 to 1937.  
 
 QuestionID: 1999-W03-5-3
-ANSWER:
+ANSWER: You may not know her name, but Noella "Babe" MacLean, who died this week at age 87, was one of Canada's biggest sports stars.  
 
 QuestionID: 1999-W03-5-4
 ANSWER: She was a forward and she stood only 5 feet, 2 inches tall.
@@ -35,7 +41,7 @@ QuestionID: 1999-W03-5-7
 ANSWER: You may not know her name, but Noella "Babe" MacLean, who died this week at age 87, was one of Canada's biggest sports stars.  
 
 QuestionID: 1999-W03-5-8
-ANSWER:
+ANSWER: You may not know her name, but Noella "Babe" MacLean, who died this week at age 87, was one of Canada's biggest sports stars.  
 
 QuestionID: 1999-W03-5-9
 ANSWER: You may not know her name, but Noella "Babe" MacLean, who died this week at age 87, was one of Canada's biggest sports stars.  
@@ -53,10 +59,10 @@ QuestionID: 1999-W04-5-4
 ANSWER: Earlier this year he promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music.  
 
 QuestionID: 1999-W04-5-7
-ANSWER:
+ANSWER: Earlier this year he promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music.  
 
 QuestionID: 1999-W04-5-8
-ANSWER:
+ANSWER: Earlier this year he promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music.  
 
 QuestionID: 1999-W04-5-9
 ANSWER: The government has been looking at a charitable donation by Ottawa Senators hockey star Alexi Yashin.
@@ -65,7 +71,7 @@ QuestionID: 1999-W06-2-1
 ANSWER: Wiarton Willie, the famous Canadian groundhog who predicted the arrival of spring, died in his sleep of natural causes on Sunday, two days before Groundhog's Day.  
 
 QuestionID: 1999-W06-2-2
-ANSWER:
+ANSWER: Wiarton Willie, the famous Canadian groundhog who predicted the arrival of spring, died in his sleep of natural causes on Sunday, two days before Groundhog's Day.  
 
 QuestionID: 1999-W06-2-3
 ANSWER: Wiarton Willie, the famous Canadian groundhog who predicted the arrival of spring, died in his sleep of natural causes on Sunday, two days before Groundhog's Day.  
@@ -95,7 +101,7 @@ QuestionID: 1999-W06-3-4
 ANSWER: "Short of a common uniform, there may be a style of dress that may be appropriate within a school," Johnson said on Tuesday.
 
 QuestionID: 1999-W06-3-5
-ANSWER:
+ANSWER: Ontario's Education Minister Dave Johnson said students, parents and teachers will all be asked to discuss their opinions about uniforms before any final decisions are made.  
 
 QuestionID: 1999-W06-4-1
 ANSWER: Along the way the party must cross the Uruq al Shaiba range of mountainous dunes, pass by the quicksand of Umm al Samim (Mother of Poison) and hike across a 185-mile stretch that has no water supply.
@@ -104,19 +110,19 @@ QuestionID: 1999-W06-4-2
 ANSWER: Among Mr. Thesiger's words of advice for the trio was to take great care of the camels because their lives depend on the very stubborn animals as transportation for themselves and their provisions.  
 
 QuestionID: 1999-W06-4-3
-ANSWER:
+ANSWER: They set off this week on foot and by camel on a grueling trek across the burning Arabian desert.  
 
 QuestionID: 1999-W06-4-4
 ANSWER:
 
 QuestionID: 1999-W06-4-6
-ANSWER:
+ANSWER: Among Mr. Thesiger's words of advice for the trio was to take great care of the camels because their lives depend on the very stubborn animals as transportation for themselves and their provisions.  
 
 QuestionID: 1999-W06-4-8
 ANSWER:
 
 QuestionID: 1999-W06-4-9
-ANSWER:
+ANSWER: They are attempting to become the first Westerners in more than 50 years to cross the Empty Quarter of Arabia, the world's largest sand desert.  
 
 QuestionID: 1999-W06-4-10
 ANSWER: He scaled Mount Everest in the Himalayas in 1997.  
@@ -137,7 +143,7 @@ QuestionID: 1999-W07-2-5
 ANSWER: He now owns 9 historic baseballs.
 
 QuestionID: 1999-W07-2-6
-ANSWER:
+ANSWER: The mystery man is Todd McFarlane, the creator of Spawn comic books, who says his purchase "was a mixture of business, charity and self-indulgence to the nth degree."  
 
 QuestionID: 1999-W07-2-7
 ANSWER: Mr. McFarlane, who paid $3,005,000 U.S. for home run ball no. 70, had not seen the ball until Monday, when he came to New York fresh from a stay at the Baltimore Orioles  fantasy camp in Florida.  
@@ -146,7 +152,7 @@ QuestionID: 1999-W07-2-9
 ANSWER: Yesterday they were displayed in front of him in nine cases atop nine columns - white and  grey for No. 70, black for the others - with four burgundy velvet ropes separating them from the crowd and five men in blue security uniforms standing to the side.  
 
 QuestionID: 1999-W07-4-1
-ANSWER:
+ANSWER: For decades, NHL games were broadcast into living rooms From Plum Coulee, Manitoba to Peggy's Cove, Nova Scotia, and beyond from one of two places -- the Gardens or the Montreal Forum.  
 
 QuestionID: 1999-W07-4-2
 ANSWER: Winnipeger Bill Juzda was known as one of the toughest players in the NHL when he played for the Leafs in the 1950s.
@@ -167,7 +173,7 @@ QuestionID: 1999-W07-4-8
 ANSWER: Winnipeger Bill Juzda was known as one of the toughest players in the NHL when he played for the Leafs in the 1950s.
 
 QuestionID: 1999-W08-3-1
-ANSWER:
+ANSWER: In 1939, the Second World War began in Europe and England.
 
 QuestionID: 1999-W08-3-2
 ANSWER: This week the National Post newspaper published an obituary of Geoffrey Dewis, a man who died in Vancouver at the age of 69.
@@ -176,7 +182,7 @@ QuestionID: 1999-W08-3-2
 ANSWER: This week the National Post newspaper published an obituary of Geoffrey Dewis, a man who died in Vancouver at the age of 69.
 
 QuestionID: 1999-W08-3-6
-ANSWER:
+ANSWER: During their stay in Canada, CBC Radio produced a program called "Canada Calling" so that the British kids who were separated from their families could speak to their parents and friends back home over the airwaves.
 
 QuestionID: 1999-W08-3-7
 ANSWER: This week the National Post newspaper published an obituary of Geoffrey Dewis, a man who died in Vancouver at the age of 69.
@@ -188,28 +194,28 @@ QuestionID: 1999-W08-4-1
 ANSWER: In Greece, the foreign minister, the interior minister and the public order minister handed in their resignations because they failed to protect the Kurdish rebel leader.  
 
 QuestionID: 1999-W08-4-2
-ANSWER:
+ANSWER: In Greece, the foreign minister, the interior minister and the public order minister handed in their resignations because they failed to protect the Kurdish rebel leader.  
 
 QuestionID: 1999-W08-4-3
-ANSWER:
+ANSWER: In Greece, the foreign minister, the interior minister and the public order minister handed in their resignations because they failed to protect the Kurdish rebel leader.  
 
 QuestionID: 1999-W08-4-4
-ANSWER:
+ANSWER: Turkey considers Ocalan an enemy because he's been fighting an ongoing battle for a separate Kurdish homeland.
 
 QuestionID: 1999-W08-4-5
-ANSWER:
+ANSWER: In Greece, the foreign minister, the interior minister and the public order minister handed in their resignations because they failed to protect the Kurdish rebel leader.  
 
 QuestionID: 1999-W08-4-6
 ANSWER: In all, 10 police officers were injured in the fighting.  
 
 QuestionID: 1999-W08-4-7
-ANSWER:
+ANSWER: In Greece, the foreign minister, the interior minister and the public order minister handed in their resignations because they failed to protect the Kurdish rebel leader.  
 
 QuestionID: 1999-W08-4-8
 ANSWER: Violent demonstrations by angry Kurds took place around the world yesterday following the arrest of rebel Kurdish leader Abdullah Ocalan.  
 
 QuestionID: 1999-W08-4-10
-ANSWER:
+ANSWER: In Turkey, police have reportedly arrested hundreds of supporters of the main Kurdish party, while up to 4,000 soldiers have been sent into Northern Iraq to attack Kurdish rebel bases.  
 
 QuestionID: 1999-W09-3-1
 ANSWER: The McDonald's in Squamish became the first unionized outlet among the chain's more than 15,000 outlets in North America when the Canadian Auto Workers made a breakthrough last August.  
@@ -221,31 +227,31 @@ QuestionID: 1999-W09-3-5
 ANSWER: The McDonald's in Squamish became the first unionized outlet among the chain's more than 15,000 outlets in North America when the Canadian Auto Workers made a breakthrough last August.  
 
 QuestionID: 1999-W09-3-6
-ANSWER:
+ANSWER: Rejean Lavigne, head of the Teamsters local behind the campaign, said almost all of the original employees who signed union cards in 1997 had quit and the new ones, some as young as 16, didn't want a union.  
 
 QuestionID: 1999-W09-3-7
-ANSWER:
+ANSWER: The McDonald's in Squamish became the first unionized outlet among the chain's more than 15,000 outlets in North America when the Canadian Auto Workers made a breakthrough last August.  
 
 QuestionID: 1999-W09-3-8
-ANSWER:
+ANSWER: Rejean Lavigne, head of the Teamsters local behind the campaign, said almost all of the original employees who signed union cards in 1997 had quit and the new ones, some as young as 16, didn't want a union.  
 
 QuestionID: 1999-W09-4-1
 ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W09-4-2
-ANSWER:
+ANSWER: Much of the credit goes to Ms. Hill, a 23-year-old mother of two whose music mixes rap and R and touches on family and political issues.
 
 QuestionID: 1999-W09-4-3
 ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W09-4-4
-ANSWER:
+ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W09-4-5
 ANSWER: Canadian female music stars were among the big winners at last night's Grammy Awards show in Los Angeles, California.  
 
 QuestionID: 1999-W09-4-6
-ANSWER:
+ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W09-4-7
 ANSWER: "My Heart Will Go On" won four Grammys, including best female pop vocal for Celine Dion and best song written for a motion picture or television.
@@ -257,7 +263,7 @@ QuestionID: 1999-W09-4-9
 ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W09-4-10
-ANSWER:
+ANSWER: "This is crazy because this is hip-hop music," Ms. Hill said in accepting the first best-album Grammy for a hip-hop artist as the usually conservative awards show took its biggest step out of the mainstream.  
 
 QuestionID: 1999-W10-1-1
 ANSWER: Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge.
@@ -272,7 +278,7 @@ QuestionID: 1999-W10-1-4
 ANSWER: The school has a June deadline to decide whether it wants to sign a five-year contract with YNN.  
 
 QuestionID: 1999-W10-1-6
-ANSWER:
+ANSWER: While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc.  Meadowvale principal Laurie Pedwell conceded that the technology was part of YNN's appeal.
 
 QuestionID: 1999-W10-1-7
 ANSWER: While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc.  Meadowvale principal Laurie Pedwell conceded that the technology was part of YNN's appeal.
@@ -281,7 +287,7 @@ QuestionID: 1999-W10-1-10
 ANSWER: Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge.
 
 QuestionID: 1999-W10-1-11
-ANSWER:
+ANSWER: "I happen to believe that it is completely unacceptable to sell off little bits of our kids," said Heather-Jane Robertson, director of professional development with the Canadian Teachers Federation.
 
 QuestionID: 1999-W10-2-2
 ANSWER: The pact was agreed to by 130 countries in Ottawa, Ontario in 1997.
@@ -296,7 +302,7 @@ QuestionID: 1999-W10-2-5
 ANSWER: There are two categories of landmines: antipersonnel (AP) and antitank or anti-vehicle (AT):  -Anti-personnel (AP) landmine - "A mine designed to be exploded by the presence, proximity or contact of a person and that will incapacitate, injure or kill one or more persons."
 
 QuestionID: 1999-W10-2-6
-ANSWER:
+ANSWER: In Brasilia, the capital city of Brazil, anti-landmine pamphlets were distributed and there were screenings of "Spotlight on a Massacre", an anti-landmines film in Portuguese.  
 
 QuestionID: 1999-W10-2-7
 ANSWER: Despite these notable absences, Nobel Peace Prize winner Jody Williams, of The International Campaign to Ban Landmines, says the accord has an impact for many other countries in the world.  
@@ -305,10 +311,10 @@ QuestionID: 1999-W10-2-9
 ANSWER: And there was bell-ringing in approximately 30 Buddhist temples and Christian churches in 10 cities throughout Japan, including Hiroshima, Tokyo and Osaka.  
 
 QuestionID: 1999-W10-3-1
-ANSWER:
+ANSWER: On Oscar night -- Sunday, March 21 -- actors Tom Hanks, and Gwyneth Paltrow and director Steven Spielberg  won't be the only ones sitting on the edge of their seats, hoping to hear their name read out.
 
 QuestionID: 1999-W10-3-2
-ANSWER:
+ANSWER: It's a journey that begins with Wang as a loyal Communist, full of the political idealism common in China under the early years of leader Mao Tse Tung.
 
 QuestionID: 1999-W10-3-4
 ANSWER: "Sunrise over Tiananmen Square" shows how the dream starts to fade during the Cultural Revolution in the '60s and '70s, when the Red Guards attack and destroy anything linked to the old Chinese culture.
@@ -326,13 +332,13 @@ QuestionID: 1999-W10-4-1
 ANSWER:
 
 QuestionID: 1999-W10-4-2
-ANSWER:
+ANSWER: The Health Department has already consulted with the Food and Drug Administration in the United States -- which is also planning similar trials -- about acquiring marijuana for the tests.  
 
 QuestionID: 1999-W10-4-3
 ANSWER: The Health Department has already consulted with the Food and Drug Administration in the United States -- which is also planning similar trials -- about acquiring marijuana for the tests.  
 
 QuestionID: 1999-W10-4-4
-ANSWER:
+ANSWER: Doctor Helen Hays studied a patient who smoked marijuana to fight the symptoms of a painful muscle disorder.
 
 QuestionID: 1999-W10-4-5
 ANSWER: The belief that marijuana eases pain in some patients has been growing -- although people continue to face criminal charges across Canada even when they claim to be using it for medical purposes.  
@@ -344,13 +350,13 @@ QuestionID: 1999-W10-5-1
 ANSWER: When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada.  
 
 QuestionID: 1999-W10-5-3
-ANSWER:
+ANSWER: When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada.  
 
 QuestionID: 1999-W10-5-5
 ANSWER: When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada.  
 
 QuestionID: 1999-W10-5-6
-ANSWER:
+ANSWER: Yalnizyan added that she did not hear that type of thinking in too many places in Canada.  
 
 QuestionID: 1999-W10-5-7
 ANSWER: Ms. Yalnizyan said Thursday during a speech.
@@ -359,7 +365,7 @@ QuestionID: 1999-W11-2-1
 ANSWER: They were seeking to bring attention to the negative effects of globally-produced chemical contaminants on the Arctic food chain.  
 
 QuestionID: 1999-W11-2-2
-ANSWER:
+ANSWER: The build-up of these chemicals makes eating Arctic fish and game a frightening and tricky business.  
 
 QuestionID: 1999-W11-2-3
 ANSWER: Carole Mills works with the problem daily, both in the contaminants division of the Department of Indian and Northern Affairs, and as a representative of the Canadian Arctic Indigenous Peoples Against POPs. "
@@ -380,10 +386,10 @@ QuestionID: 1999-W11-2-9
 ANSWER: That advice is seconded by Eric Loring, environmental wildlife coordinator with the Inuit Tapirisat of Canada.
 
 QuestionID: 1999-W11-2-10
-ANSWER:
+ANSWER: Carole Mills works with the problem daily, both in the contaminants division of the Department of Indian and Northern Affairs, and as a representative of the Canadian Arctic Indigenous Peoples Against POPs. "
 
 QuestionID: 1999-W11-3-1
-ANSWER:
+ANSWER: Jeff Hutchings, a professor at Dalhousie University in Halifax, Nova Scotia says it is a stretch for Mr. Efford to use evidence of seals preying on cod in one location to argue for a massive cull (harvest) of the seal herd.  
 
 QuestionID: 1999-W11-3-4
 ANSWER:
@@ -404,10 +410,10 @@ QuestionID: 1999-W11-3-10
 ANSWER: Lloyd Oldford of Red Cliff, Bonavista Bay, a fisherman who first alerted Efford to the problem, said the video in no way shows the true extent of the destruction fishermen are seeing.  
 
 QuestionID: 1999-W11-5-1
-ANSWER:
+ANSWER: Bill 101 is credited by Quebec nationalists as helping preserve the French language in a sea of English in North America.  
 
 QuestionID: 1999-W11-5-2
-ANSWER:
+ANSWER: The Quebec politician known as the father of Bill 101 -- the province's very controversial language law -- has died.  
 
 QuestionID: 1999-W11-5-4
 ANSWER: Although it meant a lower profile for anglophones and less clout after years of predominance, Laurin said it took away no basic rights and recognized their institutions, schools and media.
@@ -416,10 +422,10 @@ QuestionID: 1999-W11-5-5
 ANSWER: Bill 101 came into effect in 1977.
 
 QuestionID: 1999-W11-5-6
-ANSWER:
+ANSWER: The Quebec politician known as the father of Bill 101 -- the province's very controversial language law -- has died.  
 
 QuestionID: 1999-W11-5-8
-ANSWER:
+ANSWER: Bill 101 is credited by Quebec nationalists as helping preserve the French language in a sea of English in North America.  
 
 QuestionID: 1999-W12-3-1
 ANSWER: "Bedouin ways are hard, even for those brought up in them and for strangers, terrible: a death in life.
@@ -428,7 +434,7 @@ QuestionID: 1999-W12-3-2
 ANSWER: Clarke and his team sent reports and photos about their trip by satellite phone to a Web site that drew more than three million visitors.  
 
 QuestionID: 1999-W12-3-4
-ANSWER:
+ANSWER: Clarke and two other Calgary residents, his brother Leigh and friend Bruce Kirkby, set out Feb. 2 from Salalah, Oman, along with three Bedouin guides and their camels.
 
 QuestionID: 1999-W12-3-6
 ANSWER: But he and his team fought frustration, thirst, sandstorms and a scorching sun to make the 1,200-km journey that took them from Oman, through Saudi Arabia and into the United Arab Emirates.  
@@ -440,7 +446,7 @@ QuestionID: 1999-W12-3-10
 ANSWER:
 
 QuestionID: 1999-W12-4-1
-ANSWER:
+ANSWER: Doctors say that Tyrell Dueck, 13, will die from cancer in less than a year if he doesn t have part of his thigh bone removed and undergo chemotherapy treatments.
 
 QuestionID: 1999-W12-4-3
 ANSWER: Tyrell s father wants him to undergo alternative therapy at a clinic in Tijuana, Mexico.
@@ -449,7 +455,7 @@ QuestionID: 1999-W12-4-4
 ANSWER: Tyrell s father wants him to undergo alternative therapy at a clinic in Tijuana, Mexico.
 
 QuestionID: 1999-W12-4-5
-ANSWER:
+ANSWER: Nanson said Tyrell s only source of information is his father, who won t permit his son to speak alone with a medical doctor.
 
 QuestionID: 1999-W12-4-6
 ANSWER: A psychiatrist who talked to Tyrell to find out what he knew about his condition told the court that the boy hasn t received enough medical information.  
@@ -464,43 +470,43 @@ QuestionID: 1999-W12-5-3
 ANSWER: Two weeks ago at a Bantam hockey game in Dauphin involving a team from Waywayseecappo First Nation, fans for the other team brought hand drums to the game to taunt the Native players and fans, Bushie said.  
 
 QuestionID: 1999-W12-5-4
-ANSWER:
+ANSWER: The unsigned flyers suggested that First Nations people love welfare and hate white people because "they have brand new cars  nice homes... and new clothes."  
 
 QuestionID: 1999-W12-5-5
-ANSWER:
+ANSWER: On Monday night, visiting Native spectators and players discovered racist pamphlets on their bus seats following a Manitoba Junior Hockey League game in the northwestern town of Dauphin, Manitoba.  
 
 QuestionID: 1999-W12-5-6
-ANSWER:
+ANSWER: On Monday night, visiting Native spectators and players discovered racist pamphlets on their bus seats following a Manitoba Junior Hockey League game in the northwestern town of Dauphin, Manitoba.  
 
 QuestionID: 1999-W12-5-7
-ANSWER:
+ANSWER: On Monday night, visiting Native spectators and players discovered racist pamphlets on their bus seats following a Manitoba Junior Hockey League game in the northwestern town of Dauphin, Manitoba.  
 
 QuestionID: 1999-W12-5-8
 ANSWER: On Monday night, visiting Native spectators and players discovered racist pamphlets on their bus seats following a Manitoba Junior Hockey League game in the northwestern town of Dauphin, Manitoba.  
 
 QuestionID: 1999-W13-1-1
-ANSWER:
+ANSWER: Last Thursday CBC4Kids explained why Saskatchewan Judge A. R. Rothery would not allow Tyrell to refuse cancer treatment.
 
 QuestionID: 1999-W13-1-3
-ANSWER:
+ANSWER: Doctors have told Tyrell they can do nothing more for him.
 
 QuestionID: 1999-W13-1-4
-ANSWER:
+ANSWER: Instead the doctors discovered that cancer has spread from Tyrell's leg into his lungs.
 
 QuestionID: 1999-W13-1-5
 ANSWER: The matter is most certainly in the hands of God, if it ever were in the hands of mortals," the Duecks' lawyer Owe Girths told a stunned crowd of supporters on Sunday.  
 
 QuestionID: 1999-W13-1-6
-ANSWER:
+ANSWER: Saskatchewan Social Services was to go to court this week to lift all the orders involving the boy's treatment.  
 
 QuestionID: 1999-W13-1-7
 ANSWER: The Dueck family are fundamentalist Christians and wanted to send the boy to Mexico for alternative treatment, which would include herbs and large doses of vitamins, and rely on the power of prayer.  
 
 QuestionID: 1999-W13-3-1
-ANSWER:
+ANSWER: This is happening because the coalition of countries that are members of the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo.  
 
 QuestionID: 1999-W13-3-2
-ANSWER:
+ANSWER: This is happening because the coalition of countries that are members of the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo.  
 
 QuestionID: 1999-W13-3-3
 ANSWER: The conflict that is being played out today has roots that go back hundreds and hundreds of years.  
@@ -515,13 +521,13 @@ QuestionID: 1999-W13-3-6
 ANSWER: Brigadier-General Michel Maisonneuve is the senior Canadian Forces officer who has been serving with NATO.
 
 QuestionID: 1999-W13-3-7
-ANSWER:
+ANSWER: This is happening because the coalition of countries that are members of the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo.  
 
 QuestionID: 1999-W13-3-9
-ANSWER:
+ANSWER: NATO Secretary General Javier Solana assured Yugoslovia's neighbours today that the alliance would protect them in the event of attacks by Yugoslavia.  
 
 QuestionID: 1999-W13-3-10
-ANSWER:
+ANSWER: Yugoslav officials say they might not be able to win a war against NATO, but they feel they can inflict serious damage.
 
 QuestionID: 1999-W13-3-11
 ANSWER: There are about 130 Canadian Forces personnel and six CF-18 fighter aircraft based in Aviano, Italy who will likely participate.
@@ -530,13 +536,13 @@ QuestionID: 1999-W13-5-1
 ANSWER: The government of Yugoslavia -- which is mostly Serbian -- does not want to allow the region of Kosovo, where most of the residents are of Albanian heritage, to rule themselves.  
 
 QuestionID: 1999-W13-5-2
-ANSWER:
+ANSWER: The government of Yugoslavia -- which is mostly Serbian -- does not want to allow the region of Kosovo, where most of the residents are of Albanian heritage, to rule themselves.  
 
 QuestionID: 1999-W13-5-4
 ANSWER: Four of the fighter bombers from Bagotville, Quebec returned safely to their Italian base late Thursday after a second day of air strikes aimed at ending ethnic bloodshed in the province of Kosovo.  
 
 QuestionID: 1999-W13-5-5
-ANSWER:
+ANSWER: "One of the pilots was unable to positively identify the target that he had been assigned and, as a measure and a mark of excellent discipline, he didn't launch his weapons."  
 
 QuestionID: 1999-W13-5-6
 ANSWER: Four of the fighter bombers from Bagotville, Quebec returned safely to their Italian base late Thursday after a second day of air strikes aimed at ending ethnic bloodshed in the province of Kosovo.  
@@ -554,7 +560,7 @@ QuestionID: 1999-W14-1-4
 ANSWER:
 
 QuestionID: 1999-W14-1-5
-ANSWER:
+ANSWER: If a computer user opens the infected Word document, the virus propagates itself by reading the user's e-mail address book and sends an infected message to the first 50 entries.  
 
 QuestionID: 1999-W14-1-6
 ANSWER: Melissa, identified by symbols that form a winking smiley face, usually contains the subject line, "Important message," and the body says "Here is that document you asked for ... don't show it to anyone else.
@@ -569,7 +575,7 @@ QuestionID: 1999-W14-1-9
 ANSWER:
 
 QuestionID: 1999-W14-1-10
-ANSWER:
+ANSWER: Melissa, identified by symbols that form a winking smiley face, usually contains the subject line, "Important message," and the body says "Here is that document you asked for ... don't show it to anyone else.
 
 QuestionID: 1999-W14-3-1
 ANSWER: The town of Saint Anthony staged a referendum during the last 10 days but with a different result than that of half a century ago.  
@@ -578,10 +584,10 @@ QuestionID: 1999-W14-3-2
 ANSWER: The Royal Navy began escorting ships to the Grand Banks fishing grounds for the summer fishing season and soon developed seasonal communities along the coast.  
 
 QuestionID: 1999-W14-3-3
-ANSWER:
+ANSWER: The Royal Navy began escorting ships to the Grand Banks fishing grounds for the summer fishing season and soon developed seasonal communities along the coast.  
 
 QuestionID: 1999-W14-3-5
-ANSWER:
+ANSWER: Newfoundlanders were swept up in a passionate debate between a pro-union movement called the Confederates and an anti-union movement that wanted Newfoundland to have what was called "responsible government", that is, to remain independent from Canada.  
 
 QuestionID: 1999-W14-3-6
 ANSWER: The first time Newfoundlanders voted in 1948 they rejected union with Canada.
@@ -605,7 +611,7 @@ QuestionID: 1999-W14-5-3
 ANSWER: The big cable news network CNN has opened up a new bureau.  
 
 QuestionID: 1999-W14-5-4
-ANSWER:
+ANSWER: As It Happens asked Mr. Corley how he first heard about the idea.
 
 QuestionID: 1999-W14-5-5
 ANSWER:
@@ -617,19 +623,19 @@ QuestionID: 1999-W15-2-2
 ANSWER: Calgary didn't get a single snowflake in March so on Sunday, the crew filming the movie, which stars Chevy Chase, unloaded 450 dump truck loads of snow.  
 
 QuestionID: 1999-W15-2-3
-ANSWER:
+ANSWER: When a sun-tanned movie-making team flew up to Calgary, Alberta, from Hollywood, California to film the movie "Snow Day", they thought the least they could expect from the Great White North was a little snow.  
 
 QuestionID: 1999-W15-2-5
 ANSWER: When a sun-tanned movie-making team flew up to Calgary, Alberta, from Hollywood, California to film the movie "Snow Day", they thought the least they could expect from the Great White North was a little snow.  
 
 QuestionID: 1999-W15-2-7
-ANSWER:
+ANSWER: When a sun-tanned movie-making team flew up to Calgary, Alberta, from Hollywood, California to film the movie "Snow Day", they thought the least they could expect from the Great White North was a little snow.  
 
 QuestionID: 1999-W15-4-2
-ANSWER:
+ANSWER: At a trial in February, he was sentenced to a year in jail plus one month of labour, and told to pay $72,000 to the National Institute of History and Anthropology.  
 
 QuestionID: 1999-W15-4-3
-ANSWER:
+ANSWER: Pascal, who is 20, was released yesterday from the Chiapas state penitentiary of Cerro Hueco -- where he had staged a hunger strike to protest his arrest last September 28th.
 
 QuestionID: 1999-W15-4-4
 ANSWER: At a trial in February, he was sentenced to a year in jail plus one month of labour, and told to pay $72,000 to the National Institute of History and Anthropology.  
@@ -656,7 +662,7 @@ QuestionID: 1999-W15-5-3
 ANSWER: Provincial officials and the Royal Canadian Mounted Police held the truant children, many of whom spoke only Russian, at a former sanatorium - a hospital for people with tuberculosis - in New Denver, British Columbia, and forced them to attend local public schools.  
 
 QuestionID: 1999-W15-5-5
-ANSWER:
+ANSWER: Ombudsman Dulcie McCallum said an investigation found the 170 Doukhobor children were subjected to abuse and suffered "loss of love, nurturing guidance and childhood" while they were detained from 1953 to 1959.  
 
 QuestionID: 1999-W15-5-6
 ANSWER:
@@ -677,7 +683,7 @@ QuestionID: 1999-W16-3-3
 ANSWER: Last year a group of Manitoba parents went to court in an effort to block a program to immunize Grade Four students against Hepatitis B.  
 
 QuestionID: 1999-W16-3-6
-ANSWER:
+ANSWER: Rubella, commonly referred to as German measles, is a different disease with similar symptoms.
 
 QuestionID: 1999-W16-3-7
 ANSWER:
@@ -701,28 +707,28 @@ QuestionID: 1999-W16-4-7
 ANSWER: The mayor of Saint John's, Newfoundland lowered the flag of China's troubled Tibetan territory following reports that Chinese Premier Zhu Rongji wasn't amused.  
 
 QuestionID: 1999-W16-4-8
-ANSWER:
+ANSWER: He also said Calgary, Alberta Mayor Al Duerr's decision to present a white cowboy hat, Calgary's symbol of hospitality, to Zhu was "shameful" and "unacceptable."  
 
 QuestionID: 1999-W16-4-9
 ANSWER: The mayor of Saint John's, Newfoundland lowered the flag of China's troubled Tibetan territory following reports that Chinese Premier Zhu Rongji wasn't amused.  
 
 QuestionID: 1999-W16-4-10
-ANSWER:
+ANSWER: After Tibet's failed 1959 uprising against the Chinese, the Dalai Lama and 120,000 followers fled their Himalayan homes for what has become a lifelong exile, mostly in India and Nepal.
 
 QuestionID: 1999-W16-5-1
 ANSWER: Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of the Fraser River are at risk, officials say.  
 
 QuestionID: 1999-W16-5-2
-ANSWER:
+ANSWER: Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of the Fraser River are at risk, officials say.  
 
 QuestionID: 1999-W16-5-3
-ANSWER:
+ANSWER: Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of the Fraser River are at risk, officials say.  
 
 QuestionID: 1999-W16-5-5
 ANSWER: Total water flows in the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels.  
 
 QuestionID: 1999-W16-5-7
-ANSWER:
+ANSWER: The flood of 1948, the last major flood in the Lower British Columbia Mainland, flooded the area with almost 8 metres of water, just 80 kilometres from Vancouver.
 
 QuestionID: 1999-W16-5-8
 ANSWER: The flood of 1948, the last major flood in the Lower British Columbia Mainland, flooded the area with almost 8 metres of water, just 80 kilometres from Vancouver.
@@ -740,19 +746,19 @@ QuestionID: 1999-W17-1-3
 ANSWER: In front of hundreds of reporters from all over North America and Europe Wayne Gretzky announced that he was going to hit the 10-pin bowling lanes in New York City.  
 
 QuestionID: 1999-W17-1-4
-ANSWER:
+ANSWER: The National Hockey League also retired No. 99, which commissioner Gary Bettman announced would never be worn in the league again.  
 
 QuestionID: 1999-W17-1-5
 ANSWER: Number Ninety-Nine retired from professional hockey yesterday afternoon, but less than 24 hours later he's not shying away from sports.  
 
 QuestionID: 1999-W17-1-7
-ANSWER:
+ANSWER: As he left the arena, Wayne's father and mother told him they were proud of him.
 
 QuestionID: 1999-W17-1-8
-ANSWER:
+ANSWER: Later today Wayne Gretzky will be competing again.  
 
 QuestionID: 1999-W17-1-9
-ANSWER:
+ANSWER: Gretzky has been the National Hockey League's Michael Jordan -- an almost mythical figure that fans of all teams admired and packed arenas to see.  
 
 QuestionID: 1999-W17-1-10
 ANSWER: In front of Lemieux sat Mark Messier - who played with Mr. Gretzky for the Edmonton Oilers - and many other former teammates and opponents who admired "The Great One".  
@@ -776,16 +782,16 @@ QuestionID: 1999-W17-3-6
 ANSWER: Students and parents struggled to come to grips with Tuesday's tragic shooting at a Colorado high school that left more than a dozen people dead.
 
 QuestionID: 1999-W17-3-7
-ANSWER:
+ANSWER: American President Bill Clinton went on television yesterday to express his condolences to the families and friends of the victims.
 
 QuestionID: 1999-W17-3-8
-ANSWER:
+ANSWER: American President Bill Clinton went on television yesterday to express his condolences to the families and friends of the victims.
 
 QuestionID: 1999-W17-3-10
 ANSWER: Students and parents struggled to come to grips with Tuesday's tragic shooting at a Colorado high school that left more than a dozen people dead.
 
 QuestionID: 1999-W17-3-11
-ANSWER:
+ANSWER: The bill's sponsor, Representative Doug, says the Columbine school tragedy might have been offset if a faculty member or administrator had been armed.  
 
 QuestionID: 1999-W17-5-1
 ANSWER: While a strike will leave more than 95,000 students in academic limbo and parents scrambling to make alternate arrangements, Grade 12 diploma exams will go on.  
@@ -818,7 +824,7 @@ QuestionID: 1999-W18-3-1
 ANSWER: Next year the company will clone another goat that will carry the spider-silk gene in its chromosomes.
 
 QuestionID: 1999-W18-3-2
-ANSWER:
+ANSWER: Biosteel is an artificial spider silk developed by Nexia Biotechnologies.  
 
 QuestionID: 1999-W18-3-3
 ANSWER: Turner said Nexia will clone only about three or four goats with the spider-silk protein.
@@ -827,10 +833,10 @@ QuestionID: 1999-W18-3-4
 ANSWER: The eggs were then placed into two recipient mothers, with one female carrying two eggs, and the other the third.  
 
 QuestionID: 1999-W18-3-7
-ANSWER:
+ANSWER: The potential to mass-produce BioSteel is a main reason the animals were cloned in the first place.  
 
 QuestionID: 1999-W18-4-1
-ANSWER:
+ANSWER: The group is on a tour of Alberta and British Columbia and were unaware of the day's events when they arrived in Taber.  
 
 QuestionID: 1999-W18-4-2
 ANSWER: "We have a son and daughter-in-law in Denver," says Pastor Gartly after an evening service at Taber Evangelical Free Church where worshipers discussed the day's tragic events.  
@@ -842,7 +848,7 @@ QuestionID: 1999-W18-4-5
 ANSWER: The shooting comes a week after the shooting tragedy at Columbine high school in Littleton, Colorado.  
 
 QuestionID: 1999-W18-4-7
-ANSWER:
+ANSWER: "We have a son and daughter-in-law in Denver," says Pastor Gartly after an evening service at Taber Evangelical Free Church where worshipers discussed the day's tragic events.  
 
 QuestionID: 1999-W18-4-8
 ANSWER: "We have a son and daughter-in-law in Denver," says Pastor Gartly after an evening service at Taber Evangelical Free Church where worshipers discussed the day's tragic events.  
@@ -851,7 +857,7 @@ QuestionID: 1999-W18-5-1
 ANSWER: A month after fleeing battered and bloodied Kosovo, Yugoslavia with nothing but the clothes on their backs, Qemal Sefa and his family arrived at their new home in Winnipeg, Manitoba last night.  
 
 QuestionID: 1999-W18-5-3
-ANSWER:
+ANSWER: The family took no clothes, mementos or household items with them and walked about seven kilometres to the Albanian border.  
 
 QuestionID: 1999-W18-5-4
 ANSWER: The family took no clothes, mementos or household items with them and walked about seven kilometres to the Albanian border.  
@@ -863,16 +869,16 @@ QuestionID: 1999-W18-5-7
 ANSWER: Looking tired and anxious after days of travel, Sefa, his wife and four grown children greeted members of their extended family - many of whom they had never met - at the airport with shy smiles, hugs and kisses.  
 
 QuestionID: 1999-W18-5-9
-ANSWER:
+ANSWER: The six ethnic Albanian refugees - the first to make their way to Western Canada - will be staying with Sefa's brother Esat and his son Haki.  
 
 QuestionID: 1999-W18-5-10
-ANSWER:
+ANSWER: The six ethnic Albanian refugees - the first to make their way to Western Canada - will be staying with Sefa's brother Esat and his son Haki.  
 
 QuestionID: 1999-W19-1-1
 ANSWER: The previously accepted theory about the populating of North America was that the first inhabitants crossed a land bridge from Asia into what is now Alaska roughly 10,000 to 11,000 years ago, after the last Ice Age.  
 
 QuestionID: 1999-W19-1-2
-ANSWER:
+ANSWER: The previously accepted theory about the populating of North America was that the first inhabitants crossed a land bridge from Asia into what is now Alaska roughly 10,000 to 11,000 years ago, after the last Ice Age.  
 
 QuestionID: 1999-W19-1-4
 ANSWER: "My view is that there is no question that there were people in Eastern Beringia 40,000 years ago, and this view has to be taken into serious consideration if you want to discuss the peopling of the New World," says Jacques Cinq-Mars, an archeologist at the Canadian Museum of Civilization in Ottawa.  
@@ -884,13 +890,13 @@ QuestionID: 1999-W19-1-6
 ANSWER: The latest evidence supporting the earlier dates was found in the Bluefish Caves, on the Bluefish River about 50 kilometres southeast of Old Crow.
 
 QuestionID: 1999-W19-1-7
-ANSWER:
+ANSWER: "My view is that there is no question that there were people in Eastern Beringia 40,000 years ago, and this view has to be taken into serious consideration if you want to discuss the peopling of the New World," says Jacques Cinq-Mars, an archeologist at the Canadian Museum of Civilization in Ottawa.  
 
 QuestionID: 1999-W19-1-8
 ANSWER: "My view is that there is no question that there were people in Eastern Beringia 40,000 years ago, and this view has to be taken into serious consideration if you want to discuss the peopling of the New World," says Jacques Cinq-Mars, an archeologist at the Canadian Museum of Civilization in Ottawa.  
 
 QuestionID: 1999-W19-1-9
-ANSWER:
+ANSWER: Heather Pringle is the author of In Search of Ancient North America, part of which is about the Bluefish Caves in northern Yukon.  
 
 QuestionID: 1999-W19-2-1
 ANSWER:
@@ -935,7 +941,7 @@ QuestionID: 1999-W19-4-8
 ANSWER: The plan must now be approved by the United Nations Security Council, which represents 185 countries from all over the world.  
 
 QuestionID: 1999-W19-5-1
-ANSWER:
+ANSWER: But another 600 or more evacuated from the Manigotagan area on the eastern shore of Lake Winnipeg could return to their homes soon, now that rain has helped crews get the fire in that area under control.  
 
 QuestionID: 1999-W19-5-2
 ANSWER: However, it may be well into next week before some people will be allowed to return home.  
@@ -944,19 +950,19 @@ QuestionID: 1999-W19-5-3
 ANSWER: But another 600 or more evacuated from the Manigotagan area on the eastern shore of Lake Winnipeg could return to their homes soon, now that rain has helped crews get the fire in that area under control.  
 
 QuestionID: 1999-W19-5-4
-ANSWER:
+ANSWER: It means the province could send fire fighters and equipment to the latest hot spot in northwestern Ontario.  
 
 QuestionID: 1999-W19-5-5
 ANSWER: "St. Theresa Point is the only area that did not receive precipitation," said Natural Resources Minister Glen Cummings.  
 
 QuestionID: 1999-W19-5-6
-ANSWER:
+ANSWER: "Our forest conditions right now are volatile," said Bob Thomas, information officer for the provincial response centre.
 
 QuestionID: 1999-W19-5-7
 ANSWER: Since April 1, almost all of the province's 200 fires were triggered by human causes.
 
 QuestionID: 1999-W19-5-8
-ANSWER:
+ANSWER: Rain fell on most of the trouble spots in Manitoba during the middle of the week with the exception of the 120-hectare blaze at Island Lake, 500 kilometres northeast of Winnipeg.  
 
 QuestionID: 1999-W20-5-1
 ANSWER: One and a half million Canadians have diabetes; more than 750,000 have it and don't know it.
@@ -977,7 +983,7 @@ QuestionID: 1999-W20-5-7
 ANSWER: A team of Calgary researchers says that they have discovered one of the causes of diabetes.  
 
 QuestionID: 1999-W20-5-8
-ANSWER:
+ANSWER: Dr. Ji-Won Yoon and his team at the University of Calgary say their research gives insight into what triggers insulin-dependent diabetes.  
 
 QuestionID: 1999-W20-5-9
 ANSWER: "This is very exciting," said the 18-year-old Calgarian who has had to inject insulin four times a day since she was three years old to stay alive.  
@@ -986,10 +992,10 @@ QuestionID: 1999-W21-3-1
 ANSWER: In cities across Canada fans began lining up for tickets in late April.
 
 QuestionID: 1999-W21-3-2
-ANSWER:
+ANSWER: In Montreal someone actually slept in a tent out on the sidewalk in front of a movie theatre to make sure he got the first ticket.  
 
 QuestionID: 1999-W21-3-3
-ANSWER:
+ANSWER: The St. John's fans were among the first in the world to see "Star Wars: Episode 1 The Phantom Menace."  
 
 QuestionID: 1999-W21-3-4
 ANSWER: Ken says, "the story was awesome, the effects were top notch, and even the acting was well done."  
@@ -1001,16 +1007,16 @@ QuestionID: 1999-W21-3-8
 ANSWER: One seller got a bid of $89.99 for two $8.50 tickets for Mann's Chinese Theatre in Hollywood, or roughly five times the face price.  
 
 QuestionID: 1999-W21-3-9
-ANSWER:
+ANSWER: In the Toronto Star, Geoff Pevere says "If you don't forgive the narrative gaps and inconsistencies... you forget them when the movie's breathtaking digital set pieces kick in.
 
 QuestionID: 1999-W21-5-1
 ANSWER: Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas.  
 
 QuestionID: 1999-W21-5-2
-ANSWER:
+ANSWER: Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas.  
 
 QuestionID: 1999-W21-5-3
-ANSWER:
+ANSWER: But if Ottawa wants to stop Gerry White from shipping Newfoundland water all over the world, they'll have to act soon.  
 
 QuestionID: 1999-W21-5-4
 ANSWER: "The federal government knows perfectly well that they're in trouble with this," says Maude Barlow of the Council of Canadians.  
@@ -1019,13 +1025,13 @@ QuestionID: 1999-W21-5-5
 ANSWER:
 
 QuestionID: 1999-W21-5-6
-ANSWER:
+ANSWER: "The federal government knows perfectly well that they're in trouble with this," says Maude Barlow of the Council of Canadians.  
 
 QuestionID: 1999-W21-5-7
 ANSWER: For months Ottawa and the provinces have been trying to negotiate an agreement banning bulk water exports.
 
 QuestionID: 1999-W21-5-8
-ANSWER:
+ANSWER: Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas.  
 
 QuestionID: 1999-W22-2-1
 ANSWER: Residents of British Columbia's Lower Mainland seem to be freer with their cash than they are with their time.  
@@ -1034,13 +1040,13 @@ QuestionID: 1999-W22-2-4
 ANSWER: The Red Cross is thanking the public for donating more than $250,000 to help refugees in the Balkans over the past two months.
 
 QuestionID: 1999-W22-2-5
-ANSWER:
+ANSWER: The ambassador said that there is anxiety among the Kosovar leadership that by taking refugees so far afield "many of these people will not return and in so doing Yugoslavia President Slobodan Milosevic's agenda (of getting rid of ethnic Albanians living in the southern Yugoslavian province of Kosovo) will be achieved."  
 
 QuestionID: 1999-W22-2-6
 ANSWER: "Some 2,000 people have been identified as potentially eligible for that program.
 
 QuestionID: 1999-W22-2-7
-ANSWER:
+ANSWER: The ambassador said that there is anxiety among the Kosovar leadership that by taking refugees so far afield "many of these people will not return and in so doing Yugoslavia President Slobodan Milosevic's agenda (of getting rid of ethnic Albanians living in the southern Yugoslavian province of Kosovo) will be achieved."  
 
 QuestionID: 1999-W22-2-8
 ANSWER: The ambassador said that there is anxiety among the Kosovar leadership that by taking refugees so far afield "many of these people will not return and in so doing Yugoslavia President Slobodan Milosevic's agenda (of getting rid of ethnic Albanians living in the southern Yugoslavian province of Kosovo) will be achieved."  
@@ -1049,7 +1055,7 @@ QuestionID: 1999-W22-3-1
 ANSWER: "Frankly, wrestling was getting so far out and my poor brother Owen was a sacrifice for the television ratings," says Owen's sister Ellie Hart.
 
 QuestionID: 1999-W22-3-2
-ANSWER:
+ANSWER: "Frankly, wrestling was getting so far out and my poor brother Owen was a sacrifice for the television ratings," says Owen's sister Ellie Hart.
 
 QuestionID: 1999-W22-3-3
 ANSWER:
@@ -1079,7 +1085,7 @@ QuestionID: 1999-W22-4-7
 ANSWER: Although she will not be the first Canadian woman in space, she will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia.  
 
 QuestionID: 1999-W22-4-8
-ANSWER:
+ANSWER: Her tasks will include unloading and arranging the 2,200 kilograms of equipment being carried to the station for future astronauts; working the remote-control Canadarm while supervising crew members constructing parts of the station, and documenting the mission's progress with video cameras.  
 
 QuestionID: 1999-W22-4-9
 ANSWER: She's very young, very articulate and perfectly bilingual and she's showing the Canadian colours with pride and dignity and we should pray for her that everything will be all right, and it will be," said Mr. Chretien  Aline Chretien, the Prime Minister's wife, was invited by Julie Payette to watch the launch in Florida.  
@@ -1097,7 +1103,7 @@ QuestionID: 1999-W22-5-4
 ANSWER: More than half the residents of the northern Saskatchewan community of La Ronge were evacuated briefly yesterday as a forest fire scorched its outskirts.  
 
 QuestionID: 1999-W22-5-5
-ANSWER:
+ANSWER: Trees were still burning at Gary Vettree's in Eagle Point, which was directly in the path of a fast-moving fire.
 
 QuestionID: 1999-W22-5-6
 ANSWER:
@@ -1109,7 +1115,7 @@ QuestionID: 1999-W22-5-8
 ANSWER: Although the evacuees were told they could spend the night in the local arena, virtually all the townspeople chose to sleep in their own beds.  
 
 QuestionID: 1999-W23-1-1
-ANSWER:
+ANSWER: Over the weekend Canadian astronaut Julie Payette did not get a lot of time to put on her red clown nose and listen to the Sarah McLaughlan CD she brought along.  
 
 QuestionID: 1999-W23-1-2
 ANSWER: Astronaut Tamara Jernigan and Russian crewmate Valery Tokarev led the way inside the unfinished station yesterday evening.
@@ -1118,10 +1124,10 @@ QuestionID: 1999-W23-1-4
 ANSWER: Though it was cold and noisy, space shuttle Discovery astronauts were overjoyed over the weekend when they swung open the hatches to the International Space Station.  
 
 QuestionID: 1999-W23-1-5
-ANSWER:
+ANSWER: Inside the Russian-built Zarya control module, Valery Tokarev and Canadian astronaut Julie Payette pulled up the floor and began changing electrical meters on batteries that aren't charging properly.  
 
 QuestionID: 1999-W23-1-6
-ANSWER:
+ANSWER: Earlier, the crew installed insulation around some fans inside Zarya to reduce the noise level, which Mr. Barry said measured up to 67 decibels.
 
 QuestionID: 1999-W23-1-7
 ANSWER:
@@ -1130,7 +1136,7 @@ QuestionID: 1999-W23-1-9
 ANSWER: Though it was cold and noisy, space shuttle Discovery astronauts were overjoyed over the weekend when they swung open the hatches to the International Space Station.  
 
 QuestionID: 1999-W23-5-1
-ANSWER:
+ANSWER: Premier Mike Harris says his re-election victory last night is an order for him to carry out another ambitious plan for the province.  
 
 QuestionID: 1999-W23-5-2
 ANSWER:
@@ -1154,16 +1160,16 @@ QuestionID: 1999-W23-5-10
 ANSWER:
 
 QuestionID: 1999-W24-3-1
-ANSWER:
+ANSWER: Residents of Baffin Island are getting ready to celebrate one of Canada's most unique festivals: the unpacking of the sealift delivery.
 
 QuestionID: 1999-W24-3-2
-ANSWER:
+ANSWER: For days the air in towns like Iqaluit will be filled with the sounds of banging hammers and ripping cardboard as the goods they ordered from southern Canada finally arrive by ship.  
 
 QuestionID: 1999-W24-3-3
 ANSWER: Northerners are used to paying more than two dollars for a can of pop, more than a dollar for an apple and three dollars for a litre of milk.
 
 QuestionID: 1999-W24-3-4
-ANSWER:
+ANSWER: Environment Canada's outlook for ice break-up and clearing patterns predicts smooth sailing in much of James Bay, Hudson Bay and Hudson Strait by the first week of July -- a month earlier than normal.
 
 QuestionID: 1999-W24-3-5
 ANSWER: "I have been involved in shipping in the Arctic since 1969 and certainly nobody I've talked to who had been up there for decades before had ever seen anything like this," he says.
@@ -1181,7 +1187,7 @@ QuestionID: 1999-W24-5-2
 ANSWER: She says Judge Arbour's work prosecuting war crimes would enhance the Supreme Court, describing her as "a woman who has dealt with some of the most difficult and challenging issues of our modern time.  
 
 QuestionID: 1999-W24-5-3
-ANSWER:
+ANSWER: The government was very aware of how tricky it would be to take her away from her high-profile assignment of prosecuting Milosevic.  
 
 QuestionID: 1999-W24-5-4
 ANSWER: The woman who charged Yugoslav President Slobodan Milosevic for war crimes has been appointed to Canada's Supreme Court.  
@@ -1190,10 +1196,10 @@ QuestionID: 1999-W24-5-5
 ANSWER: "Louise Arbour is a down-to-earth individual, who understands the needs of the ordinary person," says lawyer Earl Levy.  
 
 QuestionID: 1999-W24-5-7
-ANSWER:
+ANSWER: She held the Yugoslav President personally responsible, along with four of his aides, for the horrors in Kosovo and the brutal purge of ethnic Albanians.  
 
 QuestionID: 1999-W24-5-8
-ANSWER:
+ANSWER: It appears to be no coincidence that Ms. McLellan announced the appointment the day after NATO and Yugoslav generals signed a detailed military agreement on the withdrawal of Yugoslav and Serb forces from Kosovo.
 
 QuestionID: 1999-W25-1-1
 ANSWER: The North Atlantic Treaty Organization (NATO) says 14,000 of its soldiers have entered the southern Yugoslavian province of Kosovo in the last 48 hours.  
@@ -1202,13 +1208,13 @@ QuestionID: 1999-W25-1-2
 ANSWER: "This is the politics of communism, of President Slobodan Milosevic."  
 
 QuestionID: 1999-W25-1-3
-ANSWER:
+ANSWER: He says Yugoslav troops are sticking to their timetable for leaving the area and should be out of the southern sector of Kosovo by tomorrow's deadline.
 
 QuestionID: 1999-W25-1-4
-ANSWER:
+ANSWER: With belongings lashed to the top of their cars, the new refugees said they were heading northwards to the Kosovo capital of Pristina or all the way to Serbia itself.
 
 QuestionID: 1999-W25-1-9
-ANSWER:
+ANSWER: NATO spokesman Jamie Shea says troop deployment is going "very smoothly" and is slightly ahead of schedule.
 
 QuestionID: 1999-W25-1-10
 ANSWER: Under the peace agreement, all Serb forces must have withdrawn by Sunday, June 20.
@@ -1223,22 +1229,22 @@ QuestionID: 1999-W25-5-3
 ANSWER:
 
 QuestionID: 1999-W25-5-4
-ANSWER:
+ANSWER: She was referring to the fact that both Canada's Foreign Affairs Minister Lloyd Axworthy and his U.S. counterpart, Madeleine Albright, agreed Faulder was denied his international rights because Texas officials failed to tell Canadian diplomats that he was in jail.
 
 QuestionID: 1999-W25-5-5
-ANSWER:
+ANSWER: Ms. Gingera has been working with the Faulder family since 1997 to try to get human rights groups interested in the case.  
 
 QuestionID: 1999-W25-5-7
-ANSWER:
+ANSWER: She was referring to the fact that both Canada's Foreign Affairs Minister Lloyd Axworthy and his U.S. counterpart, Madeleine Albright, agreed Faulder was denied his international rights because Texas officials failed to tell Canadian diplomats that he was in jail.
 
 QuestionID: 1999-W25-5-8
 ANSWER: "The United States is one of our world leaders and world powers, and yet they allow the basic human rights of people to be violated in their own country," said Charlene Gingera, about an hour after Faulder was killed by an injection of deadly chemicals.  
 
 QuestionID: 1999-W25-5-9
-ANSWER:
+ANSWER: Texas Governor and presidential candidate George W. Bush refused to grant a stay of the execution, saying there was no new evidence that questioned the jury's verdict in the death of Inez Phillips, who Faulder was convicted of killing in 1977.  
 
 QuestionID: 1999-W25-5-10
-ANSWER:
+ANSWER: Texas Governor and presidential candidate George W. Bush refused to grant a stay of the execution, saying there was no new evidence that questioned the jury's verdict in the death of Inez Phillips, who Faulder was convicted of killing in 1977.  
 
 QuestionID: 1999-W26-5-1
 ANSWER:
@@ -1277,10 +1283,10 @@ QuestionID: 1999-W27-2-6
 ANSWER:
 
 QuestionID: 1999-W27-5-1
-ANSWER:
+ANSWER: The president of the Quebec Federation of Nurses says she will not obey back-to-work legislation that Premier Lucien Bouchard is expected to introduce later today.  
 
 QuestionID: 1999-W27-5-2
-ANSWER:
+ANSWER: Premier Bouchard is reluctant to give the nurses' more money because they are only the first of many labour organizations negotiating new contracts.
 
 QuestionID: 1999-W27-5-3
 ANSWER: Nurses are now demonstrating on the sidewalks outside all Quebec hospitals.
@@ -1289,7 +1295,7 @@ QuestionID: 1999-W27-5-4
 ANSWER: Quebec Federation of Nurses Vice-President Michele Boisclair has said that the Executive of the Federation is prepared to go to jail if that's what it takes.  
 
 QuestionID: 1999-W27-5-5
-ANSWER:
+ANSWER: Premier Bouchard is reluctant to give the nurses' more money because they are only the first of many labour organizations negotiating new contracts.
 
 QuestionID: 1999-W27-5-6
 ANSWER:
@@ -1301,7 +1307,7 @@ QuestionID: 1999-W27-5-9
 ANSWER: The pharmacists will leave their jobs in 60 days if the situation does not improve.  
 
 QuestionID: 1999-W27-5-10
-ANSWER:
+ANSWER: Some of Quebec's doctors are also taking a stand.
 
 QuestionID: 1999-W28-5-1
 ANSWER: American geologists made the find in January, but did not announce the discovery until this week at an international earth sciences meeting in Wellington, New Zealand.  
@@ -1319,7 +1325,7 @@ QuestionID: 1999-W28-5-6
 ANSWER: American geologists made the find in January, but did not announce the discovery until this week at an international earth sciences meeting in Wellington, New Zealand.  
 
 QuestionID: 1999-W28-5-7
-ANSWER:
+ANSWER: American geologists made the find in January, but did not announce the discovery until this week at an international earth sciences meeting in Wellington, New Zealand.  
 
 QuestionID: 1999-W29-2-1
 ANSWER: The United Nations decides the number one country each year by a method called the Human Development Index.  
@@ -1334,10 +1340,10 @@ QuestionID: 1999-W29-2-5
 ANSWER: For the sixth year in a row, the United Nations has ranked Canada as the best country in the world to live in.  
 
 QuestionID: 1999-W29-2-6
-ANSWER:
+ANSWER: For the sixth year in a row, the United Nations has ranked Canada as the best country in the world to live in.  
 
 QuestionID: 1999-W29-2-7
-ANSWER:
+ANSWER: The UN says technology may be improving life for people in developed countries like Canada, but it is also widening the gap between rich and poor people.  
 
 QuestionID: 1999-W29-5-1
 ANSWER: About 95 students from across the United States made their way to the White House to help President Clinton convince the American government to put stricter controls on guns.
@@ -1346,13 +1352,13 @@ QuestionID: 1999-W29-5-2
 ANSWER: Included in the group were six students from Columbine High School in Littleton, Colorado.  
 
 QuestionID: 1999-W29-5-4
-ANSWER:
+ANSWER: In April, Columbine High School was the scene of the worst high school shooting in American history.
 
 QuestionID: 1999-W29-5-5
 ANSWER: Clinton wants to pass new gun control laws before school starts in September.
 
 QuestionID: 1999-W29-5-6
-ANSWER:
+ANSWER: By limiting access to guns, President Clinton hopes to put an end to school shootings like the one in Littleton.  
 
 QuestionID: 1999-W29-5-7
 ANSWER:
@@ -1367,13 +1373,13 @@ QuestionID: 1999-W30-1-2
 ANSWER:
 
 QuestionID: 1999-W30-1-3
-ANSWER:
+ANSWER: The three are presumed dead after a plane piloted by John Jr crashed into the water off the coast of Martha's Vineyard, Massachusetts.
 
 QuestionID: 1999-W30-1-4
 ANSWER: In 1963, John Jr's father, U.S. President John F. Kennedy, was assassinated in Dallas.
 
 QuestionID: 1999-W30-1-5
-ANSWER:
+ANSWER: In 1963, John Jr's father, U.S. President John F. Kennedy, was assassinated in Dallas.
 
 QuestionID: 1999-W30-1-6
 ANSWER: In 1963, John Jr's father, U.S. President John F. Kennedy, was assassinated in Dallas.
@@ -1382,16 +1388,16 @@ QuestionID: 1999-W30-1-7
 ANSWER: Other Kennedys, including two of John Jr's cousins and his uncle, also died under tragic circumstances.  
 
 QuestionID: 1999-W30-2-1
-ANSWER:
+ANSWER: Glen Clark is facing great pressure to quit his job as the Premier of British Columbia.  
 
 QuestionID: 1999-W30-2-3
-ANSWER:
+ANSWER: According to a B.C. television station, Clark was sent a letter by a group of people in his own party.
 
 QuestionID: 1999-W30-2-4
 ANSWER: Glen Clark is facing great pressure to quit his job as the Premier of British Columbia.  
 
 QuestionID: 1999-W30-2-6
-ANSWER:
+ANSWER: This is the second cabinet minister from Clark's government to quit in the last week.
 
 QuestionID: 1999-W30-3-1
 ANSWER: Shellfish plants have created some important jobs that help replace the ones that were lost.
@@ -1406,7 +1412,7 @@ QuestionID: 1999-W30-3-4
 ANSWER:
 
 QuestionID: 1999-W30-3-5
-ANSWER:
+ANSWER: Due to these limits, finding a fishing industry job in Newfoundland is tough.
 
 QuestionID: 1999-W30-3-6
 ANSWER: Crab and shrimp have become important to the Newfoundland fishing industry.
@@ -1436,7 +1442,7 @@ QuestionID: 1999-W30-5-7
 ANSWER:
 
 QuestionID: 1999-W31-2-1
-ANSWER:
+ANSWER: The president of the Labrador Inuit Association says this deal is the best one the Inuit have been offered in the many years of negotiations.
 
 QuestionID: 1999-W31-2-3
 ANSWER: The Labrador Inuit Association has made a deal with the Canadian Federal Government and Newfoundland's Provincial Government that will give them 73,000 square kilometres of land in Labrador, $255 million in cash, and the right to some self-government.  
@@ -1448,16 +1454,16 @@ QuestionID: 1999-W31-2-5
 ANSWER: The Labrador Inuit Association has made a deal with the Canadian Federal Government and Newfoundland's Provincial Government that will give them 73,000 square kilometres of land in Labrador, $255 million in cash, and the right to some self-government.  
 
 QuestionID: 1999-W31-2-8
-ANSWER:
+ANSWER: The president of the Labrador Inuit Association says this deal is the best one the Inuit have been offered in the many years of negotiations.
 
 QuestionID: 1999-W32-3-1
-ANSWER:
+ANSWER: The Queen Mum is the mother of Queen Elizabeth II.
 
 QuestionID: 1999-W32-3-3
-ANSWER:
+ANSWER: The German leader at the time, Adolf Hitler, called her the most dangerous woman in Europe because she was so good at boosting the public's spirits.  
 
 QuestionID: 1999-W32-3-4
-ANSWER:
+ANSWER: The Queen Mum is the mother of Queen Elizabeth II.
 
 QuestionID: 1999-W32-3-5
 ANSWER: People from all over Britain lined up to catch a glimpse of their favourite royal grandmother, and help the Queen Mother celebrate her 99th birthday on Wednesday.  
@@ -1466,7 +1472,7 @@ QuestionID: 1999-W32-3-6
 ANSWER: People from all over Britain lined up to catch a glimpse of their favourite royal grandmother, and help the Queen Mother celebrate her 99th birthday on Wednesday.  
 
 QuestionID: 1999-W32-3-7
-ANSWER:
+ANSWER: The Queen Mum is the mother of Queen Elizabeth II.
 
 QuestionID: 1999-W32-3-8
 ANSWER: People from all over Britain lined up to catch a glimpse of their favourite royal grandmother, and help the Queen Mother celebrate her 99th birthday on Wednesday.  
@@ -1490,7 +1496,7 @@ QuestionID: 2000-W03-4-7
 ANSWER:
 
 QuestionID: 2000-W03-5-1
-ANSWER:
+ANSWER: John Girvin, a neurosurgery (brain surgery) professor in London, Ontario is the doctor who implanted the electrodes in the patient's brain at the New York Neurological Institute in 1979.
 
 QuestionID: 2000-W03-5-2
 ANSWER: John Girvin, a neurosurgery (brain surgery) professor in London, Ontario is the doctor who implanted the electrodes in the patient's brain at the New York Neurological Institute in 1979.
@@ -1505,16 +1511,16 @@ QuestionID: 2000-W03-5-5
 ANSWER: Researchers in New York City say a blind 62-year-old volunteer can now read large letters and navigate around big objects by using a tiny camera wired to computers and a platinum electrode implanted in his brain.  
 
 QuestionID: 2000-W06-4-1
-ANSWER:
+ANSWER: Students who lock lips in the hallways of Winnipeg's Sisler High School have been warned: if that friendly peck gets too passionate, they couldbe sent home or even suspended.  
 
 QuestionID: 2000-W06-4-2
-ANSWER:
+ANSWER: Students who lock lips in the hallways of Winnipeg's Sisler High School have been warned: if that friendly peck gets too passionate, they couldbe sent home or even suspended.  
 
 QuestionID: 2000-W06-4-3
-ANSWER:
+ANSWER: Jeffrey Besyk is in Grade 12.
 
 QuestionID: 2000-W06-4-4
-ANSWER:
+ANSWER: With Valentine's Day just around the corner, vice-principal Mike Kachmar announced the smooching ban over the school's public address system.  
 
 QuestionID: 2000-W06-4-5
 ANSWER:
@@ -1531,3 +1537,5 @@ ANSWER: With Valentine's Day just around the corner, vice-principal Mike Kachmar
 QuestionID: 2000-W06-4-9
 ANSWER:
 
+Total # of questions: 511		# of questions attempted: 511		# of questions answered: 442
+Done!
