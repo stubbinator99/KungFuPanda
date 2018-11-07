@@ -65,8 +65,11 @@ for storyId in storyIdList:
   for sen in doc.sents:#storySents:
     storySents.append(sen.text)
 
+    chunked_sens.append([])
     # Add noun chunks NOT sure what this is for...Don't think its used anywhere
-    chunked_sens.append(sen.noun_chunks)
+    for chunk in sen.noun_chunks:
+      # chunked_sens.append(sen.noun_chunks)
+      chunked_sens[len(chunked_sens)-1].append(chunk)#[chunk.text, chunk.start_char, chunk.end_char, chunk.root.text, chunk.root.dep_])
 
     # Sentences with each word and its POS tag. Example: [Scotia, NNP]
     tagged_sens.append([])
@@ -76,7 +79,7 @@ for storyId in storyIdList:
 
     # Populate tagged_sens
     for token in sen:
-      tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_])
+      tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_, token.dep_])
 
 
       # Populatet ner_sens, sentences in spacy BIO tag format
@@ -223,7 +226,7 @@ for storyId in storyIdList:
           word_overlap.append(0)
           for thing in ner_sens[i]:         # For each word in the matching sentence
             for q_word in question_array:   # For each word in the question
-              if q_word == thing[0]:        # If the words match, increment the word overlap
+              if q_word.lower() in thing[0].lower():        # If the words match, increment the word overlap
                 word_overlap[len(word_overlap)-1] += 1
 
 
@@ -253,7 +256,16 @@ for storyId in storyIdList:
           print("QuestionID: {}".format(questionId))
           #print("QUESTION:\t{}".format(question_text))
           print("ANSWER: ", end="")
-          print(storySents[tied_sentence_indices[0]])
+
+          # Use NP chunks to give a shorter answer?
+          # for thing in chunked_sens:
+          #   print(thing)
+
+          # for i in tied_sentence_indices:
+          #   for thing in tagged_sens[i]:
+
+
+          print(storySents[sens_with_matching_ents[tied_sentence_indices[0]]])
           #for thing in ner_sens[tied_sentence_indices[0]]:
             #print(thing[0], end=" ")
           # print()
