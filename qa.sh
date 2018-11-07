@@ -1,12 +1,6 @@
-#!/bin/bash
-sudo apt-get install build-essential python-dev git
-#PROGDIR=$PWD
-#PYTHONDIR="/usr/bin/"
-# change directory to that of python (3.6) install /Scripts
-pip3.6.exe install -U spacy
-#cd ../
-python3.6 -m spacy download en
-python3.6 -m spacy download en_core_web_md
-# change directory to that of our qa.py
-#cd PROGDIR
-python3.6 qa.py input.txt
+#!/usr/bin/bash
+cd /home/jocall/KungFuPanda
+source ./env/bin/activate
+read -p "Enter the path to the input file: " input
+echo Starting program with file $input:
+python qa.py $input > qa_response.txt

@@ -8,7 +8,7 @@ import spacy
 import sys
 
 # Load spacy
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_md')
 
 input_file = sys.argv[1]    # Index file to read in
 data_directory_path = ""    # Path to the directory containing the data
@@ -346,5 +346,5 @@ for storyId in storyIdList:
         word_overlap = []
 
 
-print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
-print("Done!")
+#print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
+#print("Done!")
