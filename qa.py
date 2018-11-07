@@ -52,7 +52,7 @@ for storyId in storyIdList:
   doc = nlp(storyString)
 
   # Get a list of sentences in the story
-  storySents = doc.sents
+  #storySents = doc.sents
 
   tagged_sens = []
   chunked_sens = []
@@ -62,7 +62,9 @@ for storyId in storyIdList:
   sen_index = 0
 
   # For each sentence in the story
-  for sen in storySents:
+  for sen in doc.sents:#storySents:
+    storySents.append(sen.text)
+
     # Add noun chunks NOT sure what this is for...Don't think its used anywhere
     chunked_sens.append(sen.noun_chunks)
 
@@ -88,7 +90,7 @@ for storyId in storyIdList:
     # Ex: (one sentence ahs two GPE entities): [[[Liverpool, GPE], [Nova Scotia, GPE]]]
     doc_ner.append([])
     for question_entity in sen.ents:
-      doc_ner[len(doc_ner)-1].append([question_entity.text,  # ent.start_char, ent.end_char,
+      doc_ner[len(doc_ner)-1].append([question_entity.text, question_entity.start_char, question_entity.end_char,
                                       question_entity.label_])
 
     # Move on to the nexte sentence in the story
@@ -139,24 +141,29 @@ for storyId in storyIdList:
 
         # List of possible entities the question is asking for
         question_entity_types = []
+        question_type = ""
 
         # Spacy Entity tags: ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART',
         #             'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']
 
         if "Who" in question_word_list or "who" in question_word_list or "Whose" in question_word_list or "whose" in question_word_list:
+          question_type = "who"
           question_entity_types.append("PERSON")
           question_entity_types.append("NORP")
           question_entity_types.append("ORG")
           question_entity_types.append("GPE")
         elif "What" in question_word_list or "what" in question_word_list:
+          question_type = "what"
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
           # TODO: Figure out what entities to put here
           question_entity_types = []
         elif "When" in question_word_list or "when" in question_word_list:
+          question_type = "when"
           question_entity_types.append("DATE")
           question_entity_types.append("TIME")
           #question_entity_types.append("ORDINAL") #first, second, etc.
         elif "Where" in question_word_list or "where" in question_word_list:
+          question_type = "where"
           # Other notes: 'where in x' (where in Canada, etc)
           question_entity_types.append("FAC")
           #question_entity_types.append("ORG")
@@ -171,6 +178,7 @@ for storyId in storyIdList:
           for word in quantity_words:
             if word in question_word_list:
               looking_for_quantity = True
+              question_type = "quantity"
           if looking_for_quantity:
             question_entity_types.append("PERCENT")
             question_entity_types.append("MONEY")
@@ -178,9 +186,11 @@ for storyId in storyIdList:
             question_entity_types.append("ORDINAL")
             question_entity_types.append("CARDINAL")
           else:
+            question_type = "how"
             #TODO: Figure out what entities to put here
             question_entity_types = []
         elif "Why" in question_word_list or "why" in question_word_list:
+          question_type = "why"
           # Other notes: 'why will' (other tense)
           # TODO: Figure out what entities to put here
           question_entity_types = []
@@ -200,7 +210,7 @@ for storyId in storyIdList:
             if entity_found:
               break
             for entity_pair in doc_ner[i]:    # For each entity pair in the current sentence. Ex: [Liverpool, GPE]
-              if question_entity == entity_pair[1]:
+              if question_entity == entity_pair[3]:
                 sens_with_matching_ents.append(i) # Build a list of indices of sentences in doc_ner that have match
                 entity_found = True
                 break
@@ -243,9 +253,10 @@ for storyId in storyIdList:
           print("QuestionID: {}".format(questionId))
           #print("QUESTION:\t{}".format(question_text))
           print("ANSWER: ", end="")
-          for thing in ner_sens[tied_sentence_indices[0]]:
-            print(thing[0], end=" ")
-          print()
+          print(storySents[tied_sentence_indices[0]])
+          #for thing in ner_sens[tied_sentence_indices[0]]:
+            #print(thing[0], end=" ")
+          # print()
           print()
 
 
