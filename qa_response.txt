@@ -1,1532 +1,1533 @@
 QuestionID: 1999-W02-5-1
-ANSWER: South Queens Junior High School 
+Answer: South Queens Junior High School 
 
 QuestionID: 1999-W02-5-2
-ANSWER: Betty Jean Aucoin Nova Scotia 
+Answer: Betty Jean Aucoin Nova Scotia 
 
 QuestionID: 1999-W02-5-3
-ANSWER: Betty Jean Aucoin 
+Answer: Betty Jean Aucoin 
 
 QuestionID: 1999-W02-5-5
-ANSWER: Betty Jean Aucoin Nova Scotia 
+Answer: Betty Jean Aucoin Nova Scotia 
 
 QuestionID: 1999-W02-5-6
-ANSWER: more than 30 first 
+Answer: more than 30 first 
 
 QuestionID: 1999-W02-5-7
-ANSWER: more than 30 first 
+Answer: more than 30 first 
 
 QuestionID: 1999-W03-5-2
-ANSWER: Babe Belanger 
+Answer: Babe Belanger 
 
 QuestionID: 1999-W03-5-3
-ANSWER: Noella "Babe" MacLean 
+Answer: Noella "Babe" MacLean 
 
 QuestionID: 1999-W03-5-4
-ANSWER: only 5 feet 2 inches 
+Answer: only 5 feet 2 inches 
 
 QuestionID: 1999-W03-5-5
-ANSWER: only 5 feet 2 inches 
+Answer: only 5 feet 2 inches 
 
 QuestionID: 1999-W03-5-6
-ANSWER: 108 
+Answer: 108 
 
 QuestionID: 1999-W03-5-7
-ANSWER: this week age 87 
+Answer: this week age 87 
 
 QuestionID: 1999-W03-5-8
-ANSWER: Noella "Babe" MacLean 
+Answer: Noella "Babe" MacLean 
 
 QuestionID: 1999-W03-5-9
-ANSWER: Noella "Babe" MacLean Canada 
+Answer: Noella "Babe" MacLean Canada 
 
 QuestionID: 1999-W03-5-10
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W04-5-2
-ANSWER: thousands of dollars 
+Answer: thousands of dollars 
 
 QuestionID: 1999-W04-5-3
-ANSWER: Ottawa Alexi Yashin 
+Answer: Ottawa Alexi Yashin 
 
 QuestionID: 1999-W04-5-4
-ANSWER: one million dollars 
+Answer: one million dollars 
 
 QuestionID: 1999-W04-5-7
-ANSWER: the National Arts Centre 
+Answer: the National Arts Centre 
 
 QuestionID: 1999-W04-5-8
-ANSWER: the National Arts Centre 
+Answer: the National Arts Centre 
 
 QuestionID: 1999-W04-5-9
-ANSWER: Ottawa 
+Answer: Ottawa 
 
 QuestionID: 1999-W06-2-1
-ANSWER: Wiarton Willie Canadian 
+Answer: Wiarton Willie Canadian 
 
 QuestionID: 1999-W06-2-2
-ANSWER: spring Sunday two days 
+Answer: spring Sunday two days 
 
 QuestionID: 1999-W06-2-3
-ANSWER: Wiarton Willie Canadian 
+Answer: Wiarton Willie Canadian 
 
 QuestionID: 1999-W06-2-4
-ANSWER: today 
+Answer: today 
 
 QuestionID: 1999-W06-2-5
-ANSWER: spring Sunday two days 
+Answer: spring Sunday two days 
 
 QuestionID: 1999-W06-2-6
-ANSWER: Willie 
+Answer: Willie 
 
 QuestionID: 1999-W06-2-8
-ANSWER: Wiarton Willie Canadian 
+Answer: Wiarton Willie Canadian 
 
 QuestionID: 1999-W06-3-1
-ANSWER: Ontario Education Dave Johnson 
+Answer: Ontario Education Dave Johnson 
 
 QuestionID: 1999-W06-3-2
-ANSWER: 2.1 million 
+Answer: 2.1 million 
 
 QuestionID: 1999-W06-3-3
-ANSWER: Ontario Education Dave Johnson 
+Answer: Ontario Education Dave Johnson 
 
 QuestionID: 1999-W06-3-4
-ANSWER: Tuesday 
+Answer: Tuesday 
 
 QuestionID: 1999-W06-3-5
-ANSWER: Dave Johnson 
+Answer: Dave Johnson 
 
 QuestionID: 1999-W06-4-1
-ANSWER: 185-mile 
+Answer: 185-mile 
 
 QuestionID: 1999-W06-4-2
-ANSWER: Thesiger 
+Answer: Thesiger 
 
 QuestionID: 1999-W06-4-3
-ANSWER: Arabian 
+Answer: Arabian 
 
 QuestionID: 1999-W06-4-4
-ANSWER:
+Answer: Mr. Clarke is making the trek with his older brother Leigh and their friend Bruce Kirby.
 
 QuestionID: 1999-W06-4-6
-ANSWER: Thesiger 
+Answer: Thesiger 
 
 QuestionID: 1999-W06-4-8
-ANSWER:
+Answer: The group was forced to return briefly to replace some broken equipment, notably camel saddles, 40 kilometres into the odyssey.  
 
 QuestionID: 1999-W06-4-9
-ANSWER: Westerners   
+Answer: Westerners   
 
 QuestionID: 1999-W06-4-10
-ANSWER: 1997 
+Answer: 1997 
 
 QuestionID: 1999-W06-4-11
-ANSWER: Saudi Arabia Abu Dhabi 
+Answer: Saudi Arabia Abu Dhabi 
 
 QuestionID: 1999-W07-2-1
-ANSWER: Busch Stadium St. Louis Missouri 
+Answer: Busch Stadium St. Louis Missouri 
 
 QuestionID: 1999-W07-2-2
-ANSWER: 9 
+Answer: 9 
 
 QuestionID: 1999-W07-2-3
-ANSWER: yesterday 
+Answer: yesterday 
 
 QuestionID: 1999-W07-2-5
-ANSWER: 9 
+Answer: 9 
 
 QuestionID: 1999-W07-2-6
-ANSWER: Spawn Spawn 
+Answer: Spawn Spawn 
 
 QuestionID: 1999-W07-2-7
-ANSWER: McFarlane U.S. New York the Baltimore Orioles Florida 
+Answer: McFarlane U.S. New York the Baltimore Orioles Florida 
 
 QuestionID: 1999-W07-2-9
-ANSWER: nine nine 70 four five 
+Answer: nine nine 70 four five 
 
 QuestionID: 1999-W07-4-1
-ANSWER: NHL Nova Scotia 
+Answer: NHL Nova Scotia 
 
 QuestionID: 1999-W07-4-2
-ANSWER: the 1950s 
+Answer: the 1950s 
 
 QuestionID: 1999-W07-4-3
-ANSWER: Toronto 
+Answer: Toronto 
 
 QuestionID: 1999-W07-4-4
-ANSWER: one two 
+Answer: one two 
 
 QuestionID: 1999-W07-4-5
-ANSWER: the 1950s 
+Answer: the 1950s 
 
 QuestionID: 1999-W07-4-7
-ANSWER: Toronto 
+Answer: Toronto 
 
 QuestionID: 1999-W07-4-8
-ANSWER: Winnipeger Bill Juzda NHL 
+Answer: Winnipeger Bill Juzda NHL 
 
 QuestionID: 1999-W08-3-1
-ANSWER: 1939 Europe England 
+Answer: 1939 Europe England 
 
 QuestionID: 1999-W08-3-2
-ANSWER: Vancouver 
+Answer: Vancouver 
 
 QuestionID: 1999-W08-3-2
-ANSWER: Vancouver 
+Answer: Vancouver 
 
 QuestionID: 1999-W08-3-6
-ANSWER: CBC Radio "Canada Calling" 
+Answer: CBC Radio "Canada Calling" 
 
 QuestionID: 1999-W08-3-7
-ANSWER: This week the age of 69 
+Answer: This week the age of 69 
 
 QuestionID: 1999-W08-3-8
-ANSWER: National Post Geoffrey Dewis Vancouver 
+Answer: National Post Geoffrey Dewis Vancouver 
 
 QuestionID: 1999-W08-4-1
-ANSWER: Greece Kurdish 
+Answer: Greece Kurdish 
 
 QuestionID: 1999-W08-4-2
-ANSWER: Kurdish 
+Answer: Kurdish 
 
 QuestionID: 1999-W08-4-3
-ANSWER: Kurdish 
+Answer: Kurdish 
 
 QuestionID: 1999-W08-4-4
-ANSWER: Turkey 
+Answer: Turkey 
 
 QuestionID: 1999-W08-4-5
-ANSWER: Greece Kurdish Kurdish 
+Answer: Greece Kurdish Kurdish 
 
 QuestionID: 1999-W08-4-6
-ANSWER: 10 
+Answer: 10 
 
 QuestionID: 1999-W08-4-7
-ANSWER: Greece Kurdish 
+Answer: Greece Kurdish 
 
 QuestionID: 1999-W08-4-8
-ANSWER: yesterday 
+Answer: yesterday 
 
 QuestionID: 1999-W08-4-10
-ANSWER: Turkey Northern Iraq 
+Answer: Turkey Northern Iraq 
 
 QuestionID: 1999-W09-3-1
-ANSWER: first more than 15,000   
+Answer: first more than 15,000   
 
 QuestionID: 1999-W09-3-3
-ANSWER: Squamish North America 
+Answer: Squamish North America 
 
 QuestionID: 1999-W09-3-5
-ANSWER: last August 
+Answer: last August 
 
 QuestionID: 1999-W09-3-6
-ANSWER: Teamsters Teamsters 
+Answer: Teamsters Teamsters 
 
 QuestionID: 1999-W09-3-7
-ANSWER: McDonald Squamish Squamish the Canadian Auto Workers 
+Answer: McDonald Squamish Squamish the Canadian Auto Workers 
 
 QuestionID: 1999-W09-3-8
-ANSWER: Teamsters 
+Answer: Teamsters 
 
 QuestionID: 1999-W09-4-1
-ANSWER: Hill 
+Answer: Hill 
 
 QuestionID: 1999-W09-4-2
-ANSWER: Hill 
+Answer: Hill 
 
 QuestionID: 1999-W09-4-3
-ANSWER: first 
+Answer: first 
 
 QuestionID: 1999-W09-4-4
-ANSWER: Hill 
+Answer: Hill 
 
 QuestionID: 1999-W09-4-5
-ANSWER: Los Angeles California 
+Answer: Los Angeles California 
 
 QuestionID: 1999-W09-4-6
-ANSWER: Grammy 
+Answer: Grammy 
 
 QuestionID: 1999-W09-4-7
-ANSWER: Grammys Celine Dion 
+Answer: Grammys Celine Dion 
 
 QuestionID: 1999-W09-4-8
-ANSWER: last night's 
+Answer: last night's 
 
 QuestionID: 1999-W09-4-9
-ANSWER: Hill 
+Answer: Hill 
 
 QuestionID: 1999-W09-4-10
-ANSWER: Hill 
+Answer: Hill 
 
 QuestionID: 1999-W10-1-1
-ANSWER: Meadowvale Secondary School 
+Answer: Meadowvale Secondary School 
 
 QuestionID: 1999-W10-1-2
-ANSWER:
+Answer: Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge.
 
 QuestionID: 1999-W10-1-3
-ANSWER: thousands of dollars 
+Answer: thousands of dollars 
 
 QuestionID: 1999-W10-1-4
-ANSWER: June five-year 
+Answer: June five-year 
 
 QuestionID: 1999-W10-1-6
-ANSWER: CBC Newsworld YNN Athena Educational Partners Inc. YNN 
+Answer: CBC Newsworld YNN Athena Educational Partners Inc. YNN 
 
 QuestionID: 1999-W10-1-7
-ANSWER: CBC Newsworld Meadowvale YNN Montreal Athena Educational Partners Inc. Laurie Pedwell YNN 
+Answer: CBC Newsworld Meadowvale YNN Montreal Athena Educational Partners Inc. Laurie Pedwell YNN 
 
 QuestionID: 1999-W10-1-10
-ANSWER: thousands of dollars 
+Answer: thousands of dollars 
 
 QuestionID: 1999-W10-1-11
-ANSWER: Heather-Jane Robertson the Canadian Teachers Federation 
+Answer: Heather-Jane Robertson the Canadian Teachers Federation 
 
 QuestionID: 1999-W10-2-2
-ANSWER: 1997 
+Answer: 1997 
 
 QuestionID: 1999-W10-2-3
-ANSWER:
+Answer: Despite these notable absences, Nobel Peace Prize winner Jody Williams, of The International Campaign to Ban Landmines, says the accord has an impact for many other countries in the world.  
 
 QuestionID: 1999-W10-2-4
-ANSWER: Paris France 
+Answer: Paris France 
 
 QuestionID: 1999-W10-2-5
-ANSWER: two one 
+Answer: two one 
 
 QuestionID: 1999-W10-2-6
-ANSWER: Portuguese   
+Answer: Portuguese   
 
 QuestionID: 1999-W10-2-7
-ANSWER: Jody Williams The International Campaign to Ban Landmines 
+Answer: Jody Williams The International Campaign to Ban Landmines 
 
 QuestionID: 1999-W10-2-9
-ANSWER: Japan Hiroshima Tokyo Osaka 
+Answer: Japan Hiroshima Tokyo Osaka 
 
 QuestionID: 1999-W10-3-1
-ANSWER: Oscar Sunday, March 21 Tom Hanks Gwyneth Paltrow Steven Spielberg 
+Answer: Oscar Sunday, March 21 Tom Hanks Gwyneth Paltrow Steven Spielberg 
 
 QuestionID: 1999-W10-3-2
-ANSWER: Wang 
+Answer: Wang 
 
 QuestionID: 1999-W10-3-4
-ANSWER: Red Guards Chinese 
+Answer: Red Guards Chinese 
 
 QuestionID: 1999-W10-3-5
-ANSWER: June 4, 1989 
+Answer: June 4, 1989 
 
 QuestionID: 1999-W10-3-6
-ANSWER: West 
+Answer: West 
 
 QuestionID: 1999-W10-3-7
-ANSWER: Oscar Tom Hanks Gwyneth Paltrow Steven Spielberg 
+Answer: Oscar Tom Hanks Gwyneth Paltrow Steven Spielberg 
 
 QuestionID: 1999-W10-4-1
-ANSWER:
+Answer: The Health Department has already consulted with the Food and Drug Administration in the United States -- which is also planning similar trials -- about acquiring marijuana for the tests.  
 
 QuestionID: 1999-W10-4-2
-ANSWER: The Health Department the Food and Drug Administration 
+Answer: The Health Department the Food and Drug Administration 
 
 QuestionID: 1999-W10-4-3
-ANSWER: The Health Department the Food and Drug Administration the United States 
+Answer: The Health Department the Food and Drug Administration the United States 
 
 QuestionID: 1999-W10-4-4
-ANSWER: Helen Hays 
+Answer: Helen Hays 
 
 QuestionID: 1999-W10-4-5
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W10-4-6
-ANSWER: minutes 
+Answer: minutes 
 
 QuestionID: 1999-W10-5-1
-ANSWER: Yalnizyan Alberta Alberta Canada 
+Answer: Yalnizyan Alberta Alberta Canada 
 
 QuestionID: 1999-W10-5-3
-ANSWER: Alberta Alberta Canada 
+Answer: Alberta Alberta Canada 
 
 QuestionID: 1999-W10-5-5
-ANSWER: Alberta Alberta Canada 
+Answer: Alberta Alberta Canada 
 
 QuestionID: 1999-W10-5-6
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W10-5-7
-ANSWER: Thursday 
+Answer: Thursday 
 
 QuestionID: 1999-W11-2-1
-ANSWER: Arctic 
+Answer: Arctic 
 
 QuestionID: 1999-W11-2-2
-ANSWER: Arctic 
+Answer: Arctic 
 
 QuestionID: 1999-W11-2-3
-ANSWER: daily 
+Answer: daily 
 
 QuestionID: 1999-W11-2-4
-ANSWER: Carole Mills the Department of Indian and Northern Affairs the Canadian Arctic Indigenous Peoples Against 
+Answer: Carole Mills the Department of Indian and Northern Affairs the Canadian Arctic Indigenous Peoples Against 
 
 QuestionID: 1999-W11-2-5
-ANSWER:
+Answer: "The contamination of animals is confusing and sometimes even alarming, and even my own family members have sometimes stopped eating fish until I could talk to them and explain that the contaminants do concentrate in specific parts, so you don't have to stop eating the animals," she says.  
 
 QuestionID: 1999-W11-2-6
-ANSWER:
+Answer: Chemicals are polluting the animals of the Arctic, a United Nations conference was told this week.
 
 QuestionID: 1999-W11-2-8
-ANSWER:
+Answer: "The contamination of animals is confusing and sometimes even alarming, and even my own family members have sometimes stopped eating fish until I could talk to them and explain that the contaminants do concentrate in specific parts, so you don't have to stop eating the animals," she says.  
 
 QuestionID: 1999-W11-2-9
-ANSWER: Eric Loring Inuit Canada 
+Answer: Eric Loring Inuit Canada 
 
 QuestionID: 1999-W11-2-10
-ANSWER: Carole Mills 
+Answer: Carole Mills 
 
 QuestionID: 1999-W11-3-1
-ANSWER: Dalhousie University Nova Scotia 
+Answer: Dalhousie University Nova Scotia 
 
 QuestionID: 1999-W11-3-4
-ANSWER:
+Answer: There has been a moratorium - a temporary ban -  on fishing for cod since 1992 after fish stocks dropped to dangerous levels.  
 
 QuestionID: 1999-W11-3-5
-ANSWER: seven years today 1992 
+Answer: seven years today 1992 
 
 QuestionID: 1999-W11-3-6
-ANSWER:
+Answer: Lloyd Oldford of Red Cliff, Bonavista Bay, a fisherman who first alerted Efford to the problem, said the video in no way shows the true extent of the destruction fishermen are seeing.  
 
 QuestionID: 1999-W11-3-7
-ANSWER: first 
+Answer: first 
 
 QuestionID: 1999-W11-3-8
-ANSWER: Bonavista Bay 
+Answer: Bonavista Bay 
 
 QuestionID: 1999-W11-3-10
-ANSWER: first 
+Answer: first 
 
 QuestionID: 1999-W11-5-1
-ANSWER: Bill 101 
+Answer: Bill 101 
 
 QuestionID: 1999-W11-5-2
-ANSWER: Bill 101 
+Answer: Bill 101 
 
 QuestionID: 1999-W11-5-4
-ANSWER: Laurin 
+Answer: Laurin 
 
 QuestionID: 1999-W11-5-5
-ANSWER: 1977 
+Answer: 1977 
 
 QuestionID: 1999-W11-5-6
-ANSWER: Quebec 
+Answer: Quebec 
 
 QuestionID: 1999-W11-5-8
-ANSWER: Quebec 
+Answer: Quebec 
 
 QuestionID: 1999-W12-3-1
-ANSWER: Bedouin 
+Answer: Bedouin 
 
 QuestionID: 1999-W12-3-2
-ANSWER: more than three million 
+Answer: more than three million 
 
 QuestionID: 1999-W12-3-4
-ANSWER: Clarke 
+Answer: Clarke 
 
 QuestionID: 1999-W12-3-6
-ANSWER: Oman Saudi Arabia the United Arab Emirates 
+Answer: Oman Saudi Arabia the United Arab Emirates 
 
 QuestionID: 1999-W12-3-8
-ANSWER: three days 
+Answer: three days 
 
 QuestionID: 1999-W12-3-10
-ANSWER:
+Answer: He added that "you have to be nice to it, you have to talk softly and show your love" or you ll be trying to work with a grumpy, screaming beast.  
 
 QuestionID: 1999-W12-4-1
-ANSWER: Tyrell Dueck 13 less than a year 
+Answer: Tyrell Dueck 13 less than a year 
 
 QuestionID: 1999-W12-4-3
-ANSWER: Tijuana Mexico 
+Answer: Tijuana Mexico 
 
 QuestionID: 1999-W12-4-4
-ANSWER: Tijuana Mexico 
+Answer: Tijuana Mexico 
 
 QuestionID: 1999-W12-4-5
-ANSWER: Nanson Tyrell s 
+Answer: Nanson Tyrell s 
 
 QuestionID: 1999-W12-4-6
-ANSWER: Tyrell 
+Answer: Tyrell 
 
 QuestionID: 1999-W12-4-7
-ANSWER: 13 less than a year 
+Answer: 13 less than a year 
 
 QuestionID: 1999-W12-5-2
-ANSWER: Native Manitoba Hockey League Dauphin Manitoba 
+Answer: Native Manitoba Hockey League Dauphin Manitoba 
 
 QuestionID: 1999-W12-5-3
-ANSWER: Two weeks ago 
+Answer: Two weeks ago 
 
 QuestionID: 1999-W12-5-4
-ANSWER: First Nations 
+Answer: First Nations 
 
 QuestionID: 1999-W12-5-5
-ANSWER: Hockey League 
+Answer: Hockey League 
 
 QuestionID: 1999-W12-5-6
-ANSWER: Manitoba Dauphin Manitoba 
+Answer: Manitoba Dauphin Manitoba 
 
 QuestionID: 1999-W12-5-7
-ANSWER: Manitoba Dauphin Manitoba 
+Answer: Manitoba Dauphin Manitoba 
 
 QuestionID: 1999-W12-5-8
-ANSWER: Manitoba Dauphin Manitoba 
+Answer: Manitoba Dauphin Manitoba 
 
 QuestionID: 1999-W13-1-1
-ANSWER: A. R. Rothery A. R. Rothery Tyrell Tyrell 
+Answer: A. R. Rothery A. R. Rothery Tyrell Tyrell 
 
 QuestionID: 1999-W13-1-3
-ANSWER: Tyrell 
+Answer: Tyrell 
 
 QuestionID: 1999-W13-1-4
-ANSWER: Tyrell 
+Answer: Tyrell 
 
 QuestionID: 1999-W13-1-5
-ANSWER: Sunday 
+Answer: Sunday 
 
 QuestionID: 1999-W13-1-6
-ANSWER: Saskatchewan Social Services 
+Answer: Saskatchewan Social Services 
 
 QuestionID: 1999-W13-1-7
-ANSWER: Mexico 
+Answer: Mexico 
 
 QuestionID: 1999-W13-3-1
-ANSWER: the North Atlantic Treaty Organizatoin NATO Yugoslavians 
+Answer: the North Atlantic Treaty Organizatoin NATO Yugoslavians 
 
 QuestionID: 1999-W13-3-2
-ANSWER: Yugoslavians Kosovo 
+Answer: Yugoslavians Kosovo 
 
 QuestionID: 1999-W13-3-3
-ANSWER: hundreds and hundreds 
+Answer: hundreds and hundreds 
 
 QuestionID: 1999-W13-3-3
-ANSWER: hundreds and hundreds 
+Answer: hundreds and hundreds 
 
 QuestionID: 1999-W13-3-5
-ANSWER: Kosovo 
+Answer: Kosovo 
 
 QuestionID: 1999-W13-3-6
-ANSWER: Michel Maisonneuve Canadian NATO 
+Answer: Michel Maisonneuve Canadian NATO 
 
 QuestionID: 1999-W13-3-7
-ANSWER: Kosovo 
+Answer: Kosovo 
 
 QuestionID: 1999-W13-3-9
-ANSWER: Javier Solana 
+Answer: Javier Solana 
 
 QuestionID: 1999-W13-3-10
-ANSWER: Yugoslav NATO 
+Answer: Yugoslav NATO 
 
 QuestionID: 1999-W13-3-11
-ANSWER: about 130 six 
+Answer: about 130 six 
 
 QuestionID: 1999-W13-5-1
-ANSWER: Yugoslavia Kosovo 
+Answer: Yugoslavia Kosovo 
 
 QuestionID: 1999-W13-5-2
-ANSWER: Yugoslavia Kosovo 
+Answer: Yugoslavia Kosovo 
 
 QuestionID: 1999-W13-5-4
-ANSWER: Four 
+Answer: Four 
 
 QuestionID: 1999-W13-5-5
-ANSWER: One 
+Answer: One 
 
 QuestionID: 1999-W13-5-6
-ANSWER: Bagotville Quebec Italian Kosovo 
+Answer: Bagotville Quebec Italian Kosovo 
 
 QuestionID: 1999-W13-5-7
-ANSWER: late Thursday a second day 
+Answer: late Thursday a second day 
 
 QuestionID: 1999-W13-5-9
-ANSWER: Defence Art Eggleton the House of Commons 
+Answer: Defence Art Eggleton the House of Commons 
 
 QuestionID: 1999-W14-1-2
-ANSWER:
+Answer: If a computer user opens the infected Word document, the virus propagates itself by reading the user's e-mail address book and sends an infected message to the first 50 entries.  
 
 QuestionID: 1999-W14-1-4
-ANSWER:
+Answer: If a computer user opens the infected Word document, the virus propagates itself by reading the user's e-mail address book and sends an infected message to the first 50 entries.  
 
 QuestionID: 1999-W14-1-5
-ANSWER: 50 
+Answer: 50 
 
 QuestionID: 1999-W14-1-6
-ANSWER: Melissa 
+Answer: Melissa 
 
 QuestionID: 1999-W14-1-7
-ANSWER: Melissa 
+Answer: Melissa 
 
 QuestionID: 1999-W14-1-8
-ANSWER: Friday afternoon the night 
+Answer: Friday afternoon the night 
 
 QuestionID: 1999-W14-1-9
-ANSWER:
+Answer: Several antivirus software makers have posted patches on their Web sites to detect and reject the virus.
 
 QuestionID: 1999-W14-1-10
-ANSWER: Melissa 
+Answer: Melissa 
 
 QuestionID: 1999-W14-3-1
-ANSWER: the last 10 days half a century ago 
+Answer: the last 10 days half a century ago 
 
 QuestionID: 1999-W14-3-2
-ANSWER: The Royal Navy Grand Banks 
+Answer: The Royal Navy Grand Banks 
 
 QuestionID: 1999-W14-3-3
-ANSWER: The Royal Navy Grand Banks the summer fishing season seasonal 
+Answer: The Royal Navy Grand Banks the summer fishing season seasonal 
 
 QuestionID: 1999-W14-3-5
-ANSWER: Newfoundland Canada 
+Answer: Newfoundland Canada 
 
 QuestionID: 1999-W14-3-6
-ANSWER: first 
+Answer: first 
 
 QuestionID: 1999-W14-3-7
-ANSWER:
+Answer: Newfoundlanders were swept up in a passionate debate between a pro-union movement called the Confederates and an anti-union movement that wanted Newfoundland to have what was called "responsible government", that is, to remain independent from Canada.  
 
 QuestionID: 1999-W14-3-7
-ANSWER:
+Answer: Newfoundlanders were swept up in a passionate debate between a pro-union movement called the Confederates and an anti-union movement that wanted Newfoundland to have what was called "responsible government", that is, to remain independent from Canada.  
 
 QuestionID: 1999-W14-3-9
-ANSWER: Confederates Newfoundland Canada 
+Answer: Confederates Newfoundland Canada 
 
 QuestionID: 1999-W14-3-9
-ANSWER: Confederates Newfoundland Canada 
+Answer: Confederates Newfoundland Canada 
 
 QuestionID: 1999-W14-5-1
-ANSWER: Winnipeg 
+Answer: Winnipeg 
 
 QuestionID: 1999-W14-5-3
-ANSWER: CNN 
+Answer: CNN 
 
 QuestionID: 1999-W14-5-4
-ANSWER: Corley Corley 
+Answer: Corley Corley 
 
 QuestionID: 1999-W14-5-5
-ANSWER:
+Answer: Mary Lou Finlay of CBC Radio's weeknight program
 
 QuestionID: 1999-W15-2-1
-ANSWER: Calgary Chevy Chase 
+Answer: Calgary Chevy Chase 
 
 QuestionID: 1999-W15-2-2
-ANSWER: March Sunday 
+Answer: March Sunday 
 
 QuestionID: 1999-W15-2-3
-ANSWER: Calgary Calgary Alberta Alberta Hollywood Hollywood California California 
+Answer: Calgary Calgary Alberta Alberta Hollywood Hollywood California California 
 
 QuestionID: 1999-W15-2-5
-ANSWER: Calgary Alberta Hollywood California the Great White North 
+Answer: Calgary Alberta Hollywood California the Great White North 
 
 QuestionID: 1999-W15-2-7
-ANSWER: Calgary Alberta Hollywood California 
+Answer: Calgary Alberta Hollywood California 
 
 QuestionID: 1999-W15-4-2
-ANSWER: the National Institute of History and Anthropology 
+Answer: the National Institute of History and Anthropology 
 
 QuestionID: 1999-W15-4-3
-ANSWER: Cerro Hueco 
+Answer: Cerro Hueco 
 
 QuestionID: 1999-W15-4-4
-ANSWER: February a year one month 
+Answer: February a year one month 
 
 QuestionID: 1999-W15-4-5
-ANSWER: Montreal British Columbia 
+Answer: Montreal British Columbia 
 
 QuestionID: 1999-W15-4-6
-ANSWER: 72,000 
+Answer: 72,000 
 
 QuestionID: 1999-W15-4-7
-ANSWER: Mexico 
+Answer: Mexico 
 
 QuestionID: 1999-W15-4-9
-ANSWER: about 200,000 only about 150 
+Answer: about 200,000 only about 150 
 
 QuestionID: 1999-W15-4-10
-ANSWER: Montreal British Columbia 
+Answer: Montreal British Columbia 
 
 QuestionID: 1999-W15-5-2
-ANSWER: the 1950s 
+Answer: the 1950s 
 
 QuestionID: 1999-W15-5-3
-ANSWER: Provincial New Denver British Columbia 
+Answer: Provincial New Denver British Columbia 
 
 QuestionID: 1999-W15-5-5
-ANSWER: Dulcie McCallum 
+Answer: Dulcie McCallum 
 
 QuestionID: 1999-W15-5-6
-ANSWER:
+Answer: British Columbia's ombudsman says the provincial government should apologize to and compensate the children of a controversial religious group who were locked up in an internment camp during the 1950s.  
 
 QuestionID: 1999-W15-5-7
-ANSWER: one 
+Answer: one 
 
 QuestionID: 1999-W15-5-8
-ANSWER: British Columbia Dosanjn 
+Answer: British Columbia Dosanjn 
 
 QuestionID: 1999-W15-5-9
-ANSWER:
+Answer: British Columbia's ombudsman says the provincial government should apologize to and compensate the children of a controversial religious group who were locked up in an internment camp during the 1950s.  
 
 QuestionID: 1999-W16-3-2
-ANSWER: about 1 every 1,000 
+Answer: about 1 every 1,000 
 
 QuestionID: 1999-W16-3-3
-ANSWER: Last year 
+Answer: Last year 
 
 QuestionID: 1999-W16-3-6
-ANSWER: Rubella 
+Answer: Rubella 
 
 QuestionID: 1999-W16-3-7
-ANSWER:
+Answer: They lost their court case, but many parents chose not to have their children vaccinated, says Robert Pless of the federal Laboratory Centre for Disease Control.
 
 QuestionID: 1999-W16-3-8
-ANSWER: Manitoba Grade Hepatitis B.   
+Answer: Manitoba Grade Hepatitis B.   
 
 QuestionID: 1999-W16-3-9
-ANSWER: North and South America 
+Answer: North and South America 
 
 QuestionID: 1999-W16-4-2
-ANSWER: Cambridge Massachusetts Chinese Tibet China 
+Answer: Cambridge Massachusetts Chinese Tibet China 
 
 QuestionID: 1999-W16-4-5
-ANSWER: Canada the City of Saint John's Ottawa 
+Answer: Canada the City of Saint John's Ottawa 
 
 QuestionID: 1999-W16-4-6
-ANSWER: 150,000 50,000 miles 
+Answer: 150,000 50,000 miles 
 
 QuestionID: 1999-W16-4-7
-ANSWER: China 
+Answer: China 
 
 QuestionID: 1999-W16-4-8
-ANSWER: Al Duerr's Zhu 
+Answer: Al Duerr's Zhu 
 
 QuestionID: 1999-W16-4-9
-ANSWER: China 
+Answer: China 
 
 QuestionID: 1999-W16-4-10
-ANSWER: Tibet India Nepal 
+Answer: Tibet India Nepal 
 
 QuestionID: 1999-W16-5-1
-ANSWER: British Columbia's Fraser Valley the Fraser River 
+Answer: British Columbia's Fraser Valley the Fraser River 
 
 QuestionID: 1999-W16-5-2
-ANSWER: Fraser Valley the Fraser River 
+Answer: Fraser Valley the Fraser River 
 
 QuestionID: 1999-W16-5-3
-ANSWER: Fraser Valley the Fraser River 
+Answer: Fraser Valley the Fraser River 
 
 QuestionID: 1999-W16-5-5
-ANSWER: this spring 1948 
+Answer: this spring 1948 
 
 QuestionID: 1999-W16-5-7
-ANSWER: 1948 
+Answer: 1948 
 
 QuestionID: 1999-W16-5-8
-ANSWER: almost 8 metres just 80 kilometres 
+Answer: almost 8 metres just 80 kilometres 
 
 QuestionID: 1999-W16-5-9
-ANSWER: British Columbia's   
+Answer: British Columbia's   
 
 QuestionID: 1999-W17-1-1
-ANSWER: hundreds 10-pin 
+Answer: hundreds 10-pin 
 
 QuestionID: 1999-W17-1-2
-ANSWER: Lemieux Mark Messier Gretzky the Edmonton Oilers 
+Answer: Lemieux Mark Messier Gretzky the Edmonton Oilers 
 
 QuestionID: 1999-W17-1-3
-ANSWER: North America Europe New York City 
+Answer: North America Europe New York City 
 
 QuestionID: 1999-W17-1-4
-ANSWER: 99 
+Answer: 99 
 
 QuestionID: 1999-W17-1-5
-ANSWER: yesterday afternoon less than 24 hours 
+Answer: yesterday afternoon less than 24 hours 
 
 QuestionID: 1999-W17-1-7
-ANSWER: Wayne 
+Answer: Wayne 
 
 QuestionID: 1999-W17-1-8
-ANSWER: Wayne Gretzky 
+Answer: Wayne Gretzky 
 
 QuestionID: 1999-W17-1-9
-ANSWER: Gretzky Michael Jordan 
+Answer: Gretzky Michael Jordan 
 
 QuestionID: 1999-W17-1-10
-ANSWER: Lemieux Mark Messier Gretzky the Edmonton Oilers 
+Answer: Lemieux Mark Messier Gretzky the Edmonton Oilers 
 
 QuestionID: 1999-W17-3-1
-ANSWER: 16 one two 
+Answer: 16 one two 
 
 QuestionID: 1999-W17-3-1
-ANSWER: 16 one two 
+Answer: 16 one two 
 
 QuestionID: 1999-W17-3-3
-ANSWER: Witnesses 
+Answer: Witnesses 
 
 QuestionID: 1999-W17-3-4
-ANSWER: the Jefferson County Sheriff's Department 
+Answer: the Jefferson County Sheriff's Department 
 
 QuestionID: 1999-W17-3-5
-ANSWER: Littleton 
+Answer: Littleton 
 
 QuestionID: 1999-W17-3-6
-ANSWER: Tuesday 
+Answer: Tuesday 
 
 QuestionID: 1999-W17-3-7
-ANSWER: American Bill Clinton 
+Answer: American Bill Clinton 
 
 QuestionID: 1999-W17-3-8
-ANSWER: Bill Clinton 
+Answer: Bill Clinton 
 
 QuestionID: 1999-W17-3-10
-ANSWER: Colorado 
+Answer: Colorado 
 
 QuestionID: 1999-W17-3-11
-ANSWER: Representative Doug 
+Answer: Representative Doug 
 
 QuestionID: 1999-W17-5-1
-ANSWER: more than 95,000 12 
+Answer: more than 95,000 12 
 
 QuestionID: 1999-W17-5-2
-ANSWER: Edmonton 
+Answer: Edmonton 
 
 QuestionID: 1999-W17-5-3
-ANSWER:
+Answer: Class size is the biggest stumbling block in the dispute between the board and the teachers' union.  
 
 QuestionID: 1999-W17-5-4
-ANSWER: Calgary 
+Answer: Calgary 
 
 QuestionID: 1999-W17-5-6
-ANSWER: Monday 
+Answer: Monday 
 
 QuestionID: 1999-W17-5-7
-ANSWER:
+Answer: While a strike will leave more than 95,000 students in academic limbo and parents scrambling to make alternate arrangements, Grade 12 diploma exams will go on.  
 
 QuestionID: 1999-W17-5-8
-ANSWER:
+Answer: Class size is the biggest stumbling block in the dispute between the board and the teachers' union.  
 
 QuestionID: 1999-W17-5-9
-ANSWER:
+Answer: While a strike will leave more than 95,000 students in academic limbo and parents scrambling to make alternate arrangements, Grade 12 diploma exams will go on.  
 
 QuestionID: 1999-W17-5-10
-ANSWER: Teresa Woo-Paw 
+Answer: Teresa Woo-Paw 
 
 QuestionID: 1999-W18-3-1
-ANSWER: Next year 
+Answer: Next year 
 
 QuestionID: 1999-W18-3-2
-ANSWER: Nexia Biotechnologies 
+Answer: Nexia Biotechnologies 
 
 QuestionID: 1999-W18-3-3
-ANSWER: only about three or four 
+Answer: only about three or four 
 
 QuestionID: 1999-W18-3-4
-ANSWER:   
+Answer:   
 
 QuestionID: 1999-W18-3-7
-ANSWER: BioSteel 
+Answer: BioSteel 
 
 QuestionID: 1999-W18-4-1
-ANSWER: day 
+Answer: day 
 
 QuestionID: 1999-W18-4-2
-ANSWER: Denver Pastor Gartly Taber Evangelical Free Church 
+Answer: Denver Pastor Gartly Taber Evangelical Free Church 
 
 QuestionID: 1999-W18-4-4
-ANSWER: Alberta British Columbia Taber 
+Answer: Alberta British Columbia Taber 
 
 QuestionID: 1999-W18-4-5
-ANSWER: Columbine Littleton Colorado 
+Answer: Columbine Littleton Colorado 
 
 QuestionID: 1999-W18-4-7
-ANSWER: evening Taber Evangelical Free Church day 
+Answer: evening Taber Evangelical Free Church day 
 
 QuestionID: 1999-W18-4-8
-ANSWER: evening day 
+Answer: evening day 
 
 QuestionID: 1999-W18-5-1
-ANSWER: A month last night 
+Answer: A month last night 
 
 QuestionID: 1999-W18-5-3
-ANSWER: Albanian 
+Answer: Albanian 
 
 QuestionID: 1999-W18-5-4
-ANSWER: about seven kilometres 
+Answer: about seven kilometres 
 
 QuestionID: 1999-W18-5-6
-ANSWER: Winnipeg 
+Answer: Winnipeg 
 
 QuestionID: 1999-W18-5-7
-ANSWER: four 
+Answer: four 
 
 QuestionID: 1999-W18-5-9
-ANSWER: Western Canada 
+Answer: Western Canada 
 
 QuestionID: 1999-W18-5-10
-ANSWER: Western Canada 
+Answer: Western Canada 
 
 QuestionID: 1999-W19-1-1
-ANSWER: first roughly 10,000 
+Answer: first roughly 10,000 
 
 QuestionID: 1999-W19-1-2
-ANSWER: North America first Asia 
+Answer: North America first Asia 
 
 QuestionID: 1999-W19-1-4
-ANSWER: Eastern Beringia Ottawa 
+Answer: Eastern Beringia Ottawa 
 
 QuestionID: 1999-W19-1-4
-ANSWER: Eastern Beringia Ottawa 
+Answer: Eastern Beringia Ottawa 
 
 QuestionID: 1999-W19-1-6
-ANSWER: the Bluefish River Old Crow 
+Answer: the Bluefish River Old Crow 
 
 QuestionID: 1999-W19-1-7
-ANSWER: the New World the Canadian Museum of Civilization 
+Answer: the New World the Canadian Museum of Civilization 
 
 QuestionID: 1999-W19-1-8
-ANSWER: the New World Jacques Cinq-Mars the Canadian Museum of Civilization Ottawa 
+Answer: the New World Jacques Cinq-Mars the Canadian Museum of Civilization Ottawa 
 
 QuestionID: 1999-W19-1-9
-ANSWER: Heather Pringle 
+Answer: Heather Pringle 
 
 QuestionID: 1999-W19-2-1
-ANSWER:
+Answer: The recognizable shape of the tornado is the swirling funnel cloud that extends from the base of a storm cloud to the ground.  
 
 QuestionID: 1999-W19-2-2
-ANSWER:
+Answer: The recognizable shape of the tornado is the swirling funnel cloud that extends from the base of a storm cloud to the ground.  
 
 QuestionID: 1999-W19-2-3
-ANSWER: Oklahoma Oklahoma Oklahoma City 
+Answer: Oklahoma Oklahoma Oklahoma City 
 
 QuestionID: 1999-W19-2-4
-ANSWER: today 
+Answer: today 
 
 QuestionID: 1999-W19-2-5
-ANSWER: today 
+Answer: today 
 
 QuestionID: 1999-W19-2-6
-ANSWER:
+Answer: The recognizable shape of the tornado is the swirling funnel cloud that extends from the base of a storm cloud to the ground.  
 
 QuestionID: 1999-W19-2-7
-ANSWER: one 
+Answer: one 
 
 QuestionID: 1999-W19-2-8
-ANSWER:
+Answer: The recognizable shape of the tornado is the swirling funnel cloud that extends from the base of a storm cloud to the ground.  
 
 QuestionID: 1999-W19-2-9
-ANSWER:
+Answer: Scientists rank tornadoes on the Fujita scale of intensity, named after a University of Chicago researcher.
 
 QuestionID: 1999-W19-4-1
-ANSWER: Russia the United States Canada Kosovo 
+Answer: Russia the United States Canada Kosovo 
 
 QuestionID: 1999-W19-4-2
-ANSWER: Eight seven 
+Answer: Eight seven 
 
 QuestionID: 1999-W19-4-3
-ANSWER: six years ago 
+Answer: six years ago 
 
 QuestionID: 1999-W19-4-4
-ANSWER: Kosovo 
+Answer: Kosovo 
 
 QuestionID: 1999-W19-4-8
-ANSWER: 185 
+Answer: 185 
 
 QuestionID: 1999-W19-5-1
-ANSWER: Lake Winnipeg 
+Answer: Lake Winnipeg 
 
 QuestionID: 1999-W19-5-2
-ANSWER: next week 
+Answer: next week 
 
 QuestionID: 1999-W19-5-3
-ANSWER: Manigotagan Lake Winnipeg 
+Answer: Manigotagan Lake Winnipeg 
 
 QuestionID: 1999-W19-5-4
-ANSWER: Ontario Ontario 
+Answer: Ontario Ontario 
 
 QuestionID: 1999-W19-5-5
-ANSWER: Natural Resources Glen Cummings 
+Answer: Natural Resources Glen Cummings 
 
 QuestionID: 1999-W19-5-6
-ANSWER: Bob Thomas 
+Answer: Bob Thomas 
 
 QuestionID: 1999-W19-5-7
-ANSWER: 200 
+Answer: 200 
 
 QuestionID: 1999-W19-5-8
-ANSWER: Manitoba the middle of the week Winnipeg 
+Answer: Manitoba the middle of the week Winnipeg 
 
 QuestionID: 1999-W20-5-1
-ANSWER: One more than 750,000 
+Answer: One more than 750,000 
 
 QuestionID: 1999-W20-5-2
-ANSWER:
+Answer: A team of Calgary researchers says that they have discovered one of the causes of diabetes.  
 
 QuestionID: 1999-W20-5-3
-ANSWER:
+Answer: "This is a major landmark study and it helps us understand the disease in a way we haven't in the past," says Dr. David Lau of the Julia McFarlane Diabetes Research Centre.  
 
 QuestionID: 1999-W20-5-4
-ANSWER:
+Answer: Dr. Ji-Won Yoon and his team at the University of Calgary say their research gives insight into what triggers insulin-dependent diabetes.  
 
 QuestionID: 1999-W20-5-5
-ANSWER:
+Answer: The scientists have spent the last eight years in the lab trying to pinpoint the immune system's role in diabetes.  
 
 QuestionID: 1999-W20-5-7
-ANSWER: Calgary 
+Answer: Calgary 
 
 QuestionID: 1999-W20-5-8
-ANSWER: Ji-Won Yoon 
+Answer: Ji-Won Yoon 
 
 QuestionID: 1999-W20-5-9
-ANSWER: Calgarian 
+Answer: Calgarian 
 
 QuestionID: 1999-W21-3-1
-ANSWER: late April 
+Answer: late April 
 
 QuestionID: 1999-W21-3-2
-ANSWER: Montreal 
+Answer: Montreal 
 
 QuestionID: 1999-W21-3-3
-ANSWER: Star Wars: Episode 1 The Phantom Menace 
+Answer: Star Wars: Episode 1 The Phantom Menace 
 
 QuestionID: 1999-W21-3-4
-ANSWER: Ken 
+Answer: Ken 
 
 QuestionID: 1999-W21-3-6
-ANSWER: 12 
+Answer: 12 
 
 QuestionID: 1999-W21-3-8
-ANSWER: Chinese Theatre Hollywood 
+Answer: Chinese Theatre Hollywood 
 
 QuestionID: 1999-W21-3-9
-ANSWER: the Toronto Star the Toronto Star Geoff Pevere 
+Answer: the Toronto Star the Toronto Star Geoff Pevere 
 
 QuestionID: 1999-W21-5-1
-ANSWER: Gisborne Lake 
+Answer: Gisborne Lake 
 
 QuestionID: 1999-W21-5-2
-ANSWER: Gerry White Gerry White Gisborne Lake Grand Lepierre Grand Lepierre 
+Answer: Gerry White Gerry White Gisborne Lake Grand Lepierre Grand Lepierre 
 
 QuestionID: 1999-W21-5-3
-ANSWER: Ottawa 
+Answer: Ottawa 
 
 QuestionID: 1999-W21-5-4
-ANSWER: Maude Barlow the Council of Canadians   
+Answer: Maude Barlow the Council of Canadians   
 
 QuestionID: 1999-W21-5-5
-ANSWER:
+Answer: But it is about to become the source of a $35-million water project -- and a free-trade controversy.  
 
 QuestionID: 1999-W21-5-6
-ANSWER: Maude Barlow   
+Answer: Maude Barlow   
 
 QuestionID: 1999-W21-5-7
-ANSWER: months 
+Answer: months 
 
 QuestionID: 1999-W21-5-8
-ANSWER: Gerry White Grand Lepierre 
+Answer: Gerry White Grand Lepierre 
 
 QuestionID: 1999-W22-2-1
-ANSWER: British Columbia's Lower Mainland 
+Answer: British Columbia's Lower Mainland 
 
 QuestionID: 1999-W22-2-4
-ANSWER: the past two months 
+Answer: the past two months 
 
 QuestionID: 1999-W22-2-5
-ANSWER: Slobodan Milosevic 
+Answer: Slobodan Milosevic 
 
 QuestionID: 1999-W22-2-6
-ANSWER: Some 2,000 
+Answer: Some 2,000 
 
 QuestionID: 1999-W22-2-7
-ANSWER: Yugoslavia Kosovo 
+Answer: Yugoslavia Kosovo 
 
 QuestionID: 1999-W22-2-8
-ANSWER: Kosovar Yugoslavia Slobodan Milosevic Albanians Yugoslavian Kosovo 
+Answer: Kosovar Yugoslavia Slobodan Milosevic Albanians Yugoslavian Kosovo 
 
 QuestionID: 1999-W22-3-1
-ANSWER: Owen Owen Ellie Hart 
+Answer: Owen Owen Ellie Hart 
 
 QuestionID: 1999-W22-3-2
-ANSWER: Owen Owen Ellie Hart 
+Answer: Owen Owen Ellie Hart 
 
 QuestionID: 1999-W22-3-3
-ANSWER:
+Answer: Wrestling is now so mainstream that a former star Jesse "The Body" Ventura was elected governor of the American state of Minnesota, and Hulk Hogan is considering running for president of the United States.  
 
 QuestionID: 1999-W22-3-5
-ANSWER: Wrestling Jesse Ventura American Minnesota Hulk Hogan the United States 
+Answer: Wrestling Jesse Ventura American Minnesota Hulk Hogan the United States 
 
 QuestionID: 1999-W22-3-7
-ANSWER: the year 2000 
+Answer: the year 2000 
 
 QuestionID: 1999-W22-3-8
-ANSWER: Wrestling Ventura Minnesota the United States 
+Answer: Wrestling Ventura Minnesota the United States 
 
 QuestionID: 1999-W22-4-1
-ANSWER: 5 
+Answer: 5 
 
 QuestionID: 1999-W22-4-2
-ANSWER:
+Answer: Julie's space dream finally began to come true last year when she was selected for mission STS-96, which was supposed to launch on May 20th, 1999.
 
 QuestionID: 1999-W22-4-3
-ANSWER: 5 
+Answer: 5 
 
 QuestionID: 1999-W22-4-4
-ANSWER: last year 
+Answer: last year 
 
 QuestionID: 1999-W22-4-7
-ANSWER: the International Space Station the United States Russia 
+Answer: the International Space Station the United States Russia 
 
 QuestionID: 1999-W22-4-8
-ANSWER: Canadarm 
+Answer: Canadarm 
 
 QuestionID: 1999-W22-4-9
-ANSWER: Canadian Chretien Aline Chretien Julie Payette Florida 
+Answer: Canadian Chretien Aline Chretien Julie Payette Florida 
 
 QuestionID: 1999-W22-4-11
-ANSWER: Julie French German Spanish Russian 
+Answer: Julie French German Spanish Russian 
 
 QuestionID: 1999-W22-4-12
-ANSWER: last year 
+Answer: last year 
 
 QuestionID: 1999-W22-5-3
-ANSWER: 3,000 
+Answer: 3,000 
 
 QuestionID: 1999-W22-5-4
-ANSWER: Saskatchewan 
+Answer: Saskatchewan 
 
 QuestionID: 1999-W22-5-5
-ANSWER: Trees Gary Vettree's 
+Answer: Trees Gary Vettree's 
 
 QuestionID: 1999-W22-5-6
-ANSWER:
+Answer: "I watched the fire, when it was just feet away from an industrial shop, burn the end of the building," said the man, who didn't want his name used.  
 
 QuestionID: 1999-W22-5-7
-ANSWER: the night 
+Answer: the night 
 
 QuestionID: 1999-W22-5-8
-ANSWER: the night 
+Answer: the night 
 
 QuestionID: 1999-W23-1-1
-ANSWER: Canadian Julie Payette the Sarah McLaughlan 
+Answer: Canadian Julie Payette the Sarah McLaughlan 
 
 QuestionID: 1999-W23-1-2
-ANSWER: Astronaut Tamara Jernigan Russian Valery Tokarev 
+Answer: Astronaut Tamara Jernigan Russian Valery Tokarev 
 
 QuestionID: 1999-W23-1-4
-ANSWER: the International Space Station 
+Answer: the International Space Station 
 
 QuestionID: 1999-W23-1-5
-ANSWER: Russian Zarya Valery Tokarev Valery Tokarev Canadian Julie Payette Julie Payette   
+Answer: Russian Zarya Valery Tokarev Valery Tokarev Canadian Julie Payette Julie Payette   
 
 QuestionID: 1999-W23-1-6
-ANSWER: Zarya 
+Answer: Zarya 
 
 QuestionID: 1999-W23-1-7
-ANSWER:
+Answer: Station officials hoped the mufflers would reduce the noise level to about 60 decibels -- about the same as an office environment.
 
 QuestionID: 1999-W23-1-9
-ANSWER: the weekend 
+Answer: the weekend 
 
 QuestionID: 1999-W23-5-1
-ANSWER: Mike Harris 
+Answer: Mike Harris 
 
 QuestionID: 1999-W23-5-2
-ANSWER:
+Answer: Ontario
 
 QuestionID: 1999-W23-5-3
-ANSWER:
+Answer: A majority government makes it much easier for the ruling party to make decisions, because they get more than half of the votes on any issue.  
 
 QuestionID: 1999-W23-5-4
-ANSWER: Mike Harris   
+Answer: Mike Harris   
 
 QuestionID: 1999-W23-5-5
-ANSWER: 32 years 
+Answer: 32 years 
 
 QuestionID: 1999-W23-5-6
-ANSWER: North Bay 
+Answer: North Bay 
 
 QuestionID: 1999-W23-5-8
-ANSWER: Ontario Tories 
+Answer: Ontario Tories 
 
 QuestionID: 1999-W23-5-10
-ANSWER:
+Answer: Several returning officers (the people in charge of a polling station) called in sick.
 
 QuestionID: 1999-W24-3-1
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-3-2
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-3-3
-ANSWER: more than two dollars three dollars 
+Answer: more than two dollars three dollars 
 
 QuestionID: 1999-W24-3-4
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-3-5
-ANSWER: 1969 decades 
+Answer: 1969 decades 
 
 QuestionID: 1999-W24-3-6
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-3-6
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-5-1
-ANSWER: September 
+Answer: September 
 
 QuestionID: 1999-W24-5-2
-ANSWER: Arbour the Supreme Court 
+Answer: Arbour the Supreme Court 
 
 QuestionID: 1999-W24-5-3
-ANSWER: Milosevic 
+Answer: Milosevic 
 
 QuestionID: 1999-W24-5-4
-ANSWER: Canada 
+Answer: Canada 
 
 QuestionID: 1999-W24-5-5
-ANSWER: Louise Arbour Earl Levy 
+Answer: Louise Arbour Earl Levy 
 
 QuestionID: 1999-W24-5-7
-ANSWER: Kosovo 
+Answer: Kosovo 
 
 QuestionID: 1999-W24-5-8
-ANSWER: McLellan NATO Kosovo 
+Answer: McLellan NATO Kosovo 
 
 QuestionID: 1999-W25-1-1
-ANSWER: the last 48 hours 
+Answer: the last 48 hours 
 
 QuestionID: 1999-W25-1-2
-ANSWER: Slobodan Milosevic 
+Answer: Slobodan Milosevic 
 
 QuestionID: 1999-W25-1-3
-ANSWER: Kosovo 
+Answer: Kosovo 
 
 QuestionID: 1999-W25-1-4
-ANSWER: Kosovo Kosovo Pristina Pristina Serbia Serbia 
+Answer: Kosovo Kosovo Pristina Pristina Serbia Serbia 
 
 QuestionID: 1999-W25-1-9
-ANSWER: NATO Jamie Shea 
+Answer: NATO Jamie Shea 
 
 QuestionID: 1999-W25-1-10
-ANSWER: Sunday, June 20 
+Answer: Sunday, June 20 
 
 QuestionID: 1999-W25-5-1
-ANSWER: about an hour 
+Answer: about an hour 
 
 QuestionID: 1999-W25-5-2
-ANSWER:
+Answer: Texas Governor and presidential candidate George W. Bush refused to grant a stay of the execution, saying there was no new evidence that questioned the jury's verdict in the death of Inez Phillips, who Faulder was convicted of killing in 1977.  
 
 QuestionID: 1999-W25-5-3
-ANSWER:
+Answer: A last-minute appeal to the Supreme Court to stop the execution was rejected, and Texas Governor George W. Bush said he would not issue a stay of execution.
 
 QuestionID: 1999-W25-5-4
-ANSWER: Lloyd Axworthy Madeleine Albright Faulder 
+Answer: Lloyd Axworthy Madeleine Albright Faulder 
 
 QuestionID: 1999-W25-5-5
-ANSWER: Gingera Gingera Faulder Faulder 1997 
+Answer: Gingera Gingera Faulder Faulder 1997 
 
 QuestionID: 1999-W25-5-7
-ANSWER: Canada Lloyd Axworthy Lloyd Axworthy U.S. Madeleine Albright Madeleine Albright Faulder Faulder Texas 
+Answer: Canada Lloyd Axworthy Lloyd Axworthy U.S. Madeleine Albright Madeleine Albright Faulder Faulder Texas 
 
 QuestionID: 1999-W25-5-8
-ANSWER: about an hour 
+Answer: about an hour 
 
 QuestionID: 1999-W25-5-9
-ANSWER: George W. Bush George W. Bush Inez Phillips Inez Phillips Faulder Faulder 1977 
+Answer: George W. Bush George W. Bush Inez Phillips Inez Phillips Faulder Faulder 1977 
 
 QuestionID: 1999-W25-5-10
-ANSWER: George W. Bush Inez Phillips Faulder 1977 
+Answer: George W. Bush Inez Phillips Faulder 1977 
 
 QuestionID: 1999-W26-5-1
-ANSWER:
+Answer: Now, doctors learning surgery at a Toronto hospital are being trying a new method of learning.  
 
 QuestionID: 1999-W26-5-3
-ANSWER: Mt. Sinai 
+Answer: Mt. Sinai 
 
 QuestionID: 1999-W26-5-4
-ANSWER:
+Answer: "I think that it's probably fair to say that we're one of the leaders in technical skill training," he said, "in terms of understanding how it's accessed and how it's taught."  
 
 QuestionID: 1999-W26-5-5
-ANSWER:
+Answer: The surgical skills centre at Mt. Sinai hospital is a sort of training camp for residents (new doctors).
 
 QuestionID: 1999-W26-5-6
-ANSWER:
+Answer: "I think that it's probably fair to say that we're one of the leaders in technical skill training," he said, "in terms of understanding how it's accessed and how it's taught."  
 
 QuestionID: 1999-W26-5-7
-ANSWER:
+Answer: Usually, a when doctors are being trained to perform operations, they learn by practising on real, live human patients -- something patients are not always happy about.
 
 QuestionID: 1999-W27-2-1
-ANSWER: the Arctic Ocean the Sea of Okhotsk the Bering Sea the Gulf of Alaska the Beaufort Sea Baffin Bay Hudson Bay the Gulf of St. Lawrence 
+Answer: the Arctic Ocean the Sea of Okhotsk the Bering Sea the Gulf of Alaska the Beaufort Sea Baffin Bay Hudson Bay the Gulf of St. Lawrence 
 
 QuestionID: 1999-W27-2-2
-ANSWER:
+Answer: They live in the Arctic Ocean and its adjoining seas, including the Sea of Okhotsk, the Bering Sea, the Gulf of Alaska, the Beaufort Sea, Baffin Bay, Hudson Bay, and the Gulf of St. Lawrence.
 
 QuestionID: 1999-W27-2-3
-ANSWER:
+Answer: They live in the Arctic Ocean and its adjoining seas, including the Sea of Okhotsk, the Bering Sea, the Gulf of Alaska, the Beaufort Sea, Baffin Bay, Hudson Bay, and the Gulf of St. Lawrence.
 
 QuestionID: 1999-W27-2-4
-ANSWER:
+Answer: They live in the Arctic Ocean and its adjoining seas, including the Sea of Okhotsk, the Bering Sea, the Gulf of Alaska, the Beaufort Sea, Baffin Bay, Hudson Bay, and the Gulf of St. Lawrence.
 
 QuestionID: 1999-W27-2-5
-ANSWER: 50 
+Answer: 50 
 
 QuestionID: 1999-W27-2-6
-ANSWER:
+Answer: They live in the Arctic Ocean and its adjoining seas, including the Sea of Okhotsk, the Bering Sea, the Gulf of Alaska, the Beaufort Sea, Baffin Bay, Hudson Bay, and the Gulf of St. Lawrence.
 
 QuestionID: 1999-W27-5-1
-ANSWER: Lucien Bouchard 
+Answer: Lucien Bouchard 
 
 QuestionID: 1999-W27-5-2
-ANSWER: Bouchard 
+Answer: Bouchard 
 
 QuestionID: 1999-W27-5-3
-ANSWER: Quebec 
+Answer: Quebec 
 
 QuestionID: 1999-W27-5-4
-ANSWER: Quebec Federation Nurses Michele Boisclair the Executive of the Federation 
+Answer: Quebec Federation Nurses Michele Boisclair the Executive of the Federation 
 
 QuestionID: 1999-W27-5-5
-ANSWER: Bouchard 
+Answer: Bouchard 
 
 QuestionID: 1999-W27-5-6
-ANSWER:
+Answer: Many drivers are honking their horns to show their support.
 
 QuestionID: 1999-W27-5-8
-ANSWER: the Quebec Federation of Nurses Lucien Bouchard   
+Answer: the Quebec Federation of Nurses Lucien Bouchard   
 
 QuestionID: 1999-W27-5-9
-ANSWER: 60 days 
+Answer: 60 days 
 
 QuestionID: 1999-W27-5-10
-ANSWER: Quebec 
+Answer: Quebec 
 
 QuestionID: 1999-W28-5-1
-ANSWER: January this week 
+Answer: January this week 
 
 QuestionID: 1999-W28-5-3
-ANSWER: Scotland 
+Answer: Scotland 
 
 QuestionID: 1999-W28-5-4
-ANSWER: two 
+Answer: two 
 
 QuestionID: 1999-W28-5-5
-ANSWER: January this week 
+Answer: January this week 
 
 QuestionID: 1999-W28-5-6
-ANSWER: Wellington New Zealand 
+Answer: Wellington New Zealand 
 
 QuestionID: 1999-W28-5-7
-ANSWER: American 
+Answer: American 
 
 QuestionID: 1999-W29-2-1
-ANSWER: one 
+Answer: one 
 
 QuestionID: 1999-W29-2-3
-ANSWER:
+Answer: Japan's life expectancy is 80 years old, and the United States' is at 76.  
 
 QuestionID: 1999-W29-2-4
-ANSWER: Japan the United States' 
+Answer: Japan the United States' 
 
 QuestionID: 1999-W29-2-5
-ANSWER: the United Nations Canada 
+Answer: the United Nations Canada 
 
 QuestionID: 1999-W29-2-6
-ANSWER: the sixth year in a row Canada 
+Answer: the sixth year in a row Canada 
 
 QuestionID: 1999-W29-2-7
-ANSWER: UN Canada 
+Answer: UN Canada 
 
 QuestionID: 1999-W29-5-1
-ANSWER: the United States the White House Clinton American 
+Answer: the United States the White House Clinton American 
 
 QuestionID: 1999-W29-5-2
-ANSWER: Littleton Colorado 
+Answer: Littleton Colorado 
 
 QuestionID: 1999-W29-5-4
-ANSWER: Columbine High School 
+Answer: Columbine High School 
 
 QuestionID: 1999-W29-5-5
-ANSWER: September 
+Answer: September 
 
 QuestionID: 1999-W29-5-6
-ANSWER: Clinton 
+Answer: Clinton 
 
 QuestionID: 1999-W29-5-7
-ANSWER:
+Answer: Some members of the government are against gun control.
 
 QuestionID: 1999-W29-5-8
-ANSWER:
+Answer: Some members of the public are opposed to gun control for another reason.
 
 QuestionID: 1999-W30-1-1
-ANSWER: Massachusetts 
+Answer: Massachusetts 
 
 QuestionID: 1999-W30-1-2
-ANSWER:
+Answer: A suitcase belonging Lauren, a prescription bottle with Carolyn's name, and pieces of a plane similar to Kennedy's were all found in the water.
 
 QuestionID: 1999-W30-1-3
-ANSWER: Martha's Vineyard 
+Answer: Martha's Vineyard 
 
 QuestionID: 1999-W30-1-4
-ANSWER: John Jr's U.S. John F. Kennedy Dallas 
+Answer: John Jr's U.S. John F. Kennedy Dallas 
 
 QuestionID: 1999-W30-1-5
-ANSWER: John Jr's John F. Kennedy 
+Answer: John Jr's John F. Kennedy 
 
 QuestionID: 1999-W30-1-6
-ANSWER: 1963 
+Answer: 1963 
 
 QuestionID: 1999-W30-1-7
-ANSWER: two 
+Answer: two 
 
 QuestionID: 1999-W30-2-1
-ANSWER: Glen Clark British Columbia 
+Answer: Glen Clark British Columbia 
 
 QuestionID: 1999-W30-2-3
-ANSWER: Clark 
+Answer: Clark 
 
 QuestionID: 1999-W30-2-4
-ANSWER: Glen Clark British Columbia 
+Answer: Glen Clark British Columbia 
 
 QuestionID: 1999-W30-2-6
-ANSWER: Clark 
+Answer: Clark 
 
 QuestionID: 1999-W30-3-1
-ANSWER: Shellfish 
+Answer: Shellfish 
 
 QuestionID: 1999-W30-3-2
-ANSWER:
+Answer: The illness, which appears unique to this kind of work, is an allergy that gives a person flu-like symptoms.
 
 QuestionID: 1999-W30-3-3
-ANSWER:
+Answer: The illness, which appears unique to this kind of work, is an allergy that gives a person flu-like symptoms.
 
 QuestionID: 1999-W30-3-4
-ANSWER:
+Answer: However, in recent years environmental concerns have forced the government to place limits on how many fish can be caught.  
 
 QuestionID: 1999-W30-3-5
-ANSWER: Newfoundland 
+Answer: Newfoundland 
 
 QuestionID: 1999-W30-3-6
-ANSWER: Newfoundland 
+Answer: Newfoundland 
 
 QuestionID: 1999-W30-3-7
-ANSWER:
+Answer: Many workers are trying to live with their symptoms so they can keep their jobs at the fish plants.  
 
 QuestionID: 1999-W30-3-8
-ANSWER:
+Answer: But the union representing plant workers says shellfish asthma is a real workplace disease.
 
 QuestionID: 1999-W30-5-1
-ANSWER: Siberia Russia Canada 
+Answer: Siberia Russia Canada 
 
 QuestionID: 1999-W30-5-2
-ANSWER: Russia Canada 
+Answer: Russia Canada 
 
 QuestionID: 1999-W30-5-3
-ANSWER:
+Answer: The scientists say the colour of the mammoth's hair is still present, as is the smell of the skin.
 
 QuestionID: 1999-W30-5-4
-ANSWER:
+Answer: The scientists say the colour of the mammoth's hair is still present, as is the smell of the skin.
 
 QuestionID: 1999-W30-5-5
-ANSWER: many years ago 
+Answer: many years ago 
 
 QuestionID: 1999-W30-5-7
-ANSWER:
+Answer: Mammoths are most similar to modern-day Asian elephants.
 
 QuestionID: 1999-W31-2-1
-ANSWER: Inuit 
+Answer: Inuit 
 
 QuestionID: 1999-W31-2-3
-ANSWER: 73,000 square kilometres $255 million 
+Answer: 73,000 square kilometres $255 million 
 
 QuestionID: 1999-W31-2-4
-ANSWER:
+Answer: Native land claims are modern agreements that provide an aboriginal group with land, resources and some power to govern themselves.
 
 QuestionID: 1999-W31-2-5
-ANSWER: Labrador 
+Answer: Labrador 
 
 QuestionID: 1999-W31-2-8
-ANSWER: the Labrador Inuit Association 
+Answer: the Labrador Inuit Association 
 
 QuestionID: 1999-W32-3-1
-ANSWER: The Queen Mum Queen Elizabeth II 
+Answer: The Queen Mum Queen Elizabeth II 
 
 QuestionID: 1999-W32-3-3
-ANSWER: Adolf Hitler Adolf Hitler Europe 
+Answer: Adolf Hitler Adolf Hitler Europe 
 
 QuestionID: 1999-W32-3-4
-ANSWER: The Queen Mum Queen Elizabeth II 
+Answer: The Queen Mum Queen Elizabeth II 
 
 QuestionID: 1999-W32-3-5
-ANSWER: Britain 
+Answer: Britain 
 
 QuestionID: 1999-W32-3-6
-ANSWER: 99th 
+Answer: 99th 
 
 QuestionID: 1999-W32-3-7
-ANSWER: The Queen Mum Queen Elizabeth II 
+Answer: The Queen Mum Queen Elizabeth II 
 
 QuestionID: 1999-W32-3-8
-ANSWER: Wednesday 
+Answer: Wednesday 
 
 QuestionID: 2000-W03-4-1
-ANSWER: Canada The Yuck Factor 
+Answer: Canada The Yuck Factor 
 
 QuestionID: 2000-W03-4-2
-ANSWER: Canada The Yuck Factor 
+Answer: Canada The Yuck Factor 
 
 QuestionID: 2000-W03-4-4
-ANSWER: the end of the year 
+Answer: the end of the year 
 
 QuestionID: 2000-W03-4-5
-ANSWER: Ottawa 
+Answer: Ottawa 
 
 QuestionID: 2000-W03-4-6
-ANSWER: millions of dollars 
+Answer: millions of dollars 
 
 QuestionID: 2000-W03-4-7
-ANSWER:
+Answer: The minister says he hopes to have the new cigarette packages on store shelves by the end of the year.
 
 QuestionID: 2000-W03-5-1
-ANSWER: the New York Neurological Institute 
+Answer: the New York Neurological Institute 
 
 QuestionID: 2000-W03-5-2
-ANSWER: 1979 
+Answer: 1979 
 
 QuestionID: 2000-W03-5-3
-ANSWER: one first 
+Answer: one first 
 
 QuestionID: 2000-W03-5-4
-ANSWER: John Girvin London Ontario the New York Neurological Institute 
+Answer: John Girvin London Ontario the New York Neurological Institute 
 
 QuestionID: 2000-W03-5-5
-ANSWER: New York City 
+Answer: New York City 
 
 QuestionID: 2000-W06-4-1
-ANSWER: Winnipeg Sisler High School 
+Answer: Winnipeg Sisler High School 
 
 QuestionID: 2000-W06-4-2
-ANSWER: Winnipeg Sisler High School 
+Answer: Winnipeg Sisler High School 
 
 QuestionID: 2000-W06-4-3
-ANSWER: Grade 
+Answer: Grade 
 
 QuestionID: 2000-W06-4-4
-ANSWER: Mike Kachmar 
+Answer: Mike Kachmar 
 
 QuestionID: 2000-W06-4-5
-ANSWER:
+Answer: Kissing has a long history in Western civilization, with references dating back to the Old Testament.  
 
 QuestionID: 2000-W06-4-6
-ANSWER: Sisler 
+Answer: Sisler 
 
 QuestionID: 2000-W06-4-7
-ANSWER: East Asia 
+Answer: East Asia 
 
 QuestionID: 2000-W06-4-8
-ANSWER: Valentine's Day 
+Answer: Valentine's Day 
 
 QuestionID: 2000-W06-4-9
-ANSWER:
+Answer: The ancient Greeks and Romans Early Christians greeted one another with a kiss, and this "holy kiss" is still a part of Roman Catholic rituals, such as when a bishop kisses a newly ordained priest.
+

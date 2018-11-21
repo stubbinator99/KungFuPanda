@@ -18,4 +18,4 @@ Contributions
 
 Problems / Limitations
 ----------------------
-The answer file that is created (called qa_response.txt) might contain python warnings at the top, above the question answers.  If so, delete these warnings before testing with the scoring program.  There are no other limitations or problems that we know of.    
+The answer file that is created (called qa_response.txt) might contain python warnings at the top, above the question answers.  If so, delete these warnings before testing with the scoring program.  The script will navigate the user to the directory containing our virtual python environment, where we have spacy installed. There are no other limitations or problems that we know of.    

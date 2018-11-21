@@ -8,7 +8,7 @@ import spacy
 import sys
 
 # Load spacy
-nlp = spacy.load('en_core_web_md')
+nlp = spacy.load('en_core_web_sm')
 
 input_file = sys.argv[1]    # Index file to read in
 data_directory_path = ""    # Path to the directory containing the data
@@ -291,10 +291,10 @@ for storyId in storyIdList:
           print("QuestionID: {}".format(questionId))
           #print("QUESTION:\t{}".format(question_text))
           if len(tied_sentence_indices) > 0:
-            print("ANSWER: {}".format(storySents[tied_sentence_indices[0]]))
+            print("Answer: {}".format(storySents[tied_sentence_indices[0]]))
             answered_questions = answered_questions + 1
           else:
-            print("ANSWER:")
+            print("Answer:")
           print()
 
 
@@ -305,7 +305,7 @@ for storyId in storyIdList:
           answered_questions = answered_questions + 1
           print("QuestionID: {}".format(questionId))
           #print("QUESTION:\t{}".format(question_text))
-          print("ANSWER: ", end="")
+          print("Answer: ", end="")
 
           # Use NP chunks to give a shorter answer?
           # for thing in chunked_sens:
