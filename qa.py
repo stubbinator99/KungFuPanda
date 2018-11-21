@@ -79,7 +79,7 @@ for storyId in storyIdList:
 
     # Populate tagged_sens
     for token in sen:
-      tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_, token.dep_])
+      tagged_sens[len(tagged_sens)-1].append([token.text, token.tag_, token.lemma_, token.dep_])
 
 
       # Populatet ner_sens, sentences in spacy BIO tag format
@@ -131,7 +131,7 @@ for storyId in storyIdList:
         q_bio = [] #BIO tags for the question
         q_ner = [] #NER tags for the question
         for token in spacy_q:
-          tagged_q.append([token.text, token.tag_])
+          tagged_q.append([token.text, token.tag_, token.lemma_, token.dep_])
           q_bio.append([
             token.text,
             token.tag_,
@@ -203,11 +203,16 @@ for storyId in storyIdList:
               looking_for_quantity = True
               question_type = "quantity"
           if looking_for_quantity:
-            question_entity_types.append("PERCENT")
-            question_entity_types.append("MONEY")
-            question_entity_types.append("QUANTITY")
-            question_entity_types.append("ORDINAL")
-            question_entity_types.append("CARDINAL")
+            if("money" in question_word_list or "cost" in question_word_list):
+              question_entity_types.append("MONEY")
+            elif("percent" in question_word_list):
+              question_entity_types.append("PERCENT")
+            else:
+              #question_entity_types.append("PERCENT")
+              #question_entity_types.append("MONEY")
+              question_entity_types.append("QUANTITY")
+              question_entity_types.append("ORDINAL")
+              question_entity_types.append("CARDINAL")
           else:
             # The entity type in the question has to match the entity type in the answer
             for entity_tuple in q_ner:
@@ -241,14 +246,24 @@ for storyId in storyIdList:
 
 
         # Count word overlap between all matching sentences and the question
-        question_array = question_text.split()
+        # question_array = question_text.split()
+        # word_overlap = []
+        # for i in sens_with_matching_ents:   # For each matching sentence
+        #   word_overlap.append(0)
+        #   for thing in ner_sens[i]:         # For each word in the matching sentence
+        #     for q_word in question_array:   # For each word in the question
+        #       if q_word.lower() in thing[0].lower():        # If the words match, increment the word overlap
+        #         word_overlap[len(word_overlap)-1] += 1
+
+        # Word overlap with stemmed words in the question and text
         word_overlap = []
-        for i in sens_with_matching_ents:   # For each matching sentence
+        for i in sens_with_matching_ents:
           word_overlap.append(0)
-          for thing in ner_sens[i]:         # For each word in the matching sentence
-            for q_word in question_array:   # For each word in the question
-              if q_word.lower() in thing[0].lower():        # If the words match, increment the word overlap
-                word_overlap[len(word_overlap)-1] += 1
+          for thing in tagged_sens[i]:
+            for q_word in tagged_q:
+              if q_word[3] != "punct":
+                if q_word[2] in thing[2]:
+                  word_overlap[len(word_overlap)-1] += 1
 
 
         # Word overlap array is done. Find the sentence with the most word overlap
