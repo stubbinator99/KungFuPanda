@@ -224,8 +224,20 @@ for storyId in storyIdList:
           for entity_tuple in q_ner:
             question_entity_types.append(entity_tuple[1])
 
+        ignored_verbs = ['be', 'has', 'have', 'had' 'did', 'do', 'will', 'would', 'should',
+                         'could', 'can', 'may'] #'go', 'went'
+        found_verb = False
+        q_verb = '' # The stemmed verb
+        # Search the question for a verb. If there is one, give it a higher weight
+        for token in tagged_q:
+          if token[1][0] == "V" and token[1] not in ignored_verbs:
+            q_verb = token[2]
+            found_verb = True
+            break
+
         # Sentences that contain entities that the question is looking for
         sens_with_matching_ents = []
+        sens_with_matching_verb = []
 
         # Do NER for each sentence in the story
         #for sen in doc.sents:
@@ -234,6 +246,13 @@ for storyId in storyIdList:
         named_ent_sentence = []
 
         for i in range(len(doc_ner)):   # For each sentence in the story
+          # Find sentences with the question verb in
+          for token in tagged_sens[i]:
+            if q_verb == token[2]:
+              sens_with_matching_verb.append(i)
+              break
+
+          # Find sentences with matching entity types
           entity_found = False # Set entitiyFound = False so we can see all the sentences that have matching entities
           for question_entity in question_entity_types:    # For each entity that the question is looking for
             if entity_found:
@@ -257,7 +276,7 @@ for storyId in storyIdList:
 
         # Word overlap with stemmed words in the question and text
         word_overlap = []
-        for i in sens_with_matching_ents:
+        for i in sens_with_matching_verb: #sens_with_matching_ents:
           word_overlap.append(0)
           for thing in tagged_sens[i]:
             for q_word in tagged_q:
@@ -266,7 +285,7 @@ for storyId in storyIdList:
                   word_overlap[len(word_overlap)-1] += 1
 
 
-        # Word overlap array is done. Find the sentence with the most word overlap
+        # Word overlap array is done. Find the sentence with the most word overlap that ALSO contain the question verb
         tied_sentence_indices = []
         max_overlap = -1
         for i in range(len(word_overlap)):
@@ -278,7 +297,7 @@ for storyId in storyIdList:
             tied_sentence_indices.append(i)
 
         # If no matching ents, return the sentence with the highest word overlap
-        if len(sens_with_matching_ents) == 0:
+        if len(sens_with_matching_verb) == 0: #len(sens_with_matching_ents) == 0:
 
           # Print the first sentence with the highest word overlap
           # Count word overlap between all matching sentences and the question
@@ -292,7 +311,7 @@ for storyId in storyIdList:
                   word_overlap[len(word_overlap) - 1] += 1
 
           # Word overlap array is done. Find the sentence with the most word overlap
-          tied_sentence_indices = []
+          tied_sentence_indices = [] # Has 1 sentence with max overlap or all sentences tied for max overlap
           max_overlap = -1
           for i in range(len(word_overlap)):
             if word_overlap[i] > max_overlap:
@@ -329,7 +348,7 @@ for storyId in storyIdList:
           # for i in tied_sentence_indices:
           #   for thing in tagged_sens[i]:
 
-          index = sens_with_matching_ents[tied_sentence_indices[0]]
+          index = sens_with_matching_verb[tied_sentence_indices[0]] #sens_with_matching_ents[tied_sentence_indices[0]]
           sentence =  storySents[index]
           sentence_ents = doc_ner[index]#ner_sens[index]
           answer_found = False
@@ -344,6 +363,8 @@ for storyId in storyIdList:
                 answer_found = True
 
           if answer_found:
+            print()
+          else:
             print()
 
           #for thing in ner_sens[tied_sentence_indices[0]]:
