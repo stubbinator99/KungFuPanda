@@ -1,0 +1,13 @@
+1. Check for sents with matching verb
+2. Check for sents with matching entities
+3. Perform word overlap for all sents
+
+4. If we have sents with matching verbs
+	a. If one or more of these sentences has a matching entity
+		i. Return the sentence with the highest word overlap with the question
+	b. Else
+		i. Depending on the question, do something different. For now go to (5)
+5. Else if we have sents with matching ents
+	a. Return the matching entity sentence with the highest word overlap with the question
+6. Else
+	a. Return the sentence with the highest word overlap with the question

@@ -208,8 +208,6 @@ for storyId in storyIdList:
             elif("percent" in question_word_list):
               question_entity_types.append("PERCENT")
             else:
-              #question_entity_types.append("PERCENT")
-              #question_entity_types.append("MONEY")
               question_entity_types.append("QUANTITY")
               question_entity_types.append("ORDINAL")
               question_entity_types.append("CARDINAL")
@@ -230,7 +228,7 @@ for storyId in storyIdList:
         q_verb = '' # The stemmed verb
         # Search the question for a verb. If there is one, give it a higher weight
         for token in tagged_q:
-          if token[1][0] == "V" and token[1] not in ignored_verbs:
+          if token[1][0] == "V" and token[2] not in ignored_verbs:
             q_verb = token[2]
             found_verb = True
             break
@@ -263,115 +261,69 @@ for storyId in storyIdList:
                 entity_found = True
                 break
 
-
-        # Count word overlap between all matching sentences and the question
-        # question_array = question_text.split()
-        # word_overlap = []
-        # for i in sens_with_matching_ents:   # For each matching sentence
-        #   word_overlap.append(0)
-        #   for thing in ner_sens[i]:         # For each word in the matching sentence
-        #     for q_word in question_array:   # For each word in the question
-        #       if q_word.lower() in thing[0].lower():        # If the words match, increment the word overlap
-        #         word_overlap[len(word_overlap)-1] += 1
-
-        # Word overlap with stemmed words in the question and text
+        # Perform word overlap with stemmed words in the question and text
         word_overlap = []
-        for i in sens_with_matching_verb: #sens_with_matching_ents:
+        for i in range(len(tagged_sens)):
           word_overlap.append(0)
           for thing in tagged_sens[i]:
             for q_word in tagged_q:
-              if q_word[3] != "punct":
+              if q_word[3] != "punct":  # Disregard punctuation
                 if q_word[2] in thing[2]:
                   word_overlap[len(word_overlap)-1] += 1
 
+        # Pick the answer: See controlFlowNotes.txt for more information------------------------------------------------
 
-        # Word overlap array is done. Find the sentence with the most word overlap that ALSO contain the question verb
-        tied_sentence_indices = []
-        max_overlap = -1
-        for i in range(len(word_overlap)):
-          if word_overlap[i] > max_overlap:
-            max_overlap = word_overlap[i]
-            tied_sentence_indices = []
-            tied_sentence_indices.append(i)
-          elif word_overlap[i] == max_overlap:
-            tied_sentence_indices.append(i)
+        has_matching_verb_sentence = False
+        answer_sentence_index = -1
 
-        # If no matching ents, return the sentence with the highest word overlap
-        if len(sens_with_matching_verb) == 0: #len(sens_with_matching_ents) == 0:
-
-          # Print the first sentence with the highest word overlap
-          # Count word overlap between all matching sentences and the question
-          question_array = question_text.split()
-          word_overlap = []
-          for i in range(len(storySents)):  # For each matching sentence
-            word_overlap.append(0)
-            for q_word in question_array:  # For each word in the question
-              for thing in storySents[i].split():  # For each word in the matching sentence
-                if q_word.lower() == thing.lower():  # If the words match, increment the word overlap
-                  word_overlap[len(word_overlap) - 1] += 1
-
-          # Word overlap array is done. Find the sentence with the most word overlap
-          tied_sentence_indices = [] # Has 1 sentence with max overlap or all sentences tied for max overlap
-          max_overlap = -1
-          for i in range(len(word_overlap)):
-            if word_overlap[i] > max_overlap:
-              max_overlap = word_overlap[i]
-              tied_sentence_indices = []
-              tied_sentence_indices.append(i)
-            elif word_overlap[i] == max_overlap:
-              tied_sentence_indices.append(i)
-
-          attempted_questions = attempted_questions + 1
-          print("QuestionID: {}".format(questionId))
-          #print("QUESTION:\t{}".format(question_text))
-          if len(tied_sentence_indices) > 0:
-            print("Answer: {}".format(storySents[tied_sentence_indices[0]]))
-            answered_questions = answered_questions + 1
+        # If there are sentences with the matching verb
+        if len(sens_with_matching_verb) > 0:
+          target_sents = []
+          # If one or more of the sentences has a matching entity
+          for sentence_index in sens_with_matching_verb:
+            if sentence_index in sens_with_matching_ents:
+              target_sents.append(sentence_index)
+          if len(target_sents) > 0:
+            # Return the matching entity sentence with the highest word overlap
+            highest_overlap = -1
+            best_sentence_index = -1
+            for sentence_index in target_sents:
+              if word_overlap[sentence_index] > highest_overlap:
+                highest_overlap = word_overlap[sentence_index]
+                best_sentence_index = sentence_index
+            answer_sentence_index = best_sentence_index
+            has_matching_verb_sentence = True
           else:
-            print("Answer:")
-          print()
+            # Compare sentences with matching entities, by falling through to the if block below
+            pass
 
-
-        else:
-          # Print the first sentence with the highest word overlap
-          # TODO: Add more features to get the correct sentence instead of just the first one
-          attempted_questions = attempted_questions + 1
-          answered_questions = answered_questions + 1
-          print("QuestionID: {}".format(questionId))
-          #print("QUESTION:\t{}".format(question_text))
-          print("Answer: ", end="")
-
-          # Use NP chunks to give a shorter answer?
-          # for thing in chunked_sens:
-          #   print(thing)
-
-          # for i in tied_sentence_indices:
-          #   for thing in tagged_sens[i]:
-
-          index = sens_with_matching_verb[tied_sentence_indices[0]] #sens_with_matching_ents[tied_sentence_indices[0]]
-          sentence =  storySents[index]
-          sentence_ents = doc_ner[index]#ner_sens[index]
-          answer_found = False
-          for ent in sentence_ents:
-            # if answer_found:
-            #   break
-            for q_ent in question_entity_types:
-              # if answer_found:
-              #   break
-              if ent[3] == q_ent:
-                print(ent[0], end=" ")
-                answer_found = True
-
-          if answer_found:
-            print()
+        # Else if there are sentences with entities that match the question entities
+        if not has_matching_verb_sentence:
+          if len(sens_with_matching_ents) > 0:
+            # Return the matching entity sentence with the highest word overlap
+            highest_overlap = -1
+            best_sentence_index = -1
+            for sentence_index in sens_with_matching_ents:
+              if word_overlap[sentence_index] > highest_overlap:
+                highest_overlap = word_overlap[sentence_index]
+                best_sentence_index = sentence_index
+            answer_sentence_index = best_sentence_index
           else:
-            print()
+            # Return the first sentence with the highest word overlap
+            highest_overlap = -1
+            best_sentence_index = -1
+            for sentence_index in range(len(word_overlap)):
+              if word_overlap[sentence_index] > highest_overlap:
+                highest_overlap = word_overlap[sentence_index]
+                best_sentence_index = sentence_index
+            if best_sentence_index == -1:
+              answer_sentence_index = 0
+            else:
+              answer_sentence_index = best_sentence_index
 
-          #for thing in ner_sens[tied_sentence_indices[0]]:
-            #print(thing[0], end=" ")
-          # print()
+          print("QuestionID: {}".format(questionId))
+          print("Answer: {}".format(storySents[answer_sentence_index]))
           print()
-
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
         count = 0
@@ -380,7 +332,3 @@ for storyId in storyIdList:
         difficulty = ""
         question_text = ""
         word_overlap = []
-
-
-#print("Total # of questions: {}\t\t# of questions attempted: {}\t\t# of questions answered: {}".format(total_questions, attempted_questions, answered_questions))
-#print("Done!")
