@@ -331,7 +331,7 @@ for storyId in storyIdList:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
 
-            # Return only the matching entity
+            # Return all the matching entities
             sentence_ents = doc_ner[best_sentence_index]
             for ent in sentence_ents:
               for q_ent in question_entity_types:
