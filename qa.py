@@ -302,13 +302,14 @@ for storyId in storyIdList:
                 break
 
             # Adjust these indices as needed
-            start_index = verb_index - 6
-            end_index = verb_index + 6
+            start_index = verb_index - 7
+            end_index = verb_index + 7
             if start_index < 0:
               start_index = 0
             if end_index > len(answer_tagged_sentence) - 1:
               end_index = len(answer_tagged_sentence) - 1
 
+            # Build the answer string from the words including the start and end indices
             while start_index < end_index:
               answer_string = answer_string + answer_tagged_sentence[start_index][0] + " "
               start_index = start_index + 1
@@ -329,7 +330,13 @@ for storyId in storyIdList:
               if word_overlap[sentence_index] > highest_overlap:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
-            answer_string = storySents[best_sentence_index]
+
+            # Return only the matching entity
+            sentence_ents = doc_ner[best_sentence_index]
+            for ent in sentence_ents:
+              for q_ent in question_entity_types:
+                if ent[3] == q_ent:
+                  answer_string = answer_string + ent[0] + " "
           else:
             # Return the first sentence with the highest word overlap
             highest_overlap = -1
