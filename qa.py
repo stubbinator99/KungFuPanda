@@ -274,7 +274,7 @@ for storyId in storyIdList:
         # Pick the answer: See controlFlowNotes.txt for more information------------------------------------------------
 
         has_matching_verb_sentence = False
-        answer_sentence_index = -1
+        answer_string = ""
 
         # If there are sentences with the matching verb
         if len(sens_with_matching_verb) > 0:
@@ -291,7 +291,29 @@ for storyId in storyIdList:
               if word_overlap[sentence_index] > highest_overlap:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
-            answer_sentence_index = best_sentence_index
+
+            # Return only the verb and the specified number of surrounding words in the answer sentence
+            answer_tagged_sentence = tagged_sens[best_sentence_index]
+            verb_index = -1
+            # Find the index of the question verb
+            for word_index in range(len(answer_tagged_sentence)):
+              if q_verb == answer_tagged_sentence[word_index][2]:
+                verb_index = word_index
+                break
+
+            # Adjust these indices as needed
+            start_index = verb_index - 6
+            end_index = verb_index + 6
+            if start_index < 0:
+              start_index = 0
+            if end_index > len(answer_tagged_sentence) - 1:
+              end_index = len(answer_tagged_sentence) - 1
+
+            while start_index < end_index:
+              answer_string = answer_string + answer_tagged_sentence[start_index][0] + " "
+              start_index = start_index + 1
+            answer_string = answer_string + answer_tagged_sentence[end_index][0]
+
             has_matching_verb_sentence = True
           else:
             # Compare sentences with matching entities, by falling through to the if block below
@@ -307,7 +329,7 @@ for storyId in storyIdList:
               if word_overlap[sentence_index] > highest_overlap:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
-            answer_sentence_index = best_sentence_index
+            answer_string = storySents[best_sentence_index]
           else:
             # Return the first sentence with the highest word overlap
             highest_overlap = -1
@@ -317,12 +339,12 @@ for storyId in storyIdList:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
             if best_sentence_index == -1:
-              answer_sentence_index = 0
+              answer_string = storySents[0]
             else:
-              answer_sentence_index = best_sentence_index
+              answer_string = storySents[best_sentence_index]
 
         print("QuestionID: {}".format(questionId))
-        print("Answer: {}".format(storySents[answer_sentence_index]))
+        print("Answer: {}".format(answer_string))
         print()
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
