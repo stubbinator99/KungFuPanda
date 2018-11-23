@@ -321,9 +321,9 @@ for storyId in storyIdList:
             else:
               answer_sentence_index = best_sentence_index
 
-          print("QuestionID: {}".format(questionId))
-          print("Answer: {}".format(storySents[answer_sentence_index]))
-          print()
+        print("QuestionID: {}".format(questionId))
+        print("Answer: {}".format(storySents[answer_sentence_index]))
+        print()
 
         # Set count, questionId, question, and difficulty to default values before processing the next set question
         count = 0
