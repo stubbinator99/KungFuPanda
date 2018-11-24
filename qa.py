@@ -130,8 +130,10 @@ for storyId in storyIdList:
         tagged_q = []
         q_bio = [] #BIO tags for the question
         q_ner = [] #NER tags for the question
+        stemmed_q_word_list = []
         for token in spacy_q:
           tagged_q.append([token.text, token.tag_, token.lemma_, token.dep_])
+          stemmed_q_word_list.append(token.lemma_)
           q_bio.append([
             token.text,
             token.tag_,
@@ -196,17 +198,40 @@ for storyId in storyIdList:
           # See if the how question is looking for a quantity
           question_type = "how"
           # TODO: Add more quantity words
-          quantity_words = ["big", "far", "long", "many", "much", "often", "old", "tall", "cost"]
+          quantity_words = ["big", "far", "long", "many", "much", "often", "old", "tall", "cost", "costs"]
           looking_for_quantity = False
           for word in quantity_words:
             if word in question_word_list:
               looking_for_quantity = True
               question_type = "quantity"
           if looking_for_quantity:
-            if("money" in question_word_list or "cost" in question_word_list):
+            if("money" in question_word_list or "cost" in question_word_list or "costs" in question_word_list):
               question_entity_types.append("MONEY")
+            elif("long" in question_word_list):
+              if("take" in question_word_list or "until" in question_word_list):
+                question_entity_types.append("DATE")
+              else:
+                question_entity_types.append("ORDINAL")
+                question_entity_types.append("CARDINAL")
             elif("percent" in question_word_list):
               question_entity_types.append("PERCENT")
+            elif ("many" in question_word_list):
+              if("seconds" in question_word_list or "minutes" in question_word_list or "hours" in question_word_list or "days" in question_word_list or "weeks" in question_word_list or "months" in question_word_list or "years" in question_word_list):
+                question_entity_types.append("DATE")
+              else:
+                question_entity_types.append("QUANTITY")
+            elif ("tall" in question_word_list):
+              question_entity_types.append("QUANTITY")
+            elif ("much" in question_word_list):
+              if("time" in question_word_list):
+                question_entity_types.append("DATE")
+              else:
+                question_entity_types.append("QUANTITY")
+            elif ("often" in question_word_list):
+              question_entity_types.append("DATE")
+            elif ("old" in question_word_list):
+              question_entity_types.append("QUANTITY")
+              question_entity_types.append("CARDINAL")
             else:
               question_entity_types.append("QUANTITY")
               question_entity_types.append("ORDINAL")
