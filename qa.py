@@ -292,8 +292,25 @@ for storyId in storyIdList:
                 highest_overlap = word_overlap[sentence_index]
                 best_sentence_index = sentence_index
 
+            # Return the matching entity
+            sent_ents = doc_ner[best_sentence_index]
+            for question_entity in question_entity_types:
+              for entity_pair in sent_ents:
+                if question_entity == entity_pair[3]:
+                  answer_string = answer_string + entity_pair[0] + " "
+
+            has_matching_verb_sentence = True
+          else:
+            # Return the matching verb sentence with the highest word overlap
             # Return only the verb and the specified number of surrounding words in the answer sentence
+            highest_overlap = -1
+            best_sentence_index = -1
+            for sentence_index in sens_with_matching_verb:
+              if word_overlap[sentence_index] > highest_overlap:
+                highest_overlap = word_overlap[sentence_index]
+                best_sentence_index = sentence_index
             answer_tagged_sentence = tagged_sens[best_sentence_index]
+
             verb_index = -1
             # Find the index of the question verb
             for word_index in range(len(answer_tagged_sentence)):
@@ -314,11 +331,7 @@ for storyId in storyIdList:
               answer_string = answer_string + answer_tagged_sentence[start_index][0] + " "
               start_index = start_index + 1
             answer_string = answer_string + answer_tagged_sentence[end_index][0]
-
             has_matching_verb_sentence = True
-          else:
-            # Compare sentences with matching entities, by falling through to the if block below
-            pass
 
         # Else if there are sentences with entities that match the question entities
         if not has_matching_verb_sentence:
