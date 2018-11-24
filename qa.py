@@ -263,13 +263,25 @@ for storyId in storyIdList:
 
         # Perform word overlap with stemmed words in the question and text
         word_overlap = []
+        verb_similarity = []
         for i in range(len(tagged_sens)):
           word_overlap.append(0)
-          for thing in tagged_sens[i]:
+          verb_similarity.append(0)
+          for word_index in range(len(tagged_sens[i])):
+            thing = tagged_sens[i][word_index]
+            weight = 1
+            # Put differenet weights on certain words based on the question type
+            if question_type == "who":
+              if word_index == 2 or word_index == 3:
+                weight = 1
             for q_word in tagged_q:
               if q_word[3] != "punct":  # Disregard punctuation
                 if q_word[2] in thing[2]:
-                  word_overlap[len(word_overlap)-1] += 1
+                  word_overlap[len(word_overlap)-1] += 1 * weight
+                if len(q_word[1]) > 0 and len(thing[1]) > 0:
+                  if q_word[1][0] == "V" and thing[1][0] == "V" and q_word[2] not in ignored_verbs and thing[2] not in ignored_verbs:
+                    cosine_similarity = nlp.vocab[u"{}".format(q_word[2])].similarity(nlp.vocab[u"{}".format(thing[2])])
+                    verb_similarity[len(verb_similarity)-1] += cosine_similarity
 
         # Pick the answer: See controlFlowNotes.txt for more information------------------------------------------------
 
