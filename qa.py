@@ -1,5 +1,5 @@
 # Eric Stubbs and Jonathan Call
-# CS 5340
+# CS 5340 Natural Language Processing
 # Fall 2018
 
 #import nltk
@@ -8,7 +8,7 @@ import spacy
 import sys
 
 # Load spacy
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_md')
 
 input_file = sys.argv[1]    # Index file to read in
 data_directory_path = ""    # Path to the directory containing the data
