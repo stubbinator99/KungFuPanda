@@ -165,6 +165,16 @@ for storyId in storyIdList:
             if q_bio[current_index][0] == "What" or q_bio[current_index][0] == "what":
               what_index = current_index;
               break
+
+          undesired_verbs = ["is", "did", "has"]
+          # Find the index of the first verb, and set the question for cosine similarity to be the words after the verb
+          verb_index = -1
+          for current_index in range(len(q_bio)):
+            if q_bio[current_index][1][0] == "V" and q_bio[current_index][0] not in undesired_verbs:
+              verb_index = current_index
+              break
+          if verb_index > 0:
+            question_text = " ".join(question_text.split()[verb_index + 2:])
           # If the next word is a verb, look for sentences with the q_entity and a verb
           if q_bio[what_index + 1][1] == "VBZ" or q_bio[what_index + 1][1] == "VBN":
             # Answer must contain the same entity type as the question
@@ -352,7 +362,7 @@ for storyId in storyIdList:
 
         # Else if there are sentences with entities that match the question entities
         if not has_matching_verb_sentence:
-          if len(sens_with_matching_ents) > 0:
+          if len(sens_with_matching_ents) > 0 and question_type != "what":
             # Return the matching entity sentence with the highest word overlap
             highest_overlap = -1
             best_sentence_index = -1
