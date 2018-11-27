@@ -154,7 +154,7 @@ for storyId in storyIdList:
           question_entity_types.append("PERSON")
           question_entity_types.append("NORP")
           question_entity_types.append("ORG")
-          question_entity_types.append("GPE")
+          #question_entity_types.append("GPE")
         elif "What" in question_word_list or "what" in question_word_list:
           question_type = "what"
           # Other notes: 'at what point' (like a 'when' question), 'what type', 'what happened', 'what x' (what book, what organization, etc.)
@@ -187,7 +187,7 @@ for storyId in storyIdList:
         elif "Where" in question_word_list or "where" in question_word_list:
           question_type = "where"
           # Other notes: 'where in x' (where in Canada, etc)
-          question_entity_types.append("FAC")
+          #question_entity_types.append("FAC")
           #question_entity_types.append("ORG")
           question_entity_types.append("GPE")
           question_entity_types.append("LOC")
@@ -262,22 +262,22 @@ for storyId in storyIdList:
                 break
 
         # Perform word overlap with stemmed words in the question and text
-        word_overlap = []
+        word_overlap1 = []
         verb_similarity = []
         for i in range(len(tagged_sens)):
-          word_overlap.append(0)
+          word_overlap1.append(0)
           verb_similarity.append(0)
           for word_index in range(len(tagged_sens[i])):
             thing = tagged_sens[i][word_index]
             weight = 1
-            # Put differenet weights on certain words based on the question type
+            # Put different weights on certain words based on the question type
             if question_type == "who":
               if word_index == 2 or word_index == 3:
                 weight = 1
             for q_word in tagged_q:
               if q_word[3] != "punct":  # Disregard punctuation
                 if q_word[2] in thing[2]:
-                  word_overlap[len(word_overlap)-1] += 1 * weight
+                  word_overlap1[len(word_overlap1)-1] += 1 * weight
                 if len(q_word[1]) > 0 and len(thing[1]) > 0:
                   if q_word[1][0] == "V" and thing[1][0] == "V" and q_word[2] not in ignored_verbs and thing[2] not in ignored_verbs:
                     cosine_similarity = nlp.vocab[u"{}".format(q_word[2])].similarity(nlp.vocab[u"{}".format(thing[2])])
