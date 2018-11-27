@@ -308,6 +308,11 @@ for storyId in storyIdList:
                     cosine_similarity = nlp.vocab[u"{}".format(q_word[2])].similarity(nlp.vocab[u"{}".format(thing[2])])
                     verb_similarity[len(verb_similarity)-1] += cosine_similarity
 
+        word_overlap = []
+        for sentence in storySents:
+          cos = nlp(question_text).similarity(nlp(sentence))
+          word_overlap.append(cos)
+
         # Pick the answer: See controlFlowNotes.txt for more information------------------------------------------------
 
         has_matching_verb_sentence = False
