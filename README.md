@@ -8,7 +8,7 @@ The Spacy python NLP library, including the en_core_web_md model, which was trai
 
 Time Estimate
 -------------
-Our program takes around 30 seconds to 1 minute to run on the development set currently have (73 stories), so if it runs very slow, expect about a second per story at maximum.
+Our program takes 2.5 minutes to run test set 1 (39 documents), so on average it takes 4 seconds to process each document.
 
 Contributions
 -------------
@@ -18,4 +18,4 @@ Contributions
 
 Problems / Limitations
 ----------------------
-The answer file that is created (called qa_response.txt) might contain python warnings at the top, above the question answers.  If so, delete these warnings before testing with the scoring program.  The script will navigate the user to the directory containing our virtual python environment, where we have spacy installed. There are no other limitations or problems that we know of.    
+The answer file that is created (called qa_response.txt) might contain python warnings at the top, above the question answers.  If so, delete these warnings before testing with the scoring program.  The script will navigate the user to the CADE directory containing our virtual python environment, where we have spacy installed. There are no other limitations or problems that we know of.    
