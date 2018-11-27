@@ -243,13 +243,10 @@ for storyId in storyIdList:
         unique_sentence_entities = set()
         named_ent_sentence = []
 
-        q_verb_doc = nlp(q_verb)
         for i in range(len(doc_ner)):   # For each sentence in the story
           # Find sentences with the question verb in
           for token in tagged_sens[i]:
-            token_doc = nlp(token[2])
-            cos = q_verb_doc.similarity(token_doc)
-            if cos >= .75:
+            if q_verb == token[2]:
               sens_with_matching_verb.append(i)
               break
 
@@ -283,13 +280,13 @@ for storyId in storyIdList:
                   word_overlap[len(word_overlap)-1] += 1 * weight
                 if len(q_word[1]) > 0 and len(thing[1]) > 0:
                   if q_word[1][0] == "V" and thing[1][0] == "V" and q_word[2] not in ignored_verbs and thing[2] not in ignored_verbs:
-                    verb_cosine_similarity = nlp.vocab[u"{}".format(q_word[2])].similarity(nlp.vocab[u"{}".format(thing[2])])
-                    verb_similarity[len(verb_similarity)-1] += verb_cosine_similarity
+                    cosine_similarity = nlp.vocab[u"{}".format(q_word[2])].similarity(nlp.vocab[u"{}".format(thing[2])])
+                    verb_similarity[len(verb_similarity)-1] += cosine_similarity
 
-        cosine_similarity = []
+        word_overlap = []
         for sentence in storySents:
           cos = nlp(question_text).similarity(nlp(sentence))
-          cosine_similarity.append(cos)
+          word_overlap.append(cos)
 
         # Pick the answer: See controlFlowNotes.txt for more information------------------------------------------------
 
