@@ -1,5 +1,4 @@
 # KungFuPanda - NLP Question Answering System
-##### Eric Stubbs and Jonathan Call
 
 ### Overview
 
